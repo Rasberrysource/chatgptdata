@@ -1,6 +1,0 @@
-data/*.csv
-!data/film_meta.csv
-!data/film_extra.csv
-!data/director_gender.csv
-__pycache__/
-data/cache/wikidata_rows.json
