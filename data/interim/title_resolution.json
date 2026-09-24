@@ -31,6 +31,14 @@
   "resolved_title": "20th Century Women",
   "wikidata": "Q21010845"
  },
+ "21 Grams": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 468326,
+  "redirected": false,
+  "resolved_title": "21 Grams",
+  "wikidata": "Q214013"
+ },
  "3:10 to Yuma (2007 film)": {
   "disambiguation": false,
   "missing": false,
@@ -111,6 +119,14 @@
   "resolved_title": "A History of Violence",
   "wikidata": "Q300439"
  },
+ "A Man Called Ove (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 49081716,
+  "redirected": false,
+  "resolved_title": "A Man Called Ove (film)",
+  "wikidata": "Q21935502"
+ },
  "A Prophet": {
   "disambiguation": false,
   "missing": false,
@@ -175,6 +191,14 @@
   "resolved_title": "A Very Long Engagement",
   "wikidata": "Q936425"
  },
+ "A.I. Artificial Intelligence": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 142224,
+  "redirected": false,
+  "resolved_title": "A.I. Artificial Intelligence",
+  "wikidata": "Q221113"
+ },
  "About Schmidt": {
   "disambiguation": false,
   "missing": false,
@@ -230,6 +254,14 @@
   "redirected": false,
   "resolved_title": "Air (2023 American film)",
   "wikidata": "Q115625646"
+ },
+ "Albert Nobbs": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 30081969,
+  "redirected": false,
+  "resolved_title": "Albert Nobbs",
+  "wikidata": "Q426631"
  },
  "Alejandro González Iñárritu": {
   "disambiguation": false,
@@ -375,6 +407,14 @@
   "resolved_title": "An Education",
   "wikidata": "Q482436"
  },
+ "An Inconvenient Truth": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 4097799,
+  "redirected": false,
+  "resolved_title": "An Inconvenient Truth",
+  "wikidata": "Q204670"
+ },
  "Analyze This": {
   "disambiguation": false,
   "missing": false,
@@ -407,6 +447,22 @@
   "resolved_title": "Ang Lee",
   "wikidata": "Q160726"
  },
+ "Anna Karenina (2012 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 32832973,
+  "redirected": false,
+  "resolved_title": "Anna Karenina (2012 film)",
+  "wikidata": "Q80204"
+ },
+ "Anna and the King": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 473253,
+  "redirected": false,
+  "resolved_title": "Anna and the King",
+  "wikidata": "Q563743"
+ },
  "Anora": {
   "disambiguation": false,
   "missing": false,
@@ -414,6 +470,14 @@
   "redirected": false,
   "resolved_title": "Anora",
   "wikidata": "Q123185887"
+ },
+ "Another Round": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 64179543,
+  "redirected": false,
+  "resolved_title": "Another Round",
+  "wikidata": "Q69303989"
  },
  "Another Round (film)": {
   "disambiguation": false,
@@ -495,6 +559,14 @@
   "resolved_title": "Avatar (2009 film)",
   "wikidata": "Q24871"
  },
+ "Avatar: Fire and Ash": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 27442998,
+  "redirected": false,
+  "resolved_title": "Avatar: Fire and Ash",
+  "wikidata": "Q29580929"
+ },
  "Avatar: The Way of Water": {
   "disambiguation": false,
   "missing": false,
@@ -502,6 +574,14 @@
   "redirected": false,
   "resolved_title": "Avatar: The Way of Water",
   "wikidata": "Q3604746"
+ },
+ "Away from Her": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 4939088,
+  "redirected": false,
+  "resolved_title": "Away from Her",
+  "wikidata": "Q482652"
  },
  "Baarìa – La porta del vento": {
   "disambiguation": false,
@@ -518,6 +598,14 @@
   "redirected": false,
   "resolved_title": "Babel (2006 film)",
   "wikidata": "Q191074"
+ },
+ "Baby Driver": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 45051683,
+  "redirected": false,
+  "resolved_title": "Baby Driver",
+  "wikidata": "Q23016644"
  },
  "Babylon (2022 film)": {
   "disambiguation": false,
@@ -566,6 +654,14 @@
   "redirected": false,
   "resolved_title": "Beasts of the Southern Wild",
   "wikidata": "Q166462"
+ },
+ "Beauty and the Beast (2017 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 45230258,
+  "redirected": false,
+  "resolved_title": "Beauty and the Beast (2017 film)",
+  "wikidata": "Q19946102"
  },
  "Before Midnight (2013 film)": {
   "disambiguation": false,
@@ -735,6 +831,14 @@
   "resolved_title": "Black Swan (film)",
   "wikidata": "Q180214"
  },
+ "Blade Runner 2049": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 39830741,
+  "redirected": false,
+  "resolved_title": "Blade Runner 2049",
+  "wikidata": "Q21500755"
+ },
  "Blood Diamond": {
   "disambiguation": false,
   "missing": false,
@@ -838,6 +942,14 @@
   "redirected": false,
   "resolved_title": "Boyhood (2014 film)",
   "wikidata": "Q4103201"
+ },
+ "Boys Don't Cry (1999 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 543162,
+  "redirected": false,
+  "resolved_title": "Boys Don't Cry (1999 film)",
+  "wikidata": "Q465646"
  },
  "Brian Grazer": {
   "disambiguation": false,
@@ -991,6 +1103,14 @@
   "resolved_title": "Carol (film)",
   "wikidata": "Q15963780"
  },
+ "Cars (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 920613,
+  "redirected": false,
+  "resolved_title": "Cars (film)",
+  "wikidata": "Q182153"
+ },
  "Cast Away": {
   "disambiguation": false,
   "missing": false,
@@ -1046,6 +1166,14 @@
   "redirected": false,
   "resolved_title": "Chicken Run",
   "wikidata": "Q156401"
+ },
+ "Children of Men": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 3793631,
+  "redirected": false,
+  "resolved_title": "Children of Men",
+  "wikidata": "Q221090"
  },
  "Chloé Zhao": {
   "disambiguation": false,
@@ -1119,6 +1247,22 @@
   "resolved_title": "Closer (film)",
   "wikidata": "Q212098"
  },
+ "Closer (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 1162528,
+  "redirected": false,
+  "resolved_title": "Closer (film)",
+  "wikidata": "Q212098"
+ },
+ "Coco (2017 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 47532661,
+  "redirected": false,
+  "resolved_title": "Coco (2017 film)",
+  "wikidata": "Q5815826"
+ },
  "Cold Mountain (film)": {
   "disambiguation": false,
   "missing": false,
@@ -1127,6 +1271,14 @@
   "resolved_title": "Cold Mountain (film)",
   "wikidata": "Q390097"
  },
+ "Cold War (2018 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 57107444,
+  "redirected": false,
+  "resolved_title": "Cold War (2018 film)",
+  "wikidata": "Q51834363"
+ },
  "Collateral (film)": {
   "disambiguation": false,
   "missing": false,
@@ -1134,6 +1286,14 @@
   "redirected": false,
   "resolved_title": "Collateral (film)",
   "wikidata": "Q110203"
+ },
+ "Collective (2019 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 63262641,
+  "redirected": false,
+  "resolved_title": "Collective (2019 film)",
+  "wikidata": "Q89186326"
  },
  "Compartment No. 6": {
   "disambiguation": false,
@@ -1182,6 +1342,14 @@
   "redirected": false,
   "resolved_title": "Crouching Tiger, Hidden Dragon",
   "wikidata": "Q273978"
+ },
+ "Cruella (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 49028094,
+  "redirected": false,
+  "resolved_title": "Cruella (film)",
+  "wikidata": "Q24284363"
  },
  "Cyrano (film)": {
   "disambiguation": false,
@@ -1262,6 +1430,22 @@
   "redirected": false,
   "resolved_title": "Decision to Leave",
   "wikidata": "Q100889636"
+ },
+ "Deepwater Horizon (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 43903351,
+  "redirected": false,
+  "resolved_title": "Deepwater Horizon (film)",
+  "wikidata": "Q19877874"
+ },
+ "Despicable Me 2": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 30069822,
+  "redirected": false,
+  "resolved_title": "Despicable Me 2",
+  "wikidata": "Q637212"
  },
  "Dino De Laurentiis": {
   "disambiguation": false,
@@ -1423,6 +1607,14 @@
   "resolved_title": "Election (1999 film)",
   "wikidata": "Q1206261"
  },
+ "Elizabeth: The Golden Age": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 1027060,
+  "redirected": false,
+  "resolved_title": "Elizabeth: The Golden Age",
+  "wikidata": "Q727846"
+ },
  "Elle (film)": {
   "disambiguation": false,
   "missing": false,
@@ -1446,6 +1638,30 @@
   "redirected": false,
   "resolved_title": "Emilia Pérez",
   "wikidata": "Q123928072"
+ },
+ "Emma (2020 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 58910666,
+  "redirected": false,
+  "resolved_title": "Emma (2020 film)",
+  "wikidata": "Q65091224"
+ },
+ "Encanto": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 62975109,
+  "redirected": false,
+  "resolved_title": "Encanto",
+  "wikidata": "Q103372692"
+ },
+ "Enchanted (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 5138153,
+  "redirected": false,
+  "resolved_title": "Enchanted (film)",
+  "wikidata": "Q490464"
  },
  "Erin Brockovich (film)": {
   "disambiguation": false,
@@ -1519,6 +1735,22 @@
   "resolved_title": "Fallen Leaves (film)",
   "wikidata": "Q113396073"
  },
+ "Fantastic Beasts and Where to Find Them (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 47569084,
+  "redirected": false,
+  "resolved_title": "Fantastic Beasts and Where to Find Them (film)",
+  "wikidata": "Q18199330"
+ },
+ "Fantastic Mr. Fox (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 3112909,
+  "redirected": false,
+  "resolved_title": "Fantastic Mr. Fox (film)",
+  "wikidata": "Q465275"
+ },
  "Far from Heaven": {
   "disambiguation": false,
   "missing": false,
@@ -1567,6 +1799,22 @@
   "resolved_title": "First They Killed My Father (film)",
   "wikidata": "Q22908422"
  },
+ "Flags of Our Fathers (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 2950304,
+  "redirected": false,
+  "resolved_title": "Flags of Our Fathers (film)",
+  "wikidata": "Q464951"
+ },
+ "Flee (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 66596296,
+  "redirected": false,
+  "resolved_title": "Flee (film)",
+  "wikidata": "Q76450209"
+ },
  "Flight (2012 film)": {
   "disambiguation": false,
   "missing": false,
@@ -1582,6 +1830,14 @@
   "redirected": false,
   "resolved_title": "Florence Foster Jenkins (film)",
   "wikidata": "Q19955874"
+ },
+ "Flow (2024 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 76884533,
+  "redirected": false,
+  "resolved_title": "Flow (2024 film)",
+  "wikidata": "Q125622088"
  },
  "Force Majeure (film)": {
   "disambiguation": false,
@@ -1615,6 +1871,14 @@
   "resolved_title": "Frankenstein (2025 film)",
   "wikidata": "Q124393045"
  },
+ "Frida (2002 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 509792,
+  "redirected": false,
+  "resolved_title": "Frida (2002 film)",
+  "wikidata": "Q35738"
+ },
  "Frost/Nixon (film)": {
   "disambiguation": false,
   "missing": false,
@@ -1622,6 +1886,22 @@
   "redirected": false,
   "resolved_title": "Frost/Nixon (film)",
   "wikidata": "Q691672"
+ },
+ "Frozen (2013 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 34164547,
+  "redirected": false,
+  "resolved_title": "Frozen (2013 film)",
+  "wikidata": "Q246283"
+ },
+ "Frozen River": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 14812001,
+  "redirected": false,
+  "resolved_title": "Frozen River",
+  "wikidata": "Q1470661"
  },
  "Gale Anne Hurd": {
   "disambiguation": false,
@@ -1686,6 +1966,14 @@
   "redirected": false,
   "resolved_title": "Girl on the Bridge",
   "wikidata": "Q1212609"
+ },
+ "Girl with a Pearl Earring (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 42128577,
+  "redirected": false,
+  "resolved_title": "Girl with a Pearl Earring (film)",
+  "wikidata": "Q392441"
  },
  "Gladiator (2000 film)": {
   "disambiguation": false,
@@ -1823,6 +2111,30 @@
   "resolved_title": "Happy-Go-Lucky (2008 film)",
   "wikidata": "Q669591"
  },
+ "Harriet (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 54118307,
+  "redirected": false,
+  "resolved_title": "Harriet (film)",
+  "wikidata": "Q30609465"
+ },
+ "Harry Potter and the Deathly Hallows – Part 1": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 9834441,
+  "redirected": false,
+  "resolved_title": "Harry Potter and the Deathly Hallows – Part 1",
+  "wikidata": "Q161678"
+ },
+ "Harry Potter and the Deathly Hallows – Part 2": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 31941988,
+  "redirected": false,
+  "resolved_title": "Harry Potter and the Deathly Hallows – Part 2",
+  "wikidata": "Q232009"
+ },
  "Harry Potter and the Philosopher's Stone (film)": {
   "disambiguation": false,
   "missing": false,
@@ -1830,6 +2142,14 @@
   "redirected": false,
   "resolved_title": "Harry Potter and the Philosopher's Stone (film)",
   "wikidata": "Q102438"
+ },
+ "Harry Potter and the Prisoner of Azkaban (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 667371,
+  "redirected": false,
+  "resolved_title": "Harry Potter and the Prisoner of Azkaban (film)",
+  "wikidata": "Q102448"
  },
  "Hell or High Water (2016 film)": {
   "disambiguation": false,
@@ -1879,6 +2199,14 @@
   "resolved_title": "High Fidelity (film)",
   "wikidata": "Q1473804"
  },
+ "Hillbilly Elegy (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 56713923,
+  "redirected": false,
+  "resolved_title": "Hillbilly Elegy (film)",
+  "wikidata": "Q65090738"
+ },
  "Hit Man (2023 film)": {
   "disambiguation": false,
   "missing": false,
@@ -1886,6 +2214,14 @@
   "redirected": false,
   "resolved_title": "Hit Man (2023 film)",
   "wikidata": "Q114437078"
+ },
+ "Honeyland": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 61617557,
+  "redirected": false,
+  "resolved_title": "Honeyland",
+  "wikidata": "Q61456310"
  },
  "Hotel Rwanda": {
   "disambiguation": false,
@@ -1910,6 +2246,30 @@
   "redirected": false,
   "resolved_title": "House of Gucci",
   "wikidata": "Q105549749"
+ },
+ "House of Sand and Fog (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 461353,
+  "redirected": false,
+  "resolved_title": "House of Sand and Fog (film)",
+  "wikidata": "Q508841"
+ },
+ "How the Grinch Stole Christmas (2000 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 4867859,
+  "redirected": false,
+  "resolved_title": "How the Grinch Stole Christmas (2000 film)",
+  "wikidata": "Q131864"
+ },
+ "How to Train Your Dragon (2010 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 18394730,
+  "redirected": false,
+  "resolved_title": "How to Train Your Dragon (2010 film)",
+  "wikidata": "Q373096"
  },
  "Hugo (film)": {
   "disambiguation": false,
@@ -2063,6 +2423,14 @@
   "resolved_title": "Inglourious Basterds",
   "wikidata": "Q153723"
  },
+ "Inherent Vice (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 39483010,
+  "redirected": false,
+  "resolved_title": "Inherent Vice (film)",
+  "wikidata": "Q13806537"
+ },
  "Inside Llewyn Davis": {
   "disambiguation": false,
   "missing": false,
@@ -2070,6 +2438,22 @@
   "redirected": false,
   "resolved_title": "Inside Llewyn Davis",
   "wikidata": "Q2340655"
+ },
+ "Inside Out": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 38751266,
+  "redirected": false,
+  "resolved_title": "Inside Out",
+  "wikidata": "Q6144664"
+ },
+ "Interstellar (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 6009939,
+  "redirected": false,
+  "resolved_title": "Interstellar (film)",
+  "wikidata": "Q13417189"
  },
  "Into the Wild (film)": {
   "disambiguation": false,
@@ -2103,6 +2487,22 @@
   "resolved_title": "Io capitano",
   "wikidata": "Q120900212"
  },
+ "Iris (2001 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 184158,
+  "redirected": false,
+  "resolved_title": "Iris (2001 film)",
+  "wikidata": "Q1364697"
+ },
+ "Iron Man (2008 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 5676692,
+  "redirected": false,
+  "resolved_title": "Iron Man (2008 film)",
+  "wikidata": "Q192724"
+ },
  "Irwin Winkler": {
   "disambiguation": false,
   "missing": false,
@@ -2110,6 +2510,14 @@
   "redirected": false,
   "resolved_title": "Irwin Winkler",
   "wikidata": "Q950428"
+ },
+ "Isle of Dogs (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 52651705,
+  "redirected": false,
+  "resolved_title": "Isle of Dogs (film)",
+  "wikidata": "Q28065409"
  },
  "It Was Just an Accident": {
   "disambiguation": false,
@@ -2126,6 +2534,14 @@
   "redirected": false,
   "resolved_title": "It's Complicated (film)",
   "wikidata": "Q843950"
+ },
+ "Jackie (2016 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 48842785,
+  "redirected": false,
+  "resolved_title": "Jackie (2016 film)",
+  "wikidata": "Q22350767"
  },
  "Jane Campion": {
   "disambiguation": false,
@@ -2191,6 +2607,14 @@
   "resolved_title": "Judas and the Black Messiah",
   "wikidata": "Q73536766"
  },
+ "Judy (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 55602934,
+  "redirected": false,
+  "resolved_title": "Judy (film)",
+  "wikidata": "Q55615419"
+ },
  "Julie & Julia": {
   "disambiguation": false,
   "missing": false,
@@ -2206,6 +2630,14 @@
   "redirected": false,
   "resolved_title": "Juno (film)",
   "wikidata": "Q79503"
+ },
+ "KPop Demon Hunters": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 67104864,
+  "redirected": false,
+  "resolved_title": "KPop Demon Hunters",
+  "wikidata": "Q130268157"
  },
  "Kathleen Kennedy (producer)": {
   "disambiguation": false,
@@ -2287,6 +2719,14 @@
   "resolved_title": "Kon-Tiki (2012 film)",
   "wikidata": "Q1759619"
  },
+ "Kubo and the Two Strings": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 45062970,
+  "redirected": false,
+  "resolved_title": "Kubo and the Two Strings",
+  "wikidata": "Q18786471"
+ },
  "Kung Fu Hustle": {
   "disambiguation": false,
   "missing": false,
@@ -2318,6 +2758,14 @@
   "redirected": false,
   "resolved_title": "La Llorona (2019 film)",
   "wikidata": "Q66813625"
+ },
+ "La Vie en rose (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 10249080,
+  "redirected": true,
+  "resolved_title": "La Vie en Rose (film)",
+  "wikidata": "Q236217"
  },
  "Lady Bird (film)": {
   "disambiguation": false,
@@ -2366,6 +2814,14 @@
   "redirected": false,
   "resolved_title": "Legally Blonde",
   "wikidata": "Q500093"
+ },
+ "Lemony Snicket's A Series of Unfortunate Events": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 1228937,
+  "redirected": false,
+  "resolved_title": "Lemony Snicket's A Series of Unfortunate Events",
+  "wikidata": "Q116905"
  },
  "Les Misérables (2012 film)": {
   "disambiguation": false,
@@ -2462,6 +2918,14 @@
   "redirected": false,
   "resolved_title": "Little Women (2019 film)",
   "wikidata": "Q56881140"
+ },
+ "Living (2022 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 66905014,
+  "redirected": false,
+  "resolved_title": "Living (2022 film)",
+  "wikidata": "Q107304169"
  },
  "Logan (film)": {
   "disambiguation": false,
@@ -2639,6 +3103,14 @@
   "resolved_title": "Mary Poppins Returns",
   "wikidata": "Q24272881"
  },
+ "Mary Queen of Scots (2018 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 53852848,
+  "redirected": false,
+  "resolved_title": "Mary Queen of Scots (2018 film)",
+  "wikidata": "Q37909408"
+ },
  "Master and Commander: The Far Side of the World": {
   "disambiguation": false,
   "missing": false,
@@ -2775,6 +3247,22 @@
   "resolved_title": "Minari",
   "wikidata": "Q65679599"
  },
+ "Mission: Impossible – Dead Reckoning Part One": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 61711372,
+  "redirected": false,
+  "resolved_title": "Mission: Impossible – Dead Reckoning Part One",
+  "wikidata": "Q61876370"
+ },
+ "Moana (2016 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 44164132,
+  "redirected": false,
+  "resolved_title": "Moana (2016 film)",
+  "wikidata": "Q18647981"
+ },
  "Molly's Game": {
   "disambiguation": false,
   "missing": false,
@@ -2815,6 +3303,14 @@
   "resolved_title": "Monster's Ball",
   "wikidata": "Q1124875"
  },
+ "Monsters, Inc.": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 197558,
+  "redirected": false,
+  "resolved_title": "Monsters, Inc.",
+  "wikidata": "Q187726"
+ },
  "Moonlight (2016 film)": {
   "disambiguation": false,
   "missing": false,
@@ -2839,6 +3335,14 @@
   "resolved_title": "Moulin Rouge!",
   "wikidata": "Q193573"
  },
+ "Mr. Turner": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 42283672,
+  "redirected": false,
+  "resolved_title": "Mr. Turner",
+  "wikidata": "Q16028723"
+ },
  "Mrs Henderson Presents": {
   "disambiguation": false,
   "missing": false,
@@ -2854,6 +3358,14 @@
   "redirected": false,
   "resolved_title": "Mudbound (film)",
   "wikidata": "Q25339938"
+ },
+ "Mulan (2020 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 46323575,
+  "redirected": false,
+  "resolved_title": "Mulan (2020 film)",
+  "wikidata": "Q24284283"
  },
  "Mulholland Drive (film)": {
   "disambiguation": false,
@@ -2878,6 +3390,14 @@
   "redirected": false,
   "resolved_title": "Music (2021 film)",
   "wikidata": "Q21010876"
+ },
+ "Music of the Heart": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 689549,
+  "redirected": false,
+  "resolved_title": "Music of the Heart",
+  "wikidata": "Q1117936"
  },
  "Mustang (film)": {
   "disambiguation": false,
@@ -2918,6 +3438,14 @@
   "redirected": false,
   "resolved_title": "Mystic River (film)",
   "wikidata": "Q221586"
+ },
+ "Napoleon (2023 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 65583263,
+  "redirected": false,
+  "resolved_title": "Napoleon (2023 film)",
+  "wikidata": "Q105806948"
  },
  "Nebraska (film)": {
   "disambiguation": false,
@@ -3015,6 +3543,14 @@
   "resolved_title": "No Other Choice",
   "wikidata": "Q129906152"
  },
+ "No Time to Die": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 38042908,
+  "redirected": false,
+  "resolved_title": "No Time to Die",
+  "wikidata": "Q21534241"
+ },
  "Nocturnal Animals": {
   "disambiguation": false,
   "missing": false,
@@ -3046,6 +3582,22 @@
   "redirected": false,
   "resolved_title": "Nope (film)",
   "wikidata": "Q107176162"
+ },
+ "North Country (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 2148370,
+  "redirected": false,
+  "resolved_title": "North Country (film)",
+  "wikidata": "Q725423"
+ },
+ "Nosferatu (2024 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 66121254,
+  "redirected": false,
+  "resolved_title": "Nosferatu (2024 film)",
+  "wikidata": "Q116361132"
  },
  "Notes on a Scandal (film)": {
   "disambiguation": false,
@@ -3199,6 +3751,14 @@
   "resolved_title": "Parasite (2019 film)",
   "wikidata": "Q61448040"
  },
+ "Passengers (2016 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 44625719,
+  "redirected": false,
+  "resolved_title": "Passengers (2016 film)",
+  "wikidata": "Q20962283"
+ },
  "Past Lives (film)": {
   "disambiguation": false,
   "missing": false,
@@ -3214,6 +3774,14 @@
   "redirected": false,
   "resolved_title": "Paul Thomas Anderson",
   "wikidata": "Q25132"
+ },
+ "Pearl Harbor (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 99304,
+  "redirected": false,
+  "resolved_title": "Pearl Harbor (film)",
+  "wikidata": "Q194413"
  },
  "Persepolis (film)": {
   "disambiguation": false,
@@ -3247,6 +3815,38 @@
   "resolved_title": "Philomena (film)",
   "wikidata": "Q3381163"
  },
+ "Pinocchio (2019 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 61293071,
+  "redirected": false,
+  "resolved_title": "Pinocchio (2019 film)",
+  "wikidata": "Q65126245"
+ },
+ "Pirates of the Caribbean: At World's End": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 1689394,
+  "redirected": false,
+  "resolved_title": "Pirates of the Caribbean: At World's End",
+  "wikidata": "Q54274"
+ },
+ "Pirates of the Caribbean: Dead Man's Chest": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 999394,
+  "redirected": false,
+  "resolved_title": "Pirates of the Caribbean: Dead Man's Chest",
+  "wikidata": "Q161087"
+ },
+ "Pirates of the Caribbean: The Curse of the Black Pearl": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 321496,
+  "redirected": false,
+  "resolved_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+  "wikidata": "Q46717"
+ },
  "Please Give": {
   "disambiguation": false,
   "missing": false,
@@ -3254,6 +3854,14 @@
   "redirected": false,
   "resolved_title": "Please Give",
   "wikidata": "Q1569216"
+ },
+ "Pollock (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 171618,
+  "redirected": false,
+  "resolved_title": "Pollock (film)",
+  "wikidata": "Q1466736"
  },
  "Poor Things (film)": {
   "disambiguation": false,
@@ -3311,6 +3919,14 @@
   "resolved_title": "Quills (film)",
   "wikidata": "Q761302"
  },
+ "RBG (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 57437481,
+  "redirected": false,
+  "resolved_title": "RBG (film)",
+  "wikidata": "Q54829190"
+ },
  "RRR": {
   "disambiguation": false,
   "missing": false,
@@ -3326,6 +3942,14 @@
   "redirected": true,
   "resolved_title": "RRR",
   "wikidata": "Q60424165"
+ },
+ "Ratatouille (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 14941280,
+  "redirected": false,
+  "resolved_title": "Ratatouille (film)",
+  "wikidata": "Q170035"
  },
  "Ray (film)": {
   "disambiguation": false,
@@ -3390,6 +4014,14 @@
   "redirected": false,
   "resolved_title": "Roger Corman",
   "wikidata": "Q318292"
+ },
+ "Rogue One: A Star Wars Story": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 44217612,
+  "redirected": true,
+  "resolved_title": "Rogue One",
+  "wikidata": "Q19590955"
  },
  "Roma (2018 film)": {
   "disambiguation": false,
@@ -3511,6 +4143,14 @@
   "resolved_title": "September 5 (film)",
   "wikidata": "Q127688495"
  },
+ "Shadow of the Vampire": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 213224,
+  "redirected": false,
+  "resolved_title": "Shadow of the Vampire",
+  "wikidata": "Q1324090"
+ },
  "She Said (film)": {
   "disambiguation": false,
   "missing": false,
@@ -3518,6 +4158,14 @@
   "redirected": false,
   "resolved_title": "She Said (film)",
   "wikidata": "Q107969593"
+ },
+ "Sherlock Holmes (2009 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 19596597,
+  "redirected": false,
+  "resolved_title": "Sherlock Holmes (2009 film)",
+  "wikidata": "Q200396"
  },
  "Shoplifters (film)": {
   "disambiguation": false,
@@ -3534,6 +4182,14 @@
   "redirected": false,
   "resolved_title": "Shrek",
   "wikidata": "Q483815"
+ },
+ "Shrek 2": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 525314,
+  "redirected": false,
+  "resolved_title": "Shrek 2",
+  "wikidata": "Q485983"
  },
  "Sicario (2015 film)": {
   "disambiguation": false,
@@ -3599,6 +4255,14 @@
   "resolved_title": "Skyfall",
   "wikidata": "Q4941"
  },
+ "Sleepy Hollow (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 55601,
+  "redirected": false,
+  "resolved_title": "Sleepy Hollow (film)",
+  "wikidata": "Q208592"
+ },
  "Slumdog Millionaire": {
   "disambiguation": false,
   "missing": false,
@@ -3606,6 +4270,14 @@
   "redirected": false,
   "resolved_title": "Slumdog Millionaire",
   "wikidata": "Q125076"
+ },
+ "Snow White and the Huntsman": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 36019569,
+  "redirected": false,
+  "resolved_title": "Snow White and the Huntsman",
+  "wikidata": "Q624603"
  },
  "Society of the Snow": {
   "disambiguation": false,
@@ -3623,6 +4295,14 @@
   "resolved_title": "Son of Saul",
   "wikidata": "Q19816400"
  },
+ "Soul (2020 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 61083241,
+  "redirected": false,
+  "resolved_title": "Soul (2020 film)",
+  "wikidata": "Q64744044"
+ },
  "Sound of Metal": {
   "disambiguation": false,
   "missing": false,
@@ -3630,6 +4310,22 @@
   "redirected": false,
   "resolved_title": "Sound of Metal",
   "wikidata": "Q65158549"
+ },
+ "Spider-Man (2002 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 146947,
+  "redirected": false,
+  "resolved_title": "Spider-Man (2002 film)",
+  "wikidata": "Q484442"
+ },
+ "Spider-Man 2": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 612052,
+  "redirected": false,
+  "resolved_title": "Spider-Man 2",
+  "wikidata": "Q190145"
  },
  "Spotlight (film)": {
   "disambiguation": false,
@@ -3663,6 +4359,14 @@
   "resolved_title": "Star Trek (2009 film)",
   "wikidata": "Q213081"
  },
+ "Star Wars: Episode I – The Phantom Menace": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 50793,
+  "redirected": false,
+  "resolved_title": "Star Wars: Episode I – The Phantom Menace",
+  "wikidata": "Q165713"
+ },
  "Star Wars: The Force Awakens": {
   "disambiguation": false,
   "missing": false,
@@ -3670,6 +4374,22 @@
   "redirected": false,
   "resolved_title": "Star Wars: The Force Awakens",
   "wikidata": "Q6074"
+ },
+ "Star Wars: The Last Jedi": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 43910621,
+  "redirected": false,
+  "resolved_title": "Star Wars: The Last Jedi",
+  "wikidata": "Q18486021"
+ },
+ "Star Wars: The Rise of Skywalker": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 43910733,
+  "redirected": false,
+  "resolved_title": "Star Wars: The Rise of Skywalker",
+  "wikidata": "Q20977110"
  },
  "Steve Jobs (film)": {
   "disambiguation": false,
@@ -3727,6 +4447,14 @@
   "resolved_title": "Sweeney Todd: The Demon Barber of Fleet Street (2007 film)",
   "wikidata": "Q212041"
  },
+ "Sweet and Lowdown": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 171588,
+  "redirected": false,
+  "resolved_title": "Sweet and Lowdown",
+  "wikidata": "Q786585"
+ },
  "Syriana": {
   "disambiguation": false,
   "missing": false,
@@ -3751,6 +4479,14 @@
   "resolved_title": "Tangerines (film)",
   "wikidata": "Q15712437"
  },
+ "Tenet": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 59770239,
+  "redirected": false,
+  "resolved_title": "Tenet",
+  "wikidata": "Q63985561"
+ },
  "Thank You for Smoking (film)": {
   "disambiguation": false,
   "missing": false,
@@ -3767,6 +4503,14 @@
   "resolved_title": "The 40-Year-Old Virgin",
   "wikidata": "Q1139794"
  },
+ "The Apprentice (2024 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 75441123,
+  "redirected": false,
+  "resolved_title": "The Apprentice (2024 film)",
+  "wikidata": "Q123582987"
+ },
  "The Artist (film)": {
   "disambiguation": false,
   "missing": false,
@@ -3774,6 +4518,14 @@
   "redirected": false,
   "resolved_title": "The Artist (film)",
   "wikidata": "Q171861"
+ },
+ "The Assassination of Jesse James by the Coward Robert Ford": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 2639650,
+  "redirected": false,
+  "resolved_title": "The Assassination of Jesse James by the Coward Robert Ford",
+  "wikidata": "Q388950"
  },
  "The Aviator (2004 film)": {
   "disambiguation": false,
@@ -3791,6 +4543,14 @@
   "resolved_title": "The Baader Meinhof Complex",
   "wikidata": "Q166696"
  },
+ "The Ballad of Buster Scruggs": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 54738613,
+  "redirected": false,
+  "resolved_title": "The Ballad of Buster Scruggs",
+  "wikidata": "Q37342034"
+ },
  "The Banshees of Inisherin": {
   "disambiguation": false,
   "missing": false,
@@ -3806,6 +4566,14 @@
   "redirected": false,
   "resolved_title": "The Barbarian Invasions",
   "wikidata": "Q549012"
+ },
+ "The Batman (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 47200019,
+  "redirected": false,
+  "resolved_title": "The Batman (film)",
+  "wikidata": "Q61117344"
  },
  "The Best Exotic Marigold Hotel": {
   "disambiguation": false,
@@ -3839,6 +4607,14 @@
   "resolved_title": "The Blind Side (film)",
   "wikidata": "Q206497"
  },
+ "The Bourne Ultimatum (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 1854000,
+  "redirected": false,
+  "resolved_title": "The Bourne Ultimatum (film)",
+  "wikidata": "Q107226"
+ },
  "The Brand New Testament": {
   "disambiguation": false,
   "missing": false,
@@ -3870,6 +4646,14 @@
   "redirected": false,
   "resolved_title": "The Chorus (2004 film)",
   "wikidata": "Q721158"
+ },
+ "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 1880660,
+  "redirected": false,
+  "resolved_title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+  "wikidata": "Q485803"
  },
  "The Cider House Rules": {
   "disambiguation": false,
@@ -3903,6 +4687,22 @@
   "resolved_title": "The Constant Gardener (film)",
   "wikidata": "Q645168"
  },
+ "The Contender (2000 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 633531,
+  "redirected": false,
+  "resolved_title": "The Contender (2000 film)",
+  "wikidata": "Q598983"
+ },
+ "The Creator (2023 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 64622550,
+  "redirected": false,
+  "resolved_title": "The Creator (2023 film)",
+  "wikidata": "Q110617876"
+ },
  "The Crime of Father Amaro": {
   "disambiguation": false,
   "missing": false,
@@ -3918,6 +4718,14 @@
   "redirected": false,
   "resolved_title": "The Curious Case of Benjamin Button (film)",
   "wikidata": "Q183239"
+ },
+ "The Danish Girl (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 25329994,
+  "redirected": false,
+  "resolved_title": "The Danish Girl (film)",
+  "wikidata": "Q19347583"
  },
  "The Dark Knight": {
   "disambiguation": false,
@@ -3967,6 +4775,14 @@
   "resolved_title": "The Diving Bell and the Butterfly (film)",
   "wikidata": "Q472600"
  },
+ "The Duchess (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 12507175,
+  "redirected": false,
+  "resolved_title": "The Duchess (film)",
+  "wikidata": "Q466514"
+ },
  "The Edge (2010 film)": {
   "disambiguation": false,
   "missing": false,
@@ -3982,6 +4798,14 @@
   "redirected": false,
   "resolved_title": "The End of the Affair (1999 film)",
   "wikidata": "Q1167725"
+ },
+ "The Eyes of Tammy Faye (2021 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 60721693,
+  "redirected": false,
+  "resolved_title": "The Eyes of Tammy Faye (2021 film)",
+  "wikidata": "Q73537423"
  },
  "The Fabelmans": {
   "disambiguation": false,
@@ -4071,6 +4895,14 @@
   "resolved_title": "The Girl with the Needle",
   "wikidata": "Q125422231"
  },
+ "The Golden Compass (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 1355085,
+  "redirected": false,
+  "resolved_title": "The Golden Compass (film)",
+  "wikidata": "Q637021"
+ },
  "The Grand Budapest Hotel": {
   "disambiguation": false,
   "missing": false,
@@ -4078,6 +4910,14 @@
   "redirected": false,
   "resolved_title": "The Grand Budapest Hotel",
   "wikidata": "Q3521099"
+ },
+ "The Grandmaster (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 32963963,
+  "redirected": false,
+  "resolved_title": "The Grandmaster (film)",
+  "wikidata": "Q1155695"
  },
  "The Great Beauty": {
   "disambiguation": false,
@@ -4094,6 +4934,14 @@
   "redirected": false,
   "resolved_title": "The Great Debaters",
   "wikidata": "Q1768470"
+ },
+ "The Great Gatsby (2013 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 30951080,
+  "redirected": false,
+  "resolved_title": "The Great Gatsby (2013 film)",
+  "wikidata": "Q892735"
  },
  "The Greatest Showman": {
   "disambiguation": false,
@@ -4127,6 +4975,14 @@
   "resolved_title": "The Hangover",
   "wikidata": "Q219315"
  },
+ "The Hateful Eight": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 43308964,
+  "redirected": false,
+  "resolved_title": "The Hateful Eight",
+  "wikidata": "Q18225084"
+ },
  "The Help (film)": {
   "disambiguation": false,
   "missing": false,
@@ -4134,6 +4990,22 @@
   "redirected": false,
   "resolved_title": "The Help (film)",
   "wikidata": "Q204374"
+ },
+ "The Hobbit: An Unexpected Journey": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 36914424,
+  "redirected": false,
+  "resolved_title": "The Hobbit: An Unexpected Journey",
+  "wikidata": "Q80379"
+ },
+ "The Hobbit: The Desolation of Smaug": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 36887547,
+  "redirected": false,
+  "resolved_title": "The Hobbit: The Desolation of Smaug",
+  "wikidata": "Q719915"
  },
  "The Holdovers": {
   "disambiguation": false,
@@ -4183,6 +5055,14 @@
   "resolved_title": "The Ides of March (2011 film)",
   "wikidata": "Q543581"
  },
+ "The Imaginarium of Doctor Parnassus": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 11312191,
+  "redirected": false,
+  "resolved_title": "The Imaginarium of Doctor Parnassus",
+  "wikidata": "Q578344"
+ },
  "The Imitation Game": {
   "disambiguation": false,
   "missing": false,
@@ -4222,6 +5102,14 @@
   "redirected": false,
   "resolved_title": "The Irishman",
   "wikidata": "Q29057443"
+ },
+ "The Iron Lady (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 30548208,
+  "redirected": false,
+  "resolved_title": "The Iron Lady (film)",
+  "wikidata": "Q269810"
  },
  "The Kid with a Bike": {
   "disambiguation": false,
@@ -4271,6 +5159,14 @@
   "resolved_title": "The Last Samurai",
   "wikidata": "Q207130"
  },
+ "The Last Station": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 18066576,
+  "redirected": false,
+  "resolved_title": "The Last Station",
+  "wikidata": "Q535081"
+ },
  "The Life Ahead": {
   "disambiguation": false,
   "missing": false,
@@ -4286,6 +5182,14 @@
   "redirected": false,
   "resolved_title": "The Lives of Others",
   "wikidata": "Q153882"
+ },
+ "The Lone Ranger (2013 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 32330027,
+  "redirected": false,
+  "resolved_title": "The Lone Ranger (2013 film)",
+  "wikidata": "Q548919"
  },
  "The Lord of the Rings: The Fellowship of the Ring": {
   "disambiguation": false,
@@ -4310,6 +5214,14 @@
   "redirected": false,
   "resolved_title": "The Lord of the Rings: The Two Towers",
   "wikidata": "Q164963"
+ },
+ "The Lost Daughter (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 63092613,
+  "redirected": false,
+  "resolved_title": "The Lost Daughter (film)",
+  "wikidata": "Q99926331"
  },
  "The Maid (2009 film)": {
   "disambiguation": false,
@@ -4343,6 +5255,14 @@
   "resolved_title": "The Master (2012 film)",
   "wikidata": "Q283586"
  },
+ "The Matrix": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 30007,
+  "redirected": false,
+  "resolved_title": "The Matrix",
+  "wikidata": "Q83495"
+ },
  "The Mauritanian": {
   "disambiguation": false,
   "missing": false,
@@ -4359,6 +5279,14 @@
   "resolved_title": "The Menu (2022 film)",
   "wikidata": "Q108444804"
  },
+ "The Messenger (2009 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 18915082,
+  "redirected": false,
+  "resolved_title": "The Messenger (2009 film)",
+  "wikidata": "Q466358"
+ },
  "The Motorcycle Diaries (film)": {
   "disambiguation": false,
   "missing": false,
@@ -4366,6 +5294,14 @@
   "redirected": false,
   "resolved_title": "The Motorcycle Diaries (film)",
   "wikidata": "Q309246"
+ },
+ "The Passion of the Christ": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 195246,
+  "redirected": false,
+  "resolved_title": "The Passion of the Christ",
+  "wikidata": "Q51668"
  },
  "The Past (2013 film)": {
   "disambiguation": false,
@@ -4375,6 +5311,14 @@
   "resolved_title": "The Past (2013 film)",
   "wikidata": "Q6357059"
  },
+ "The Patriot (2000 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 61184,
+  "redirected": false,
+  "resolved_title": "The Patriot (2000 film)",
+  "wikidata": "Q646633"
+ },
  "The People v. O. J. Simpson: American Crime Story": {
   "disambiguation": false,
   "missing": false,
@@ -4382,6 +5326,14 @@
   "redirected": false,
   "resolved_title": "The People v. O. J. Simpson: American Crime Story",
   "wikidata": "Q23057840"
+ },
+ "The Perfect Storm (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 3618333,
+  "redirected": false,
+  "resolved_title": "The Perfect Storm (film)",
+  "wikidata": "Q508349"
  },
  "The Perks of Being a Wallflower (film)": {
   "disambiguation": false,
@@ -4407,6 +5359,14 @@
   "resolved_title": "The Pianist (2002 film)",
   "wikidata": "Q150804"
  },
+ "The Polar Express (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 3701905,
+  "redirected": false,
+  "resolved_title": "The Polar Express (film)",
+  "wikidata": "Q862197"
+ },
  "The Post (film)": {
   "disambiguation": false,
   "missing": false,
@@ -4422,6 +5382,22 @@
   "redirected": false,
   "resolved_title": "The Power of the Dog (film)",
   "wikidata": "Q85323337"
+ },
+ "The Prestige": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 2809621,
+  "redirected": false,
+  "resolved_title": "The Prestige",
+  "wikidata": "Q46551"
+ },
+ "The Princess and the Frog": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 6141751,
+  "redirected": false,
+  "resolved_title": "The Princess and the Frog",
+  "wikidata": "Q171300"
  },
  "The Producers (2005 film)": {
   "disambiguation": false,
@@ -4647,6 +5623,14 @@
   "resolved_title": "The Town (2010 film)",
   "wikidata": "Q725539"
  },
+ "The Tragedy of Macbeth (2021 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 60355157,
+  "redirected": false,
+  "resolved_title": "The Tragedy of Macbeth (2021 film)",
+  "wikidata": "Q84693711"
+ },
  "The Tree of Life (film)": {
   "disambiguation": false,
   "missing": false,
@@ -4662,6 +5646,14 @@
   "redirected": false,
   "resolved_title": "The Trial of the Chicago 7",
   "wikidata": "Q72397975"
+ },
+ "The Triplets of Belleville": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 470943,
+  "redirected": false,
+  "resolved_title": "The Triplets of Belleville",
+  "wikidata": "Q779517"
  },
  "The Two Popes": {
   "disambiguation": false,
@@ -4719,6 +5711,14 @@
   "resolved_title": "The Widow of Saint-Pierre",
   "wikidata": "Q1149916"
  },
+ "The Wild Robot": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 74933200,
+  "redirected": false,
+  "resolved_title": "The Wild Robot",
+  "wikidata": "Q124378349"
+ },
  "The Wind Rises": {
   "disambiguation": false,
   "missing": false,
@@ -4735,6 +5735,14 @@
   "resolved_title": "The Wolf of Wall Street (2013 film)",
   "wikidata": "Q1392744"
  },
+ "The Worst Person in the World": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 67841752,
+  "redirected": false,
+  "resolved_title": "The Worst Person in the World",
+  "wikidata": "Q107089587"
+ },
  "The Wrestler (2008 film)": {
   "disambiguation": false,
   "missing": false,
@@ -4742,6 +5750,14 @@
   "redirected": false,
   "resolved_title": "The Wrestler (2008 film)",
   "wikidata": "Q139326"
+ },
+ "The Young Victoria": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 12932741,
+  "redirected": false,
+  "resolved_title": "The Young Victoria",
+  "wikidata": "Q755171"
  },
  "The Zone of Interest (film)": {
   "disambiguation": false,
@@ -4831,6 +5847,14 @@
   "resolved_title": "Top Gun: Maverick",
   "wikidata": "Q31202708"
  },
+ "Topsy-Turvy": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 1052246,
+  "redirected": false,
+  "resolved_title": "Topsy-Turvy",
+  "wikidata": "Q769347"
+ },
  "Toy Story 2": {
   "disambiguation": false,
   "missing": false,
@@ -4846,6 +5870,14 @@
   "redirected": false,
   "resolved_title": "Toy Story 3",
   "wikidata": "Q187278"
+ },
+ "Toy Story 4": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 57782491,
+  "redirected": false,
+  "resolved_title": "Toy Story 4",
+  "wikidata": "Q18517638"
  },
  "Traffic (2000 film)": {
   "disambiguation": false,
@@ -4863,6 +5895,14 @@
   "resolved_title": "Train Dreams (film)",
   "wikidata": "Q126086662"
  },
+ "Training Day": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 171623,
+  "redirected": false,
+  "resolved_title": "Training Day",
+  "wikidata": "Q308929"
+ },
  "Trainwreck (film)": {
   "disambiguation": false,
   "missing": false,
@@ -4870,6 +5910,30 @@
   "redirected": false,
   "resolved_title": "Trainwreck (film)",
   "wikidata": "Q17062774"
+ },
+ "Transamerica (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 3289723,
+  "redirected": false,
+  "resolved_title": "Transamerica (film)",
+  "wikidata": "Q742614"
+ },
+ "Transformers (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 2236472,
+  "redirected": false,
+  "resolved_title": "Transformers (film)",
+  "wikidata": "Q171453"
+ },
+ "Transformers: Dark of the Moon": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 25001260,
+  "redirected": false,
+  "resolved_title": "Transformers: Dark of the Moon",
+  "wikidata": "Q232774"
  },
  "Triangle of Sadness": {
   "disambiguation": false,
@@ -4918,6 +5982,14 @@
   "redirected": false,
   "resolved_title": "Tár",
   "wikidata": "Q108649516"
+ },
+ "U-571 (film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 32260,
+  "redirected": false,
+  "resolved_title": "U-571 (film)",
+  "wikidata": "Q576367"
  },
  "Unbroken (film)": {
   "disambiguation": false,
@@ -4991,6 +6063,14 @@
   "resolved_title": "Vicky Cristina Barcelona",
   "wikidata": "Q212123"
  },
+ "Victoria & Abdul": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 50862363,
+  "redirected": false,
+  "resolved_title": "Victoria & Abdul",
+  "wikidata": "Q27701609"
+ },
  "Volver": {
   "disambiguation": false,
   "missing": false,
@@ -5023,6 +6103,14 @@
   "resolved_title": "Waltz with Bashir",
   "wikidata": "Q160793"
  },
+ "Wanted (2008 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 9395068,
+  "redirected": false,
+  "resolved_title": "Wanted (2008 film)",
+  "wikidata": "Q4444"
+ },
  "War Horse (film)": {
   "disambiguation": false,
   "missing": false,
@@ -5030,6 +6118,14 @@
   "redirected": false,
   "resolved_title": "War Horse (film)",
   "wikidata": "Q218589"
+ },
+ "War of the Worlds (2005 film)": {
+  "disambiguation": false,
+  "missing": false,
+  "pageid": 535335,
+  "redirected": false,
+  "resolved_title": "War of the Worlds (2005 film)",
+  "wikidata": "Q202028"
  },
  "Weapons (2025 film)": {
   "disambiguation": false,

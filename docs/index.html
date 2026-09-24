@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oscar Race Lab</title>
+<meta name="description" content="2000–2026 아카데미 작품상 레이스를 주요 전초전 결과의 누적으로 탐색하는 개인용 데이터 사이트. 예측·확률 없음, 모든 값에 출처.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231a1a19'/%3E%3Crect x='3' y='9' width='2' height='4' fill='%233987e5'/%3E%3Crect x='7' y='6' width='2' height='7' fill='%233987e5'/%3E%3Crect x='11' y='3' width='2' height='10' fill='%233987e5'/%3E%3C/svg%3E">
+<script>
+  // theme: dark by default, remembered per viewer (convenience only)
+  try { var t = localStorage.getItem("orl-theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="#/">Oscar Race Lab <span>작품상 레이스 2000–2026</span></a>
+    <nav class="main" aria-label="주 메뉴">
+      <a href="#/" data-nav="home">개요</a>
+      <a href="#/season/2026" data-nav="season">시즌</a>
+      <a href="#/explore" data-nav="explore">탐색</a>
+      <a href="#/agreement" data-nav="agreement">일치율</a>
+      <a href="#/patterns" data-nav="patterns">패턴</a>
+      <a href="#/data" data-nav="data">데이터·출처</a>
+    </nav>
+    <span class="spacer"></span>
+    <div class="search">
+      <input id="film-search" type="search" list="film-list" placeholder="영화 찾기…" aria-label="영화 검색">
+      <datalist id="film-list"></datalist>
+    </div>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="밝기 모드 전환">라이트</button>
+  </div>
+</header>
+<main id="app" tabindex="-1"><p class="muted">데이터를 불러오는 중…</p></main>
+<footer class="site-footer">
+  <div class="bar">
+    Oscar Race Lab — 개인용 탐색 도구. 수상 결과는 사실 레이어, “선두·수렴·이변” 같은 표현은 규칙 기반 분석 레이어로 분리해 표시합니다.
+    예측 확률·배당률은 만들지 않습니다. 출처: 영어 위키백과(리비전 고정) 및 위키백과가 인용한 각 기관 공식 자료.
+    <a href="#/data">데이터·출처 보기</a>
+  </div>
+</footer>
+<div class="popover-back" id="pop-back"></div>
+<aside class="popover" id="pop" role="dialog" aria-modal="true" aria-labelledby="pop-title"></aside>
+<script src="data/orl-data.js"></script>
+<script src="js/analysis.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

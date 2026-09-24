@@ -1,0 +1,1444 @@
+[
+ {
+  "season": 2000,
+  "film_id": "Q25139",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633217"
+ },
+ {
+  "season": 2000,
+  "film_id": "Q648977",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633217"
+ },
+ {
+  "season": 2000,
+  "film_id": "Q208263",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633217"
+ },
+ {
+  "season": 2000,
+  "film_id": "Q463832",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633217"
+ },
+ {
+  "season": 2000,
+  "film_id": "Q183063",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633217"
+ },
+ {
+  "season": 2001,
+  "film_id": "Q128518",
+  "total_nominations": 12,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633162"
+ },
+ {
+  "season": 2001,
+  "film_id": "Q220423",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633162"
+ },
+ {
+  "season": 2001,
+  "film_id": "Q273978",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633162"
+ },
+ {
+  "season": 2001,
+  "film_id": "Q220955",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633162"
+ },
+ {
+  "season": 2001,
+  "film_id": "Q142292",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633162"
+ },
+ {
+  "season": 2002,
+  "film_id": "Q164103",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633074"
+ },
+ {
+  "season": 2002,
+  "film_id": "Q165392",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633074"
+ },
+ {
+  "season": 2002,
+  "film_id": "Q151945",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633074"
+ },
+ {
+  "season": 2002,
+  "film_id": "Q127367",
+  "total_nominations": 13,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633074"
+ },
+ {
+  "season": 2002,
+  "film_id": "Q193573",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:633074"
+ },
+ {
+  "season": 2003,
+  "film_id": "Q189889",
+  "total_nominations": 13,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:498172"
+ },
+ {
+  "season": 2003,
+  "film_id": "Q154581",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:498172"
+ },
+ {
+  "season": 2003,
+  "film_id": "Q157044",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:498172"
+ },
+ {
+  "season": 2003,
+  "film_id": "Q164963",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:498172"
+ },
+ {
+  "season": 2003,
+  "film_id": "Q150804",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:498172"
+ },
+ {
+  "season": 2004,
+  "film_id": "Q131074",
+  "total_nominations": 11,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:489044"
+ },
+ {
+  "season": 2004,
+  "film_id": "Q107270",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:489044"
+ },
+ {
+  "season": 2004,
+  "film_id": "Q1125384",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:489044"
+ },
+ {
+  "season": 2004,
+  "film_id": "Q221586",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:489044"
+ },
+ {
+  "season": 2004,
+  "film_id": "Q179018",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:489044"
+ },
+ {
+  "season": 2005,
+  "film_id": "Q184255",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:1430732"
+ },
+ {
+  "season": 2005,
+  "film_id": "Q201924",
+  "total_nominations": 11,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:1430732"
+ },
+ {
+  "season": 2005,
+  "film_id": "Q208204",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:1430732"
+ },
+ {
+  "season": 2005,
+  "film_id": "Q797242",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:1430732"
+ },
+ {
+  "season": 2005,
+  "film_id": "Q675937",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:1430732"
+ },
+ {
+  "season": 2006,
+  "film_id": "Q188000",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4291390"
+ },
+ {
+  "season": 2006,
+  "film_id": "Q160618",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4291390"
+ },
+ {
+  "season": 2006,
+  "film_id": "Q463615",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4291390"
+ },
+ {
+  "season": 2006,
+  "film_id": "Q319061",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4291390"
+ },
+ {
+  "season": 2006,
+  "film_id": "Q152456",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4291390"
+ },
+ {
+  "season": 2007,
+  "film_id": "Q172975",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4292687"
+ },
+ {
+  "season": 2007,
+  "film_id": "Q191074",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4292687"
+ },
+ {
+  "season": 2007,
+  "film_id": "Q275187",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4292687"
+ },
+ {
+  "season": 2007,
+  "film_id": "Q192073",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4292687"
+ },
+ {
+  "season": 2007,
+  "film_id": "Q223367",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:4292687"
+ },
+ {
+  "season": 2008,
+  "film_id": "Q183081",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:9304675"
+ },
+ {
+  "season": 2008,
+  "film_id": "Q1626186",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:9304675"
+ },
+ {
+  "season": 2008,
+  "film_id": "Q79503",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:9304675"
+ },
+ {
+  "season": 2008,
+  "film_id": "Q694140",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:9304675"
+ },
+ {
+  "season": 2008,
+  "film_id": "Q244315",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:9304675"
+ },
+ {
+  "season": 2009,
+  "film_id": "Q125076",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:15933094"
+ },
+ {
+  "season": 2009,
+  "film_id": "Q183239",
+  "total_nominations": 13,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:15933094"
+ },
+ {
+  "season": 2009,
+  "film_id": "Q691672",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:15933094"
+ },
+ {
+  "season": 2009,
+  "film_id": "Q201687",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:15933094"
+ },
+ {
+  "season": 2009,
+  "film_id": "Q159063",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:15933094"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q183066",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q24871",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q206497",
+  "total_nominations": 2,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q201819",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q482436",
+  "total_nominations": 3,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q153723",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q269331",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q300555",
+  "total_nominations": 2,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q174811",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2010,
+  "film_id": "Q211429",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:21089250"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q160060",
+  "total_nominations": 12,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q180214",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q323472",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q25188",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q380841",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q174371",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q185888",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q187278",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q326114",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2011,
+  "film_id": "Q301049",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576552"
+ },
+ {
+  "season": 2012,
+  "film_id": "Q171861",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576558"
+ },
+ {
+  "season": 2012,
+  "film_id": "Q273686",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576558"
+ },
+ {
+  "season": 2012,
+  "film_id": "Q918769",
+  "total_nominations": 2,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576558"
+ },
+ {
+  "season": 2012,
+  "film_id": "Q204374",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576558"
+ },
+ {
+  "season": 2012,
+  "film_id": "Q206576",
+  "total_nominations": 11,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576558"
+ },
+ {
+  "season": 2012,
+  "film_id": "Q206124",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576558"
+ },
+ {
+  "season": 2012,
+  "film_id": "Q221820",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576558"
+ },
+ {
+  "season": 2012,
+  "film_id": "Q244257",
+  "total_nominations": 3,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576558"
+ },
+ {
+  "season": 2012,
+  "film_id": "Q218589",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:23576558"
+ },
+ {
+  "season": 2013,
+  "film_id": "Q59653",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26208244"
+ },
+ {
+  "season": 2013,
+  "film_id": "Q637820",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26208244"
+ },
+ {
+  "season": 2013,
+  "film_id": "Q166462",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26208244"
+ },
+ {
+  "season": 2013,
+  "film_id": "Q571032",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26208244"
+ },
+ {
+  "season": 2013,
+  "film_id": "Q152780",
+  "total_nominations": 11,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26208244"
+ },
+ {
+  "season": 2013,
+  "film_id": "Q32433",
+  "total_nominations": 12,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26208244"
+ },
+ {
+  "season": 2013,
+  "film_id": "Q28234",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26208244"
+ },
+ {
+  "season": 2013,
+  "film_id": "Q116845",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26208244"
+ },
+ {
+  "season": 2013,
+  "film_id": "Q152531",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26208244"
+ },
+ {
+  "season": 2014,
+  "film_id": "Q3023357",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26821361"
+ },
+ {
+  "season": 2014,
+  "film_id": "Q9013673",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26821361"
+ },
+ {
+  "season": 2014,
+  "film_id": "Q2937646",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26821361"
+ },
+ {
+  "season": 2014,
+  "film_id": "Q3520498",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26821361"
+ },
+ {
+  "season": 2014,
+  "film_id": "Q2579784",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26821361"
+ },
+ {
+  "season": 2014,
+  "film_id": "Q788822",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26821361"
+ },
+ {
+  "season": 2014,
+  "film_id": "Q3337646",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26821361"
+ },
+ {
+  "season": 2014,
+  "film_id": "Q3381163",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26821361"
+ },
+ {
+  "season": 2014,
+  "film_id": "Q1392744",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:26821361"
+ },
+ {
+  "season": 2015,
+  "film_id": "Q13255497",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:42681558"
+ },
+ {
+  "season": 2015,
+  "film_id": "Q16970789",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:42681558"
+ },
+ {
+  "season": 2015,
+  "film_id": "Q4103201",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:42681558"
+ },
+ {
+  "season": 2015,
+  "film_id": "Q3521099",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:42681558"
+ },
+ {
+  "season": 2015,
+  "film_id": "Q14918344",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:42681558"
+ },
+ {
+  "season": 2015,
+  "film_id": "Q17183770",
+  "total_nominations": 2,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:42681558"
+ },
+ {
+  "season": 2015,
+  "film_id": "Q15079318",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:42681558"
+ },
+ {
+  "season": 2015,
+  "film_id": "Q15648198",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:42681558"
+ },
+ {
+  "season": 2016,
+  "film_id": "Q18154496",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:46392016"
+ },
+ {
+  "season": 2016,
+  "film_id": "Q19850715",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:46392016"
+ },
+ {
+  "season": 2016,
+  "film_id": "Q18067135",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:46392016"
+ },
+ {
+  "season": 2016,
+  "film_id": "Q16954098",
+  "total_nominations": 3,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:46392016"
+ },
+ {
+  "season": 2016,
+  "film_id": "Q1757288",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:46392016"
+ },
+ {
+  "season": 2016,
+  "film_id": "Q18547944",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:46392016"
+ },
+ {
+  "season": 2016,
+  "film_id": "Q18002795",
+  "total_nominations": 12,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:46392016"
+ },
+ {
+  "season": 2016,
+  "film_id": "Q18703032",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:46392016"
+ },
+ {
+  "season": 2017,
+  "film_id": "Q21527875",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:49329502"
+ },
+ {
+  "season": 2017,
+  "film_id": "Q20382729",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:49329502"
+ },
+ {
+  "season": 2017,
+  "film_id": "Q25136220",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:49329502"
+ },
+ {
+  "season": 2017,
+  "film_id": "Q21010856",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:49329502"
+ },
+ {
+  "season": 2017,
+  "film_id": "Q20026847",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:49329502"
+ },
+ {
+  "season": 2017,
+  "film_id": "Q23755544",
+  "total_nominations": 3,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:49329502"
+ },
+ {
+  "season": 2017,
+  "film_id": "Q20856802",
+  "total_nominations": 14,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:49329502"
+ },
+ {
+  "season": 2017,
+  "film_id": "Q23013699",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:49329502"
+ },
+ {
+  "season": 2017,
+  "film_id": "Q19864603",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:49329502"
+ },
+ {
+  "season": 2018,
+  "film_id": "Q26698156",
+  "total_nominations": 13,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:53693478"
+ },
+ {
+  "season": 2018,
+  "film_id": "Q25136757",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:53693478"
+ },
+ {
+  "season": 2018,
+  "film_id": "Q27958298",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:53693478"
+ },
+ {
+  "season": 2018,
+  "film_id": "Q21935651",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:53693478"
+ },
+ {
+  "season": 2018,
+  "film_id": "Q25136235",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:53693478"
+ },
+ {
+  "season": 2018,
+  "film_id": "Q27480769",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:53693478"
+ },
+ {
+  "season": 2018,
+  "film_id": "Q28840386",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:53693478"
+ },
+ {
+  "season": 2018,
+  "film_id": "Q30203425",
+  "total_nominations": 2,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:53693478"
+ },
+ {
+  "season": 2018,
+  "film_id": "Q24053277",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:53693478"
+ },
+ {
+  "season": 2019,
+  "film_id": "Q48673898",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:57829408"
+ },
+ {
+  "season": 2019,
+  "film_id": "Q23780734",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:57829408"
+ },
+ {
+  "season": 2019,
+  "film_id": "Q43370948",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:57829408"
+ },
+ {
+  "season": 2019,
+  "film_id": "Q27894574",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:57829408"
+ },
+ {
+  "season": 2019,
+  "film_id": "Q22001133",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:57829408"
+ },
+ {
+  "season": 2019,
+  "film_id": "Q27959455",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:57829408"
+ },
+ {
+  "season": 2019,
+  "film_id": "Q3286391",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:57829408"
+ },
+ {
+  "season": 2019,
+  "film_id": "Q39075006",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:57829408"
+ },
+ {
+  "season": 2020,
+  "film_id": "Q61448040",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:60066429"
+ },
+ {
+  "season": 2020,
+  "film_id": "Q55081822",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:60066429"
+ },
+ {
+  "season": 2020,
+  "film_id": "Q29057443",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:60066429"
+ },
+ {
+  "season": 2020,
+  "film_id": "Q54862508",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:60066429"
+ },
+ {
+  "season": 2020,
+  "film_id": "Q42759035",
+  "total_nominations": 11,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:60066429"
+ },
+ {
+  "season": 2020,
+  "film_id": "Q56881140",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:60066429"
+ },
+ {
+  "season": 2020,
+  "film_id": "Q48671199",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:60066429"
+ },
+ {
+  "season": 2020,
+  "film_id": "Q62721520",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:60066429"
+ },
+ {
+  "season": 2020,
+  "film_id": "Q47300912",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:60066429"
+ },
+ {
+  "season": 2021,
+  "film_id": "Q61740820",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:63807881"
+ },
+ {
+  "season": 2021,
+  "film_id": "Q65066669",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:63807881"
+ },
+ {
+  "season": 2021,
+  "film_id": "Q73536766",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:63807881"
+ },
+ {
+  "season": 2021,
+  "film_id": "Q73093591",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:63807881"
+ },
+ {
+  "season": 2021,
+  "film_id": "Q65679599",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:63807881"
+ },
+ {
+  "season": 2021,
+  "film_id": "Q62595383",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:63807881"
+ },
+ {
+  "season": 2021,
+  "film_id": "Q65158549",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:63807881"
+ },
+ {
+  "season": 2021,
+  "film_id": "Q72397975",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:63807881"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q104686893",
+  "total_nominations": 3,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q100736066",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q100361490",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q107107865",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q60834962",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q84203429",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q102036245",
+  "total_nominations": 3,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q82430214",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q85323337",
+  "total_nominations": 12,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2022,
+  "film_id": "Q63643994",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:67454547"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q83808444",
+  "total_nominations": 11,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q108837349",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q3604746",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q108314506",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q84362533",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q107710009",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q108649516",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q31202708",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q97304180",
+  "total_nominations": 3,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2023,
+  "film_id": "Q108030443",
+  "total_nominations": 2,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:70760262"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q108839994",
+  "total_nominations": 13,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q116413183",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q117037697",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q55436290",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q112114745",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q66316924",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q111907282",
+  "total_nominations": 7,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q116025865",
+  "total_nominations": 2,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q108760382",
+  "total_nominations": 11,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2024,
+  "film_id": "Q115993222",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:73288677"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q123185887",
+  "total_nominations": 6,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q101112656",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q118175825",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q116701124",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q109228991",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q123928072",
+  "total_nominations": 13,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q124262351",
+  "total_nominations": 3,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q116030637",
+  "total_nominations": 2,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q113380226",
+  "total_nominations": 5,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2025,
+  "film_id": "Q24797403",
+  "total_nominations": 10,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:76577279"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q117085614",
+  "total_nominations": 13,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q125971387",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q114246242",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q124393045",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q122741016",
+  "total_nominations": 8,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q130118681",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q132531438",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q130284179",
+  "total_nominations": 9,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q125473145",
+  "total_nominations": 16,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ },
+ {
+  "season": 2026,
+  "film_id": "Q126086662",
+  "total_nominations": 4,
+  "basis": "listed in 'Films with multiple nominations'",
+  "source_id": "wp:79369474"
+ }
+]

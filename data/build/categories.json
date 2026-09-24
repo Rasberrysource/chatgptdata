@@ -1,0 +1,82 @@
+[
+ {
+  "id": "oscar_bp",
+  "body": "oscar",
+  "name": "Best Picture",
+  "label": "오스카 작품상",
+  "honors": "film",
+  "source_id": "wp:61702"
+ },
+ {
+  "id": "pga",
+  "body": "pga",
+  "name": "Darryl F. Zanuck Award (Theatrical Motion Picture)",
+  "label": "PGA",
+  "honors": "film",
+  "source_id": "wp:30327625"
+ },
+ {
+  "id": "dga",
+  "body": "dga",
+  "name": "Outstanding Directorial Achievement in Feature Film",
+  "label": "DGA",
+  "honors": "director",
+  "source_id": "wp:20481458"
+ },
+ {
+  "id": "sag_ensemble",
+  "body": "sag",
+  "name": "Outstanding Performance by a Cast in a Motion Picture",
+  "label": "SAG 앙상블",
+  "honors": "cast",
+  "source_id": "wp:3651358"
+ },
+ {
+  "id": "bafta_film",
+  "body": "bafta",
+  "name": "Best Film",
+  "label": "BAFTA",
+  "honors": "film",
+  "source_id": "wp:1039507"
+ },
+ {
+  "id": "gg_drama",
+  "body": "gg",
+  "name": "Best Motion Picture – Drama",
+  "label": "글로브 드라마",
+  "honors": "film",
+  "source_id": "wp:186059"
+ },
+ {
+  "id": "gg_musical_comedy",
+  "body": "gg",
+  "name": "Best Motion Picture – Musical or Comedy",
+  "label": "글로브 뮤지컬·코미디",
+  "honors": "film",
+  "source_id": "wp:186063"
+ },
+ {
+  "id": "cc_picture",
+  "body": "cc",
+  "name": "Best Picture",
+  "label": "Critics Choice",
+  "honors": "film",
+  "source_id": "wp:3395911"
+ },
+ {
+  "id": "wga_original",
+  "body": "wga",
+  "name": "Original Screenplay",
+  "label": "WGA 각본",
+  "honors": "screenplay",
+  "source_id": "wp:15184769"
+ },
+ {
+  "id": "wga_adapted",
+  "body": "wga",
+  "name": "Adapted Screenplay",
+  "label": "WGA 각색",
+  "honors": "screenplay",
+  "source_id": "wp:15177155"
+ }
+]

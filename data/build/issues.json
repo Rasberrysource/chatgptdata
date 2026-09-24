@@ -1,0 +1,187 @@
+[
+ {
+  "severity": "caveat",
+  "scope": "WGA",
+  "text": "WGA는 조합 관할에서 쓰인 각본만 후보 자격이 있다. WGA 후보에 없다는 것은 '탈락'이 아니라 '자격 없음'일 수 있으며, 개별 영화의 자격 여부는 확인하지 않았다(unknown). WGA는 전초전 합계에 포함하지 않는다."
+ },
+ {
+  "severity": "caveat",
+  "scope": "Golden Globes",
+  "text": "골든글로브는 매년 작품상 수상작이 2편(드라마, 뮤지컬·코미디)이다. 일치율을 단일 수상 기관과 같은 선상에서 비교하면 과대평가되므로 부문별 수치를 함께 표시한다."
+ },
+ {
+  "severity": "caveat",
+  "scope": "Golden Globes",
+  "text": "2023년 시즌까지 비영어 영화는 골든글로브 작품상 부문 자격이 없었다. 골든글로브 외국어영화상 후보·수상 기록이 있는 영화만 '자격 없음(I)'으로 표시했다."
+ },
+ {
+  "severity": "caveat",
+  "scope": "DGA / SAG",
+  "text": "DGA는 감독 개인, SAG 앙상블은 출연진 전체에게 주는 상이다. 여기서는 해당 영화의 성적으로 연결해 비교하지만 작품상과 같은 상은 아니다."
+ },
+ {
+  "severity": "caveat",
+  "scope": "BAFTA",
+  "text": "BAFTA 자격은 영국 개봉일 기준이라 같은 영화가 다른 시즌 BAFTA에 나올 수 있다. 전체 데이터에서 시즌이 어긋난 사례는 'The Lives of Others'(작품상 레이스 밖) 1건뿐이었다."
+ },
+ {
+  "severity": "caveat",
+  "scope": "Dates",
+  "text": "개최일은 수상자 발표일(시상식 날짜)이다. 오스카 최종 투표 기간, 후보 발표일(오스카 제외)은 반영하지 않았다."
+ },
+ {
+  "severity": "caveat",
+  "scope": "Official sources",
+  "text": "oscars.org와 bafta.org는 이 작업 환경에서 자동 접근이 막혀 있어(HTTP 403) 공식 DB를 직접 대조하지 못했다. 대신 해당 기관 보도자료 등을 인용한 위키백과 표를 리비전 고정 링크로 사용하고, 각 시상식 행에 위키백과가 인용한 공식 URL을 함께 기록했다."
+ },
+ {
+  "severity": "caveat",
+  "scope": "Sample size",
+  "text": "시즌은 27개뿐이다. 모든 비율은 n/N과 함께 읽어야 하며 통계적 예측으로 해석하면 안 된다."
+ },
+ {
+  "severity": "caveat",
+  "scope": "Oscar total nominations",
+  "text": "오스카 전체 후보 수는 각 회차 문서의 '다수 후보작' 표에서 가져왔다. 표에 없는 작품상 후보는 작품상 1개 부문 후보로 계산했다."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2000",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2001",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2002",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2003",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2004",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2005",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2006",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2007",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2008",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2009",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2010",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2011",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2012",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2013",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2014",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2015",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2016",
+  "text": "자동 대조 도구가 회차 문서의 다른 부분을 읽어 생긴 오탐. 수동 확인 결과 '21st Critics' Choice Awards' 문서의 작품상 섹션·인포박스 모두 'Spotlight' 수상 및 동일 후보 목록 — 충돌 없음."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2017",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2018",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "cc_picture 2019",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "gg_drama 2007",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "gg_musical_comedy 2007",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "wga_adapted 2012",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "wga_adapted 2013",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "wga_adapted 2014",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "wga_original 2012",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "wga_original 2013",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ },
+ {
+  "severity": "info",
+  "scope": "wga_original 2014",
+  "text": "Wikipedia 회차 문서에서 해당 부문 섹션을 자동으로 찾지 못해 목록 페이지와의 내부 교차 대조를 하지 못함 (목록 페이지 값 사용)."
+ }
+]

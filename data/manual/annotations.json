@@ -1,0 +1,164 @@
+{
+ "_about": "Hand-maintained annotations. Every entry states its basis. Facts (winners/nominees) are never edited here; this file only adds dates notes, rule evidence and caveats.",
+ "ceremony_dates": [
+  {
+   "body": "bafta",
+   "season": 2021,
+   "date": "2021-04-11",
+   "note": "이틀 개최(4/10 개막 행사, 4/11 본 시상식). 인포박스가 두 날짜를 모두 적고 본 시상식 진행자를 따로 명시하므로 작품상은 본 시상식 날짜(4/11)로 기록.",
+   "basis": "Wikipedia '74th British Academy Film Awards' infobox (10–11 April 2021; Opening Night / Main ceremony hosts)"
+  },
+  {
+   "body": "gg",
+   "season": 2008,
+   "date": "2008-01-14",
+   "note": "작가 파업으로 시상식 없이 기자회견으로 수상자 발표.",
+   "basis": "Wikipedia '65th Golden Globe Awards' lead text"
+  },
+  {
+   "body": "gg",
+   "season": 2022,
+   "date": "2022-01-09",
+   "note": "방송·관객 없이 비공개로 진행(HFPA 보이콧 여파).",
+   "basis": "Wikipedia '79th Golden Globe Awards' lead text"
+  },
+  {
+   "body": "cc",
+   "season": 2025,
+   "date": "2025-02-07",
+   "note": "원래 1/12 예정이었으나 남부 캘리포니아 산불로 두 차례 연기.",
+   "basis": "Wikipedia '30th Critics' Choice Awards' lead text"
+  },
+  {
+   "body": "cc",
+   "season": 2017,
+   "date": "2016-12-11",
+   "note": "예년보다 한 달 이른 12월 개최.",
+   "basis": "Wikipedia '22nd Critics' Choice Awards' infobox"
+  },
+  {
+   "body": "bafta",
+   "season": 2000,
+   "date": "2000-04-09",
+   "note": "오스카(2000-03-26) 이후 개최 — 이 시즌의 BAFTA는 전초전이 아니었음.",
+   "basis": "Wikipedia '53rd British Academy Film Awards' infobox"
+  },
+  {
+   "body": "wga",
+   "season": 2024,
+   "date": "2024-04-14",
+   "note": "오스카(2024-03-10) 이후 개최 — 이 시즌의 WGA는 오스카 전 지표가 아니었음.",
+   "basis": "Wikipedia '76th Writers Guild of America Awards' infobox"
+  }
+ ],
+ "oscar_nomination_dates": {},
+ "season_notes": {
+  "2000": [
+   "BAFTA가 오스카 이후(4/9)에 열린 마지막 시즌. 2001년부터 BAFTA가 오스카 전으로 이동."
+  ],
+  "2001": [
+   "Critics Choice 작품상 후보에 'Cast Away'가 특별 투표로 추가됨(후보 11편)."
+  ],
+  "2008": [
+   "골든글로브: 작가 파업으로 시상식 대신 기자회견 발표."
+  ],
+  "2010": [
+   "오스카 작품상 후보 10편으로 확대, 선호투표(순위식) 도입."
+  ],
+  "2012": [
+   "오스카 작품상 후보 수 5~10편 가변제 시작(2021 시상까지)."
+  ],
+  "2014": [
+   "PGA 동률 공동 수상: '12 Years a Slave' / 'Gravity'."
+  ],
+  "2016": [
+   "Critics Choice 작품상 후보에 'Star Wars: The Force Awakens'가 특별 투표로 추가됨(후보 11편)."
+  ],
+  "2017": [
+   "Critics Choice가 2016년 12월 11일에 개최(이례적으로 이른 시점)."
+  ],
+  "2021": [
+   "코로나19로 오스카 자격 기간이 2021-02-28까지 연장되고 시즌 전체가 2개월가량 늦춰짐(오스카 4/25).",
+   "BAFTA 이틀 개최(4/10–11)."
+  ],
+  "2022": [
+   "오스카 작품상 후보 10편 고정 복귀.",
+   "골든글로브: 방송 없이 비공개 발표."
+  ],
+  "2024": [
+   "골든글로브: HFPA 해체 후 새 투표단 첫 시상. 비영어 영화도 작품상 부문 후보 가능(규정 변경).",
+   "WGA 시상식이 오스카 이후(4/14)에 열림."
+  ],
+  "2025": [
+   "Critics Choice: LA 산불로 2/7로 연기."
+  ],
+  "2026": [
+   "SAG Awards가 'Actor Awards'로 명칭 변경(제32회).",
+   "가장 최근 시즌 — 출처 페이지가 아직 수정될 수 있음."
+  ]
+ },
+ "rules": {
+  "gg_non_english": {
+   "text": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+   "last_season": 2023,
+   "source_id": "rule:gg_non_english",
+   "source": {
+    "kind": "secondary",
+    "publisher": "English Wikipedia (citing The Hollywood Reporter, 2021-02-28)",
+    "title": "78th Golden Globe Awards — 'Minari' foreign-language placement ('any film with over 50% of its dialogue not in English would be considered a Foreign Language Film'); Best Motion Picture – Drama page notes 'The Zone of Interest' (81st) as the first wholly non-English nominee",
+    "url": "https://en.wikipedia.org/wiki/78th_Golden_Globe_Awards",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1373661789"
+   }
+  }
+ },
+ "crosscheck_resolutions": {
+  "cc_picture 2016": "자동 대조 도구가 회차 문서의 다른 부분을 읽어 생긴 오탐. 수동 확인 결과 '21st Critics' Choice Awards' 문서의 작품상 섹션·인포박스 모두 'Spotlight' 수상 및 동일 후보 목록 — 충돌 없음."
+ },
+ "issues": [
+  {
+   "severity": "caveat",
+   "scope": "WGA",
+   "text": "WGA는 조합 관할에서 쓰인 각본만 후보 자격이 있다. WGA 후보에 없다는 것은 '탈락'이 아니라 '자격 없음'일 수 있으며, 개별 영화의 자격 여부는 확인하지 않았다(unknown). WGA는 전초전 합계에 포함하지 않는다."
+  },
+  {
+   "severity": "caveat",
+   "scope": "Golden Globes",
+   "text": "골든글로브는 매년 작품상 수상작이 2편(드라마, 뮤지컬·코미디)이다. 일치율을 단일 수상 기관과 같은 선상에서 비교하면 과대평가되므로 부문별 수치를 함께 표시한다."
+  },
+  {
+   "severity": "caveat",
+   "scope": "Golden Globes",
+   "text": "2023년 시즌까지 비영어 영화는 골든글로브 작품상 부문 자격이 없었다. 골든글로브 외국어영화상 후보·수상 기록이 있는 영화만 '자격 없음(I)'으로 표시했다."
+  },
+  {
+   "severity": "caveat",
+   "scope": "DGA / SAG",
+   "text": "DGA는 감독 개인, SAG 앙상블은 출연진 전체에게 주는 상이다. 여기서는 해당 영화의 성적으로 연결해 비교하지만 작품상과 같은 상은 아니다."
+  },
+  {
+   "severity": "caveat",
+   "scope": "BAFTA",
+   "text": "BAFTA 자격은 영국 개봉일 기준이라 같은 영화가 다른 시즌 BAFTA에 나올 수 있다. 전체 데이터에서 시즌이 어긋난 사례는 'The Lives of Others'(작품상 레이스 밖) 1건뿐이었다."
+  },
+  {
+   "severity": "caveat",
+   "scope": "Dates",
+   "text": "개최일은 수상자 발표일(시상식 날짜)이다. 오스카 최종 투표 기간, 후보 발표일(오스카 제외)은 반영하지 않았다."
+  },
+  {
+   "severity": "caveat",
+   "scope": "Official sources",
+   "text": "oscars.org와 bafta.org는 이 작업 환경에서 자동 접근이 막혀 있어(HTTP 403) 공식 DB를 직접 대조하지 못했다. 대신 해당 기관 보도자료 등을 인용한 위키백과 표를 리비전 고정 링크로 사용하고, 각 시상식 행에 위키백과가 인용한 공식 URL을 함께 기록했다."
+  },
+  {
+   "severity": "caveat",
+   "scope": "Sample size",
+   "text": "시즌은 27개뿐이다. 모든 비율은 n/N과 함께 읽어야 하며 통계적 예측으로 해석하면 안 된다."
+  },
+  {
+   "severity": "caveat",
+   "scope": "Oscar total nominations",
+   "text": "오스카 전체 후보 수는 각 회차 문서의 '다수 후보작' 표에서 가져왔다. 표에 없는 작품상 후보는 작품상 1개 부문 후보로 계산했다."
+  }
+ ]
+}

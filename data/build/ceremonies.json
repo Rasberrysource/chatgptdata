@@ -1,0 +1,3728 @@
+[
+ {
+  "id": "gg-2000",
+  "body": "gg",
+  "season": 2000,
+  "film_year": 1999,
+  "name": "57th Golden Globes",
+  "ordinal": 57,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2000-01-23",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3608586",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2000",
+  "body": "cc",
+  "season": 2000,
+  "film_year": 1999,
+  "name": "5th Critics' Choice Awards",
+  "ordinal": 5,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2000-01-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4751964",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2000",
+  "body": "pga",
+  "season": 2000,
+  "film_year": 1999,
+  "name": "11th Golden Laurel Awards",
+  "ordinal": 11,
+  "categories": [
+   "pga"
+  ],
+  "date": "2000-03-02",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4903483",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2000",
+  "body": "wga",
+  "season": 2000,
+  "film_year": 1999,
+  "name": "52nd Writers Guild of America Awards",
+  "ordinal": 52,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2000-03-05",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:20556115",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2000",
+  "body": "dga",
+  "season": 2000,
+  "film_year": 1999,
+  "name": "52nd Directors Guild of America Awards",
+  "ordinal": 52,
+  "categories": [
+   "dga"
+  ],
+  "date": "2000-03-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:11901483",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2000",
+  "body": "sag",
+  "season": 2000,
+  "film_year": 1999,
+  "name": "6th Screen Actors Guild Awards",
+  "ordinal": 6,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2000-03-12",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3278763",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2000",
+  "body": "oscar",
+  "season": 2000,
+  "film_year": 1999,
+  "name": "72nd Academy Awards",
+  "ordinal": 72,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2000-03-26",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:633217",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2000",
+  "body": "bafta",
+  "season": 2000,
+  "film_year": 1999,
+  "name": "53rd British Academy Film Awards",
+  "ordinal": 53,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2000-04-09",
+  "date_note": "오스카(2000-03-26) 이후 개최 — 이 시즌의 BAFTA는 전초전이 아니었음.",
+  "date_basis": "Wikipedia '53rd British Academy Film Awards' infobox",
+  "source_id": "wp:4161638",
+  "after_oscars": true,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2001",
+  "body": "gg",
+  "season": 2001,
+  "film_year": 2000,
+  "name": "58th Golden Globes",
+  "ordinal": 58,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2001-01-21",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3601653",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2001",
+  "body": "cc",
+  "season": 2001,
+  "film_year": 2000,
+  "name": "6th Critics' Choice Awards",
+  "ordinal": 6,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2001-01-22",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4751855",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "bafta-2001",
+  "body": "bafta",
+  "season": 2001,
+  "film_year": 2000,
+  "name": "54th British Academy Film Awards",
+  "ordinal": 54,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2001-02-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4161381",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2001",
+  "body": "pga",
+  "season": 2001,
+  "film_year": 2000,
+  "name": "12th Golden Laurel Awards",
+  "ordinal": 12,
+  "categories": [
+   "pga"
+  ],
+  "date": "2001-03-03",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4903545",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2001",
+  "body": "wga",
+  "season": 2001,
+  "film_year": 2000,
+  "name": "53rd Writers Guild of America Awards",
+  "ordinal": 53,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2001-03-04",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:20555975",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2001",
+  "body": "dga",
+  "season": 2001,
+  "film_year": 2000,
+  "name": "53rd Directors Guild of America Awards",
+  "ordinal": 53,
+  "categories": [
+   "dga"
+  ],
+  "date": "2001-03-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:11901430",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2001",
+  "body": "sag",
+  "season": 2001,
+  "film_year": 2000,
+  "name": "7th Screen Actors Guild Awards",
+  "ordinal": 7,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2001-03-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3275592",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2001",
+  "body": "oscar",
+  "season": 2001,
+  "film_year": 2000,
+  "name": "73rd Academy Awards",
+  "ordinal": 73,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2001-03-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:633162",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2002",
+  "body": "cc",
+  "season": 2002,
+  "film_year": 2001,
+  "name": "7th Critics' Choice Awards",
+  "ordinal": 7,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2002-01-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4751778",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2002",
+  "body": "gg",
+  "season": 2002,
+  "film_year": 2001,
+  "name": "59th Golden Globes",
+  "ordinal": 59,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2002-01-20",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3600205",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "bafta-2002",
+  "body": "bafta",
+  "season": 2002,
+  "film_year": 2001,
+  "name": "55th British Academy Film Awards",
+  "ordinal": 55,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2002-02-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4161331",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2002",
+  "body": "wga",
+  "season": 2002,
+  "film_year": 2001,
+  "name": "54th Writers Guild of America Awards",
+  "ordinal": 54,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2002-03-02",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:20555805",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2002",
+  "body": "pga",
+  "season": 2002,
+  "film_year": 2001,
+  "name": "13th Producers Guild of America Awards",
+  "ordinal": 13,
+  "categories": [
+   "pga"
+  ],
+  "date": "2002-03-03",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4903616",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2002",
+  "body": "dga",
+  "season": 2002,
+  "film_year": 2001,
+  "name": "54th Directors Guild of America Awards",
+  "ordinal": 54,
+  "categories": [
+   "dga"
+  ],
+  "date": "2002-03-09",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:11901271",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2002",
+  "body": "sag",
+  "season": 2002,
+  "film_year": 2001,
+  "name": "8th Screen Actors Guild Awards",
+  "ordinal": 8,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2002-03-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3275447",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2002",
+  "body": "oscar",
+  "season": 2002,
+  "film_year": 2001,
+  "name": "74th Academy Awards",
+  "ordinal": 74,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2002-03-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:633074",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2003",
+  "body": "cc",
+  "season": 2003,
+  "film_year": 2002,
+  "name": "8th Critics' Choice Awards",
+  "ordinal": 8,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2003-01-17",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4751602",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2003",
+  "body": "gg",
+  "season": 2003,
+  "film_year": 2002,
+  "name": "60th Golden Globes",
+  "ordinal": 60,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2003-01-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3599975",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "bafta-2003",
+  "body": "bafta",
+  "season": 2003,
+  "film_year": 2002,
+  "name": "56th British Academy Film Awards",
+  "ordinal": 56,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2003-02-23",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4161223",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2003",
+  "body": "dga",
+  "season": 2003,
+  "film_year": 2002,
+  "name": "55th Directors Guild of America Awards",
+  "ordinal": 55,
+  "categories": [
+   "dga"
+  ],
+  "date": "2003-03-01",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:11901214",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2003",
+  "body": "pga",
+  "season": 2003,
+  "film_year": 2002,
+  "name": "14th Producers Guild of America Awards",
+  "ordinal": 14,
+  "categories": [
+   "pga"
+  ],
+  "date": "2003-03-02",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4903672",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2003",
+  "body": "wga",
+  "season": 2003,
+  "film_year": 2002,
+  "name": "55th Writers Guild of America Awards",
+  "ordinal": 55,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2003-03-08",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:20555679",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2003",
+  "body": "sag",
+  "season": 2003,
+  "film_year": 2002,
+  "name": "9th Screen Actors Guild Awards",
+  "ordinal": 9,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2003-03-09",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3268015",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2003",
+  "body": "oscar",
+  "season": 2003,
+  "film_year": 2002,
+  "name": "75th Academy Awards",
+  "ordinal": 75,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2003-03-23",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:498172",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2004",
+  "body": "cc",
+  "season": 2004,
+  "film_year": 2003,
+  "name": "9th Critics' Choice Awards",
+  "ordinal": 9,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2004-01-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3732224",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2004",
+  "body": "pga",
+  "season": 2004,
+  "film_year": 2003,
+  "name": "15th Producers Guild of America Awards",
+  "ordinal": 15,
+  "categories": [
+   "pga"
+  ],
+  "date": "2004-01-17",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4239281",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2004",
+  "body": "gg",
+  "season": 2004,
+  "film_year": 2003,
+  "name": "61st Golden Globes",
+  "ordinal": 61,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2004-01-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3599738",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2004",
+  "body": "dga",
+  "season": 2004,
+  "film_year": 2003,
+  "name": "56th Directors Guild of America Awards",
+  "ordinal": 56,
+  "categories": [
+   "dga"
+  ],
+  "date": "2004-02-07",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:11901009",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2004",
+  "body": "bafta",
+  "season": 2004,
+  "film_year": 2003,
+  "name": "57th British Academy Film Awards",
+  "ordinal": 57,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2004-02-15",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4161154",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2004",
+  "body": "wga",
+  "season": 2004,
+  "film_year": 2003,
+  "name": "56th Writers Guild of America Awards",
+  "ordinal": 56,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2004-02-21",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:5855980",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2004",
+  "body": "sag",
+  "season": 2004,
+  "film_year": 2003,
+  "name": "10th Screen Actors Guild Awards",
+  "ordinal": 10,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2004-02-22",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3267951",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2004",
+  "body": "oscar",
+  "season": 2004,
+  "film_year": 2003,
+  "name": "76th Academy Awards",
+  "ordinal": 76,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2004-02-29",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:489044",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2005",
+  "body": "cc",
+  "season": 2005,
+  "film_year": 2004,
+  "name": "10th Critics' Choice Awards",
+  "ordinal": 10,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2005-01-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3407488",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2005",
+  "body": "gg",
+  "season": 2005,
+  "film_year": 2004,
+  "name": "62nd Golden Globes",
+  "ordinal": 62,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2005-01-16",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3599882",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2005",
+  "body": "pga",
+  "season": 2005,
+  "film_year": 2004,
+  "name": "16th Producers Guild of America Awards",
+  "ordinal": 16,
+  "categories": [
+   "pga"
+  ],
+  "date": "2005-01-22",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4903725",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2005",
+  "body": "dga",
+  "season": 2005,
+  "film_year": 2004,
+  "name": "57th Directors Guild of America Awards",
+  "ordinal": 57,
+  "categories": [
+   "dga"
+  ],
+  "date": "2005-01-29",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4221339",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2005",
+  "body": "sag",
+  "season": 2005,
+  "film_year": 2004,
+  "name": "11th Screen Actors Guild Awards",
+  "ordinal": 11,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2005-02-05",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:1455737",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2005",
+  "body": "bafta",
+  "season": 2005,
+  "film_year": 2004,
+  "name": "58th British Academy Film Awards",
+  "ordinal": 58,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2005-02-12",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4160670",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2005",
+  "body": "wga",
+  "season": 2005,
+  "film_year": 2004,
+  "name": "57th Writers Guild of America Awards",
+  "ordinal": 57,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2005-02-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4243956",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2005",
+  "body": "oscar",
+  "season": 2005,
+  "film_year": 2004,
+  "name": "77th Academy Awards",
+  "ordinal": 77,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2005-02-27",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:1430732",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2006",
+  "body": "cc",
+  "season": 2006,
+  "film_year": 2005,
+  "name": "11th Critics' Choice Awards",
+  "ordinal": 11,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2006-01-09",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4193552",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2006",
+  "body": "gg",
+  "season": 2006,
+  "film_year": 2005,
+  "name": "63rd Golden Globes",
+  "ordinal": 63,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2006-01-16",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3606178",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2006",
+  "body": "pga",
+  "season": 2006,
+  "film_year": 2005,
+  "name": "17th Producers Guild of America Awards",
+  "ordinal": 17,
+  "categories": [
+   "pga"
+  ],
+  "date": "2006-01-22",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4220999",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2006",
+  "body": "dga",
+  "season": 2006,
+  "film_year": 2005,
+  "name": "58th Directors Guild of America Awards",
+  "ordinal": 58,
+  "categories": [
+   "dga"
+  ],
+  "date": "2006-01-28",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4221242",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "sag-2006",
+  "body": "sag",
+  "season": 2006,
+  "film_year": 2005,
+  "name": "12th Screen Actors Guild Awards",
+  "ordinal": 12,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2006-01-29",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:3626851",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "wga-2006",
+  "body": "wga",
+  "season": 2006,
+  "film_year": 2005,
+  "name": "58th Writers Guild of America Awards",
+  "ordinal": 58,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2006-02-04",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:63017800",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2006",
+  "body": "bafta",
+  "season": 2006,
+  "film_year": 2005,
+  "name": "59th British Academy Film Awards",
+  "ordinal": 59,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2006-02-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4142305",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2006",
+  "body": "oscar",
+  "season": 2006,
+  "film_year": 2005,
+  "name": "78th Academy Awards",
+  "ordinal": 78,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2006-03-05",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4291390",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2007",
+  "body": "cc",
+  "season": 2007,
+  "film_year": 2006,
+  "name": "12th Critics' Choice Awards",
+  "ordinal": 12,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2007-01-14",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:11541974",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2007",
+  "body": "gg",
+  "season": 2007,
+  "film_year": 2006,
+  "name": "64th Golden Globes",
+  "ordinal": 64,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2007-01-15",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:5544688",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2007",
+  "body": "pga",
+  "season": 2007,
+  "film_year": 2006,
+  "name": "18th Producers Guild of America Awards",
+  "ordinal": 18,
+  "categories": [
+   "pga"
+  ],
+  "date": "2007-01-20",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:8840989",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "sag-2007",
+  "body": "sag",
+  "season": 2007,
+  "film_year": 2006,
+  "name": "13th Screen Actors Guild Awards",
+  "ordinal": 13,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2007-01-28",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:8753809",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2007",
+  "body": "dga",
+  "season": 2007,
+  "film_year": 2006,
+  "name": "59th Directors Guild of America Awards",
+  "ordinal": 59,
+  "categories": [
+   "dga"
+  ],
+  "date": "2007-02-03",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:8843176",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2007",
+  "body": "bafta",
+  "season": 2007,
+  "film_year": 2006,
+  "name": "60th British Academy Film Awards",
+  "ordinal": 60,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2007-02-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:8884927",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2007",
+  "body": "wga",
+  "season": 2007,
+  "film_year": 2006,
+  "name": "59th Writers Guild of America Awards",
+  "ordinal": 59,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2007-02-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:8878084",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2007",
+  "body": "oscar",
+  "season": 2007,
+  "film_year": 2006,
+  "name": "79th Academy Awards",
+  "ordinal": 79,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2007-02-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:4292687",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2008",
+  "body": "cc",
+  "season": 2008,
+  "film_year": 2007,
+  "name": "13th Critics' Choice Awards",
+  "ordinal": 13,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2008-01-07",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:14661573",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2008",
+  "body": "gg",
+  "season": 2008,
+  "film_year": 2007,
+  "name": "65th Golden Globes",
+  "ordinal": 65,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2008-01-14",
+  "date_note": "작가 파업으로 시상식 없이 기자회견으로 수상자 발표.",
+  "date_basis": "Wikipedia '65th Golden Globe Awards' lead text",
+  "source_id": "wp:12649606",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2008",
+  "body": "dga",
+  "season": 2008,
+  "film_year": 2007,
+  "name": "60th Directors Guild of America Awards",
+  "ordinal": 60,
+  "categories": [
+   "dga"
+  ],
+  "date": "2008-01-26",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:15122697",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2008",
+  "body": "sag",
+  "season": 2008,
+  "film_year": 2007,
+  "name": "14th Screen Actors Guild Awards",
+  "ordinal": 14,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2008-01-27",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:14810899",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2008",
+  "body": "pga",
+  "season": 2008,
+  "film_year": 2007,
+  "name": "19th Producers Guild of America Awards",
+  "ordinal": 19,
+  "categories": [
+   "pga"
+  ],
+  "date": "2008-02-02",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:15232095",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2008",
+  "body": "wga",
+  "season": 2008,
+  "film_year": 2007,
+  "name": "60th Writers Guild of America Awards",
+  "ordinal": 60,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2008-02-09",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:14688159",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2008",
+  "body": "bafta",
+  "season": 2008,
+  "film_year": 2007,
+  "name": "61st British Academy Film Awards",
+  "ordinal": 61,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2008-02-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:10917619",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2008",
+  "body": "oscar",
+  "season": 2008,
+  "film_year": 2007,
+  "name": "80th Academy Awards",
+  "ordinal": 80,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2008-02-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:9304675",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2009",
+  "body": "cc",
+  "season": 2009,
+  "film_year": 2008,
+  "name": "14th Critics' Choice Awards",
+  "ordinal": 14,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2009-01-08",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:20617384",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2009",
+  "body": "gg",
+  "season": 2009,
+  "film_year": 2008,
+  "name": "66th Golden Globes",
+  "ordinal": 66,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2009-01-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:17089832",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2009",
+  "body": "pga",
+  "season": 2009,
+  "film_year": 2008,
+  "name": "20th Producers Guild of America Awards",
+  "ordinal": 20,
+  "categories": [
+   "pga"
+  ],
+  "date": "2009-01-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:20974074",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2009",
+  "body": "sag",
+  "season": 2009,
+  "film_year": 2008,
+  "name": "15th Screen Actors Guild Awards",
+  "ordinal": 15,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2009-01-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:20758713",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2009",
+  "body": "dga",
+  "season": 2009,
+  "film_year": 2008,
+  "name": "61st Directors Guild of America Awards",
+  "ordinal": 61,
+  "categories": [
+   "dga"
+  ],
+  "date": "2009-01-31",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:21050252",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2009",
+  "body": "wga",
+  "season": 2009,
+  "film_year": 2008,
+  "name": "61st Writers Guild of America Awards",
+  "ordinal": 61,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2009-02-07",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:18806526",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2009",
+  "body": "bafta",
+  "season": 2009,
+  "film_year": 2008,
+  "name": "62nd British Academy Film Awards",
+  "ordinal": 62,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2009-02-08",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:20891863",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2009",
+  "body": "oscar",
+  "season": 2009,
+  "film_year": 2008,
+  "name": "81st Academy Awards",
+  "ordinal": 81,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2009-02-22",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:15933094",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2010",
+  "body": "cc",
+  "season": 2010,
+  "film_year": 2009,
+  "name": "15th Critics' Choice Awards",
+  "ordinal": 15,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2010-01-15",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:25436136",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2010",
+  "body": "gg",
+  "season": 2010,
+  "film_year": 2009,
+  "name": "67th Golden Globes",
+  "ordinal": 67,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2010-01-17",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:22450752",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "sag-2010",
+  "body": "sag",
+  "season": 2010,
+  "film_year": 2009,
+  "name": "16th Screen Actors Guild Awards",
+  "ordinal": 16,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2010-01-23",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:24870283",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2010",
+  "body": "pga",
+  "season": 2010,
+  "film_year": 2009,
+  "name": "21st Producers Guild of America Awards",
+  "ordinal": 21,
+  "categories": [
+   "pga"
+  ],
+  "date": "2010-01-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:25694603",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2010",
+  "body": "dga",
+  "season": 2010,
+  "film_year": 2009,
+  "name": "62nd Directors Guild of America Awards",
+  "ordinal": 62,
+  "categories": [
+   "dga"
+  ],
+  "date": "2010-01-30",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:30357629",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "wga-2010",
+  "body": "wga",
+  "season": 2010,
+  "film_year": 2009,
+  "name": "62nd Writers Guild of America Awards",
+  "ordinal": 62,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2010-02-20",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:25655352",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2010",
+  "body": "bafta",
+  "season": 2010,
+  "film_year": 2009,
+  "name": "63rd British Academy Film Awards",
+  "ordinal": 63,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2010-02-21",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:25769493",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2010",
+  "body": "oscar",
+  "season": 2010,
+  "film_year": 2009,
+  "name": "82nd Academy Awards",
+  "ordinal": 82,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2010-03-07",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:21089250",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2011",
+  "body": "cc",
+  "season": 2011,
+  "film_year": 2010,
+  "name": "16th Critics' Choice Awards",
+  "ordinal": 16,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2011-01-14",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:30034488",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2011",
+  "body": "gg",
+  "season": 2011,
+  "film_year": 2010,
+  "name": "68th Golden Globes",
+  "ordinal": 68,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2011-01-16",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:30048173",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2011",
+  "body": "pga",
+  "season": 2011,
+  "film_year": 2010,
+  "name": "22nd Producers Guild of America Awards",
+  "ordinal": 22,
+  "categories": [
+   "pga"
+  ],
+  "date": "2011-01-22",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:30339228",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2011",
+  "body": "dga",
+  "season": 2011,
+  "film_year": 2010,
+  "name": "63rd Directors Guild of America Awards",
+  "ordinal": 63,
+  "categories": [
+   "dga"
+  ],
+  "date": "2011-01-29",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:30407281",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2011",
+  "body": "sag",
+  "season": 2011,
+  "film_year": 2010,
+  "name": "17th Screen Actors Guild Awards",
+  "ordinal": 17,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2011-01-30",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:30076789",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2011",
+  "body": "wga",
+  "season": 2011,
+  "film_year": 2010,
+  "name": "63rd Writers Guild of America Awards",
+  "ordinal": 63,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2011-02-05",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:30339385",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2011",
+  "body": "bafta",
+  "season": 2011,
+  "film_year": 2010,
+  "name": "64th British Academy Film Awards",
+  "ordinal": 64,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2011-02-13",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:26283694",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2011",
+  "body": "oscar",
+  "season": 2011,
+  "film_year": 2010,
+  "name": "83rd Academy Awards",
+  "ordinal": 83,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2011-02-27",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:23576552",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2012",
+  "body": "cc",
+  "season": 2012,
+  "film_year": 2011,
+  "name": "17th Critics' Choice Awards",
+  "ordinal": 17,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2012-01-12",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:34048984",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2012",
+  "body": "gg",
+  "season": 2012,
+  "film_year": 2011,
+  "name": "69th Golden Globes",
+  "ordinal": 69,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2012-01-15",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:33911734",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2012",
+  "body": "pga",
+  "season": 2012,
+  "film_year": 2011,
+  "name": "23rd Producers Guild of America Awards",
+  "ordinal": 23,
+  "categories": [
+   "pga"
+  ],
+  "date": "2012-01-21",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:34245471",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2012",
+  "body": "dga",
+  "season": 2012,
+  "film_year": 2011,
+  "name": "64th Directors Guild of America Awards",
+  "ordinal": 64,
+  "categories": [
+   "dga"
+  ],
+  "date": "2012-01-28",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:34581258",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2012",
+  "body": "sag",
+  "season": 2012,
+  "film_year": 2011,
+  "name": "18th Screen Actors Guild Awards",
+  "ordinal": 18,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2012-01-29",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:34059310",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2012",
+  "body": "bafta",
+  "season": 2012,
+  "film_year": 2011,
+  "name": "65th British Academy Film Awards",
+  "ordinal": 65,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2012-02-12",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:34406578",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2012",
+  "body": "wga",
+  "season": 2012,
+  "film_year": 2011,
+  "name": "64th Writers Guild of America Awards",
+  "ordinal": 64,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2012-02-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:33993928",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2012",
+  "body": "oscar",
+  "season": 2012,
+  "film_year": 2011,
+  "name": "84th Academy Awards",
+  "ordinal": 84,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2012-02-26",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:23576558",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2013",
+  "body": "cc",
+  "season": 2013,
+  "film_year": 2012,
+  "name": "18th Critics' Choice Awards",
+  "ordinal": 18,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2013-01-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:37896029",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2013",
+  "body": "gg",
+  "season": 2013,
+  "film_year": 2012,
+  "name": "70th Golden Globes",
+  "ordinal": 70,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2013-01-13",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:34398746",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2013",
+  "body": "pga",
+  "season": 2013,
+  "film_year": 2012,
+  "name": "24th Producers Guild of America Awards",
+  "ordinal": 24,
+  "categories": [
+   "pga"
+  ],
+  "date": "2013-01-26",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:38316111",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2013",
+  "body": "sag",
+  "season": 2013,
+  "film_year": 2012,
+  "name": "19th Screen Actors Guild Awards",
+  "ordinal": 19,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2013-01-27",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:37915137",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2013",
+  "body": "dga",
+  "season": 2013,
+  "film_year": 2012,
+  "name": "65th Directors Guild of America Awards",
+  "ordinal": 65,
+  "categories": [
+   "dga"
+  ],
+  "date": "2013-02-02",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:38457012",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2013",
+  "body": "bafta",
+  "season": 2013,
+  "film_year": 2012,
+  "name": "66th British Academy Film Awards",
+  "ordinal": 66,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2013-02-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:38149337",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2013",
+  "body": "wga",
+  "season": 2013,
+  "film_year": 2012,
+  "name": "65th Writers Guild of America Awards",
+  "ordinal": 65,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2013-02-17",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:38114177",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2013",
+  "body": "oscar",
+  "season": 2013,
+  "film_year": 2012,
+  "name": "85th Academy Awards",
+  "ordinal": 85,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2013-02-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:26208244",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2014",
+  "body": "gg",
+  "season": 2014,
+  "film_year": 2013,
+  "name": "71st Golden Globes",
+  "ordinal": 71,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2014-01-12",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:40758764",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2014",
+  "body": "cc",
+  "season": 2014,
+  "film_year": 2013,
+  "name": "19th Critics' Choice Awards",
+  "ordinal": 19,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2014-01-16",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:41383120",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2014",
+  "body": "sag",
+  "season": 2014,
+  "film_year": 2013,
+  "name": "20th Screen Actors Guild Awards",
+  "ordinal": 20,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2014-01-18",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:41337432",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2014",
+  "body": "pga",
+  "season": 2014,
+  "film_year": 2013,
+  "name": "25th Producers Guild of America Awards",
+  "ordinal": 25,
+  "categories": [
+   "pga"
+  ],
+  "date": "2014-01-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:41531159",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2014",
+  "body": "dga",
+  "season": 2014,
+  "film_year": 2013,
+  "name": "66th Directors Guild of America Awards",
+  "ordinal": 66,
+  "categories": [
+   "dga"
+  ],
+  "date": "2014-01-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:41577273",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2014",
+  "body": "wga",
+  "season": 2014,
+  "film_year": 2013,
+  "name": "66th Writers Guild of America Awards",
+  "ordinal": 66,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2014-02-01",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:41540972",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2014",
+  "body": "bafta",
+  "season": 2014,
+  "film_year": 2013,
+  "name": "67th British Academy Film Awards",
+  "ordinal": 67,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2014-02-16",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:41356485",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2014",
+  "body": "oscar",
+  "season": 2014,
+  "film_year": 2013,
+  "name": "86th Academy Awards",
+  "ordinal": 86,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2014-03-02",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:26821361",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2015",
+  "body": "gg",
+  "season": 2015,
+  "film_year": 2014,
+  "name": "72nd Golden Globes",
+  "ordinal": 72,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2015-01-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:44649449",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2015",
+  "body": "cc",
+  "season": 2015,
+  "film_year": 2014,
+  "name": "20th Critics' Choice Awards",
+  "ordinal": 20,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2015-01-15",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:44733741",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2015",
+  "body": "pga",
+  "season": 2015,
+  "film_year": 2014,
+  "name": "26th Producers Guild of America Awards",
+  "ordinal": 26,
+  "categories": [
+   "pga"
+  ],
+  "date": "2015-01-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:42968306",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2015",
+  "body": "sag",
+  "season": 2015,
+  "film_year": 2014,
+  "name": "21st Screen Actors Guild Awards",
+  "ordinal": 21,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2015-01-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:44522397",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2015",
+  "body": "dga",
+  "season": 2015,
+  "film_year": 2014,
+  "name": "67th Directors Guild of America Awards",
+  "ordinal": 67,
+  "categories": [
+   "dga"
+  ],
+  "date": "2015-02-07",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:45040269",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2015",
+  "body": "bafta",
+  "season": 2015,
+  "film_year": 2014,
+  "name": "68th British Academy Film Awards",
+  "ordinal": 68,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2015-02-08",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:44866404",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2015",
+  "body": "wga",
+  "season": 2015,
+  "film_year": 2014,
+  "name": "67th Writers Guild of America Awards",
+  "ordinal": 67,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2015-02-14",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:44968026",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2015",
+  "body": "oscar",
+  "season": 2015,
+  "film_year": 2014,
+  "name": "87th Academy Awards",
+  "ordinal": 87,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2015-02-22",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:42681558",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2016",
+  "body": "gg",
+  "season": 2016,
+  "film_year": 2015,
+  "name": "73rd Golden Globes",
+  "ordinal": 73,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2016-01-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:48188371",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2016",
+  "body": "cc",
+  "season": 2016,
+  "film_year": 2015,
+  "name": "21st Critics' Choice Awards",
+  "ordinal": 21,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2016-01-17",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:48819956",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2016",
+  "body": "pga",
+  "season": 2016,
+  "film_year": 2015,
+  "name": "27th Producers Guild of America Awards",
+  "ordinal": 27,
+  "categories": [
+   "pga"
+  ],
+  "date": "2016-01-23",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:48764573",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2016",
+  "body": "sag",
+  "season": 2016,
+  "film_year": 2015,
+  "name": "22nd Screen Actors Guild Awards",
+  "ordinal": 22,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2016-01-30",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:48189551",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2016",
+  "body": "dga",
+  "season": 2016,
+  "film_year": 2015,
+  "name": "68th Directors Guild of America Awards",
+  "ordinal": 68,
+  "categories": [
+   "dga"
+  ],
+  "date": "2016-02-06",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:49079631",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2016",
+  "body": "wga",
+  "season": 2016,
+  "film_year": 2015,
+  "name": "68th Writers Guild of America Awards",
+  "ordinal": 68,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2016-02-13",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:48776098",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2016",
+  "body": "bafta",
+  "season": 2016,
+  "film_year": 2015,
+  "name": "69th British Academy Film Awards",
+  "ordinal": 69,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2016-02-14",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:48189274",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2016",
+  "body": "oscar",
+  "season": 2016,
+  "film_year": 2015,
+  "name": "88th Academy Awards",
+  "ordinal": 88,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2016-02-28",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:46392016",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2017",
+  "body": "cc",
+  "season": 2017,
+  "film_year": 2016,
+  "name": "22nd Critics' Choice Awards",
+  "ordinal": 22,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2016-12-11",
+  "date_note": "예년보다 한 달 이른 12월 개최.",
+  "date_basis": "Wikipedia '22nd Critics' Choice Awards' infobox",
+  "source_id": "wp:52314490",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2017",
+  "body": "gg",
+  "season": 2017,
+  "film_year": 2016,
+  "name": "74th Golden Globes",
+  "ordinal": 74,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2017-01-08",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:49064276",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2017",
+  "body": "pga",
+  "season": 2017,
+  "film_year": 2016,
+  "name": "28th Producers Guild of America Awards",
+  "ordinal": 28,
+  "categories": [
+   "pga"
+  ],
+  "date": "2017-01-28",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:52386565",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2017",
+  "body": "sag",
+  "season": 2017,
+  "film_year": 2016,
+  "name": "23rd Screen Actors Guild Awards",
+  "ordinal": 23,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2017-01-29",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:52469421",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2017",
+  "body": "dga",
+  "season": 2017,
+  "film_year": 2016,
+  "name": "69th Directors Guild of America Awards",
+  "ordinal": 69,
+  "categories": [
+   "dga"
+  ],
+  "date": "2017-02-04",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:52839439",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2017",
+  "body": "bafta",
+  "season": 2017,
+  "film_year": 2016,
+  "name": "70th British Academy Film Awards",
+  "ordinal": 70,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2017-02-12",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:49438909",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2017",
+  "body": "wga",
+  "season": 2017,
+  "film_year": 2016,
+  "name": "69th Writers Guild of America Awards",
+  "ordinal": 69,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2017-02-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:52508125",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2017",
+  "body": "oscar",
+  "season": 2017,
+  "film_year": 2016,
+  "name": "89th Academy Awards",
+  "ordinal": 89,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2017-02-26",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:49329502",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2018",
+  "body": "gg",
+  "season": 2018,
+  "film_year": 2017,
+  "name": "75th Golden Globes",
+  "ordinal": 75,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2018-01-07",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:55778277",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2018",
+  "body": "cc",
+  "season": 2018,
+  "film_year": 2017,
+  "name": "23rd Critics' Choice Awards",
+  "ordinal": 23,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2018-01-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:55778619",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2018",
+  "body": "pga",
+  "season": 2018,
+  "film_year": 2017,
+  "name": "29th Producers Guild of America Awards",
+  "ordinal": 29,
+  "categories": [
+   "pga"
+  ],
+  "date": "2018-01-20",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:55853722",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "sag-2018",
+  "body": "sag",
+  "season": 2018,
+  "film_year": 2017,
+  "name": "24th Screen Actors Guild Awards",
+  "ordinal": 24,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2018-01-21",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:54430328",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2018",
+  "body": "dga",
+  "season": 2018,
+  "film_year": 2017,
+  "name": "70th Directors Guild of America Awards",
+  "ordinal": 70,
+  "categories": [
+   "dga"
+  ],
+  "date": "2018-02-03",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:56268942",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2018",
+  "body": "wga",
+  "season": 2018,
+  "film_year": 2017,
+  "name": "70th Writers Guild of America Awards",
+  "ordinal": 70,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2018-02-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:55992479",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2018",
+  "body": "bafta",
+  "season": 2018,
+  "film_year": 2017,
+  "name": "71st British Academy Film Awards",
+  "ordinal": 71,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2018-02-18",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:55778477",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2018",
+  "body": "oscar",
+  "season": 2018,
+  "film_year": 2017,
+  "name": "90th Academy Awards",
+  "ordinal": 90,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2018-03-04",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:53693478",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2019",
+  "body": "gg",
+  "season": 2019,
+  "film_year": 2018,
+  "name": "76th Golden Globes",
+  "ordinal": 76,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2019-01-06",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:59225375",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2019",
+  "body": "cc",
+  "season": 2019,
+  "film_year": 2018,
+  "name": "24th Critics' Choice Awards",
+  "ordinal": 24,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2019-01-13",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:59338626",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2019",
+  "body": "pga",
+  "season": 2019,
+  "film_year": 2018,
+  "name": "30th Producers Guild of America Awards",
+  "ordinal": 30,
+  "categories": [
+   "pga"
+  ],
+  "date": "2019-01-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:59136908",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "sag-2019",
+  "body": "sag",
+  "season": 2019,
+  "film_year": 2018,
+  "name": "25th Screen Actors Guild Awards",
+  "ordinal": 25,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2019-01-27",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:59209323",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2019",
+  "body": "dga",
+  "season": 2019,
+  "film_year": 2018,
+  "name": "71st Directors Guild of America Awards",
+  "ordinal": 71,
+  "categories": [
+   "dga"
+  ],
+  "date": "2019-02-02",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:59594087",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2019",
+  "body": "bafta",
+  "season": 2019,
+  "film_year": 2018,
+  "name": "72nd British Academy Film Awards",
+  "ordinal": 72,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2019-02-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:59537334",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2019",
+  "body": "wga",
+  "season": 2019,
+  "film_year": 2018,
+  "name": "71st Writers Guild of America Awards",
+  "ordinal": 71,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2019-02-17",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:59322753",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2019",
+  "body": "oscar",
+  "season": 2019,
+  "film_year": 2018,
+  "name": "91st Academy Awards",
+  "ordinal": 91,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2019-02-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:57829408",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2020",
+  "body": "gg",
+  "season": 2020,
+  "film_year": 2019,
+  "name": "77th Golden Globes",
+  "ordinal": 77,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2020-01-05",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:62328235",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2020",
+  "body": "cc",
+  "season": 2020,
+  "film_year": 2019,
+  "name": "25th Critics' Choice Awards",
+  "ordinal": 25,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2020-01-12",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:62534062",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "pga-2020",
+  "body": "pga",
+  "season": 2020,
+  "film_year": 2019,
+  "name": "31st Producers Guild of America Awards",
+  "ordinal": 31,
+  "categories": [
+   "pga"
+  ],
+  "date": "2020-01-18",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:62414073",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2020",
+  "body": "sag",
+  "season": 2020,
+  "film_year": 2019,
+  "name": "26th Screen Actors Guild Awards",
+  "ordinal": 26,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2020-01-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:62559658",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2020",
+  "body": "dga",
+  "season": 2020,
+  "film_year": 2019,
+  "name": "72nd Directors Guild of America Awards",
+  "ordinal": 72,
+  "categories": [
+   "dga"
+  ],
+  "date": "2020-01-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:62753392",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2020",
+  "body": "wga",
+  "season": 2020,
+  "film_year": 2019,
+  "name": "72nd Writers Guild of America Awards",
+  "ordinal": 72,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2020-02-01",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:61355341",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2020",
+  "body": "bafta",
+  "season": 2020,
+  "film_year": 2019,
+  "name": "73rd British Academy Film Awards",
+  "ordinal": 73,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2020-02-02",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:62535591",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2020",
+  "body": "oscar",
+  "season": 2020,
+  "film_year": 2019,
+  "name": "92nd Academy Awards",
+  "ordinal": 92,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2020-02-09",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:60066429",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2021",
+  "body": "gg",
+  "season": 2021,
+  "film_year": 2020,
+  "name": "78th Golden Globes",
+  "ordinal": 78,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2021-02-28",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:63036891",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2021",
+  "body": "cc",
+  "season": 2021,
+  "film_year": 2020,
+  "name": "26th Critics' Choice Awards",
+  "ordinal": 26,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2021-03-07",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:66434230",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "wga-2021",
+  "body": "wga",
+  "season": 2021,
+  "film_year": 2020,
+  "name": "73rd Writers Guild of America Awards",
+  "ordinal": 73,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2021-03-21",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:66613360",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2021",
+  "body": "pga",
+  "season": 2021,
+  "film_year": 2020,
+  "name": "32nd Producers Guild of America Awards",
+  "ordinal": 32,
+  "categories": [
+   "pga"
+  ],
+  "date": "2021-03-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:66604519",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2021",
+  "body": "sag",
+  "season": 2021,
+  "film_year": 2020,
+  "name": "27th Screen Actors Guild Awards",
+  "ordinal": 27,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2021-04-04",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:66533125",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2021",
+  "body": "dga",
+  "season": 2021,
+  "film_year": 2020,
+  "name": "73rd Directors Guild of America Awards",
+  "ordinal": 73,
+  "categories": [
+   "dga"
+  ],
+  "date": "2021-04-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:66946785",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2021",
+  "body": "bafta",
+  "season": 2021,
+  "film_year": 2020,
+  "name": "74th British Academy Film Awards",
+  "ordinal": 74,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2021-04-11",
+  "date_note": "이틀 개최(4/10 개막 행사, 4/11 본 시상식). 인포박스가 두 날짜를 모두 적고 본 시상식 진행자를 따로 명시하므로 작품상은 본 시상식 날짜(4/11)로 기록.",
+  "date_basis": "Wikipedia '74th British Academy Film Awards' infobox (10–11 April 2021; Opening Night / Main ceremony hosts)",
+  "source_id": "wp:66420488",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2021",
+  "body": "oscar",
+  "season": 2021,
+  "film_year": 2020,
+  "name": "93rd Academy Awards",
+  "ordinal": 93,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2021-04-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:63807881",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2022",
+  "body": "gg",
+  "season": 2022,
+  "film_year": 2021,
+  "name": "79th Golden Globes",
+  "ordinal": 79,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2022-01-09",
+  "date_note": "방송·관객 없이 비공개로 진행(HFPA 보이콧 여파).",
+  "date_basis": "Wikipedia '79th Golden Globe Awards' lead text",
+  "source_id": "wp:69038403",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "sag-2022",
+  "body": "sag",
+  "season": 2022,
+  "film_year": 2021,
+  "name": "28th Screen Actors Guild Awards",
+  "ordinal": 28,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2022-02-27",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:67579229",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2022",
+  "body": "dga",
+  "season": 2022,
+  "film_year": 2021,
+  "name": "74th Directors Guild of America Awards",
+  "ordinal": 74,
+  "categories": [
+   "dga"
+  ],
+  "date": "2022-03-12",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:67042855",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2022",
+  "body": "bafta",
+  "season": 2022,
+  "film_year": 2021,
+  "name": "75th British Academy Film Awards",
+  "ordinal": 75,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2022-03-13",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:69819521",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2022",
+  "body": "cc",
+  "season": 2022,
+  "film_year": 2021,
+  "name": "27th Critics' Choice Awards",
+  "ordinal": 27,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2022-03-13",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:69450792",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2022",
+  "body": "pga",
+  "season": 2022,
+  "film_year": 2021,
+  "name": "33rd Producers Guild of America Awards",
+  "ordinal": 33,
+  "categories": [
+   "pga"
+  ],
+  "date": "2022-03-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:69480805",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2022",
+  "body": "wga",
+  "season": 2022,
+  "film_year": 2021,
+  "name": "74th Writers Guild of America Awards",
+  "ordinal": 74,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2022-03-20",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:69768252",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2022",
+  "body": "oscar",
+  "season": 2022,
+  "film_year": 2021,
+  "name": "94th Academy Awards",
+  "ordinal": 94,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2022-03-27",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:67454547",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2023",
+  "body": "gg",
+  "season": 2023,
+  "film_year": 2022,
+  "name": "80th Golden Globes",
+  "ordinal": 80,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2023-01-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:71806234",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2023",
+  "body": "cc",
+  "season": 2023,
+  "film_year": 2022,
+  "name": "28th Critics' Choice Awards",
+  "ordinal": 28,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2023-01-15",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:71366110",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2023",
+  "body": "dga",
+  "season": 2023,
+  "film_year": 2022,
+  "name": "75th Directors Guild of America Awards",
+  "ordinal": 75,
+  "categories": [
+   "dga"
+  ],
+  "date": "2023-02-18",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:71879471",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2023",
+  "body": "bafta",
+  "season": 2023,
+  "film_year": 2022,
+  "name": "76th British Academy Film Awards",
+  "ordinal": 76,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2023-02-19",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:72774262",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2023",
+  "body": "pga",
+  "season": 2023,
+  "film_year": 2022,
+  "name": "34th Producers Guild of America Awards",
+  "ordinal": 34,
+  "categories": [
+   "pga"
+  ],
+  "date": "2023-02-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:72449900",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2023",
+  "body": "sag",
+  "season": 2023,
+  "film_year": 2022,
+  "name": "29th Screen Actors Guild Awards",
+  "ordinal": 29,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2023-02-26",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:71879520",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2023",
+  "body": "wga",
+  "season": 2023,
+  "film_year": 2022,
+  "name": "75th Writers Guild of America Awards",
+  "ordinal": 75,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2023-03-05",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:72744854",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2023",
+  "body": "oscar",
+  "season": 2023,
+  "film_year": 2022,
+  "name": "95th Academy Awards",
+  "ordinal": 95,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2023-03-12",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:70760262",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2024",
+  "body": "gg",
+  "season": 2024,
+  "film_year": 2023,
+  "name": "81st Golden Globes",
+  "ordinal": 81,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2024-01-07",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:75343509",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2024",
+  "body": "cc",
+  "season": 2024,
+  "film_year": 2023,
+  "name": "29th Critics' Choice Awards",
+  "ordinal": 29,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2024-01-14",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:75355254",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2024",
+  "body": "dga",
+  "season": 2024,
+  "film_year": 2023,
+  "name": "76th Directors Guild of America Awards",
+  "ordinal": 76,
+  "categories": [
+   "dga"
+  ],
+  "date": "2024-02-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:75642377",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2024",
+  "body": "bafta",
+  "season": 2024,
+  "film_year": 2023,
+  "name": "77th British Academy Film Awards",
+  "ordinal": 77,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2024-02-18",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:75622611",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2024",
+  "body": "sag",
+  "season": 2024,
+  "film_year": 2023,
+  "name": "30th Screen Actors Guild Awards",
+  "ordinal": 30,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2024-02-24",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:75528212",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2024",
+  "body": "pga",
+  "season": 2024,
+  "film_year": 2023,
+  "name": "35th Producers Guild of America Awards",
+  "ordinal": 35,
+  "categories": [
+   "pga"
+  ],
+  "date": "2024-02-25",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:75518326",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2024",
+  "body": "oscar",
+  "season": 2024,
+  "film_year": 2023,
+  "name": "96th Academy Awards",
+  "ordinal": 96,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2024-03-10",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:73288677",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2024",
+  "body": "wga",
+  "season": 2024,
+  "film_year": 2023,
+  "name": "76th Writers Guild of America Awards",
+  "ordinal": 76,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2024-04-14",
+  "date_note": "오스카(2024-03-10) 이후 개최 — 이 시즌의 WGA는 오스카 전 지표가 아니었음.",
+  "date_basis": "Wikipedia '76th Writers Guild of America Awards' infobox",
+  "source_id": "wp:75703605",
+  "after_oscars": true,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "gg-2025",
+  "body": "gg",
+  "season": 2025,
+  "film_year": 2024,
+  "name": "82nd Golden Globes",
+  "ordinal": 82,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2025-01-05",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:78501381",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "cc-2025",
+  "body": "cc",
+  "season": 2025,
+  "film_year": 2024,
+  "name": "30th Critics' Choice Awards",
+  "ordinal": 30,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2025-02-07",
+  "date_note": "원래 1/12 예정이었으나 남부 캘리포니아 산불로 두 차례 연기.",
+  "date_basis": "Wikipedia '30th Critics' Choice Awards' lead text",
+  "source_id": "wp:78533558",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "dga-2025",
+  "body": "dga",
+  "season": 2025,
+  "film_year": 2024,
+  "name": "77th Directors Guild of America Awards",
+  "ordinal": 77,
+  "categories": [
+   "dga"
+  ],
+  "date": "2025-02-08",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:78825417",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2025",
+  "body": "pga",
+  "season": 2025,
+  "film_year": 2024,
+  "name": "36th Producers Guild of America Awards",
+  "ordinal": 36,
+  "categories": [
+   "pga"
+  ],
+  "date": "2025-02-08",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:78465557",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2025",
+  "body": "wga",
+  "season": 2025,
+  "film_year": 2024,
+  "name": "77th Writers Guild of America Awards",
+  "ordinal": 77,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2025-02-15",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:78894484",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2025",
+  "body": "bafta",
+  "season": 2025,
+  "film_year": 2024,
+  "name": "78th British Academy Film Awards",
+  "ordinal": 78,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2025-02-16",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:78560813",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2025",
+  "body": "sag",
+  "season": 2025,
+  "film_year": 2024,
+  "name": "31st Screen Actors Guild Awards",
+  "ordinal": 31,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2025-02-23",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:78836494",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2025",
+  "body": "oscar",
+  "season": 2025,
+  "film_year": 2024,
+  "name": "97th Academy Awards",
+  "ordinal": 97,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2025-03-02",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:76577279",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "cc-2026",
+  "body": "cc",
+  "season": 2026,
+  "film_year": 2025,
+  "name": "31st Critics' Choice Awards",
+  "ordinal": 31,
+  "categories": [
+   "cc_picture"
+  ],
+  "date": "2026-01-04",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:81771370",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "gg-2026",
+  "body": "gg",
+  "season": 2026,
+  "film_year": 2025,
+  "name": "83rd Golden Globes",
+  "ordinal": 83,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "date": "2026-01-11",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:81659305",
+  "after_oscars": false,
+  "before_oscar_nominations": true
+ },
+ {
+  "id": "dga-2026",
+  "body": "dga",
+  "season": 2026,
+  "film_year": 2025,
+  "name": "78th Directors Guild of America Awards",
+  "ordinal": 78,
+  "categories": [
+   "dga"
+  ],
+  "date": "2026-02-07",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:82053722",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "bafta-2026",
+  "body": "bafta",
+  "season": 2026,
+  "film_year": 2025,
+  "name": "79th British Academy Film Awards",
+  "ordinal": 79,
+  "categories": [
+   "bafta_film"
+  ],
+  "date": "2026-02-22",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:82230921",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "pga-2026",
+  "body": "pga",
+  "season": 2026,
+  "film_year": 2025,
+  "name": "37th Producers Guild of America Awards",
+  "ordinal": 37,
+  "categories": [
+   "pga"
+  ],
+  "date": "2026-02-28",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:81657062",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "sag-2026",
+  "body": "sag",
+  "season": 2026,
+  "film_year": 2025,
+  "name": "32nd Actor Awards",
+  "ordinal": 32,
+  "categories": [
+   "sag_ensemble"
+  ],
+  "date": "2026-03-01",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:82055807",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "wga-2026",
+  "body": "wga",
+  "season": 2026,
+  "film_year": 2025,
+  "name": "78th Writers Guild of America Awards",
+  "ordinal": 78,
+  "categories": [
+   "wga_adapted",
+   "wga_original"
+  ],
+  "date": "2026-03-08",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:82048242",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ },
+ {
+  "id": "oscar-2026",
+  "body": "oscar",
+  "season": 2026,
+  "film_year": 2025,
+  "name": "98th Academy Awards",
+  "ordinal": 98,
+  "categories": [
+   "oscar_bp"
+  ],
+  "date": "2026-03-15",
+  "date_note": null,
+  "date_basis": "Wikipedia ceremony page infobox",
+  "source_id": "wp:79369474",
+  "after_oscars": false,
+  "before_oscar_nominations": false
+ }
+]

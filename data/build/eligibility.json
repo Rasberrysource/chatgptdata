@@ -1,0 +1,212 @@
+[
+ {
+  "film_id": "Q273978",
+  "season": 2001,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film winner (58th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q484048",
+  "season": 2002,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film nominee (59th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q309246",
+  "season": 2005,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film nominee (62nd Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q275187",
+  "season": 2007,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film winner (64th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q153882",
+  "season": 2007,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film nominee (64th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q472600",
+  "season": 2008,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film winner (65th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q1057045",
+  "season": 2008,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film nominee (65th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q637820",
+  "season": 2013,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film winner (70th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q27959455",
+  "season": 2019,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film winner (76th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q61448040",
+  "season": 2020,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film winner (77th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q65679599",
+  "season": 2021,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film winner (78th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q107107865",
+  "season": 2022,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film winner (79th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q108837349",
+  "season": 2023,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film nominee (80th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ },
+ {
+  "film_id": "Q60424165",
+  "season": 2023,
+  "categories": [
+   "gg_drama",
+   "gg_musical_comedy"
+  ],
+  "status": "ineligible",
+  "rule": "골든글로브는 대사의 50% 넘게 영어가 아닌 영화를 외국어영화로 분류해 작품상(드라마/뮤지컬·코미디) 부문에서 제외했다. 제81회(2024 시상)부터 비영어 영화도 작품상 부문 후보가 될 수 있게 바뀌었다.",
+  "evidence": "Golden Globe foreign-language film nominee (80th Golden Globe Awards)",
+  "source_ids": [
+   "wp:1476746",
+   "rule:gg_non_english"
+  ]
+ }
+]

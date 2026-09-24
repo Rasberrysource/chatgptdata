@@ -1,0 +1,1273 @@
+{
+ "generated_from": "2026-09-24T13:48:59Z",
+ "rules": {
+  "core_bodies": [
+   "pga",
+   "dga",
+   "sag",
+   "bafta",
+   "gg",
+   "cc"
+  ],
+  "screenplay_indicator": [
+   "wga"
+  ],
+  "precursor_win": "a film 'wins' a body if it won that body's top category (Golden Globes: either picture category)",
+  "leader": "films with the most core-body wins among ceremonies held so far (ties = co-leaders); ceremonies after the Oscars are not counted",
+  "early_leader": "leaders after the first K core ceremonies of the season (default K=2)",
+  "converged": "a single film won >= 5 core bodies (default)",
+  "split": "no film won more than 3 core bodies (default)"
+ },
+ "agreement": {
+  "pga": {
+   "match": 20,
+   "n": 27,
+   "bp_winner_nominated": 27,
+   "bp_winner_ineligible": 0,
+   "excluding_after_oscars": {
+    "match": 20,
+    "n": 27
+   },
+   "mismatches": [
+    {
+     "season": 2002,
+     "winners": [
+      "Q193573"
+     ],
+     "bp": "Q164103"
+    },
+    {
+     "season": 2005,
+     "winners": [
+      "Q201924"
+     ],
+     "bp": "Q184255"
+    },
+    {
+     "season": 2006,
+     "winners": [
+      "Q160618"
+     ],
+     "bp": "Q188000"
+    },
+    {
+     "season": 2007,
+     "winners": [
+      "Q192073"
+     ],
+     "bp": "Q172975"
+    },
+    {
+     "season": 2016,
+     "winners": [
+      "Q19850715"
+     ],
+     "bp": "Q18154496"
+    },
+    {
+     "season": 2017,
+     "winners": [
+      "Q20856802"
+     ],
+     "bp": "Q21527875"
+    },
+    {
+     "season": 2020,
+     "winners": [
+      "Q62721520"
+     ],
+     "bp": "Q61448040"
+    }
+   ]
+  },
+  "dga": {
+   "match": 19,
+   "n": 27,
+   "bp_winner_nominated": 26,
+   "bp_winner_ineligible": 0,
+   "excluding_after_oscars": {
+    "match": 19,
+    "n": 27
+   },
+   "mismatches": [
+    {
+     "season": 2001,
+     "winners": [
+      "Q273978"
+     ],
+     "bp": "Q128518"
+    },
+    {
+     "season": 2006,
+     "winners": [
+      "Q160618"
+     ],
+     "bp": "Q188000"
+    },
+    {
+     "season": 2014,
+     "winners": [
+      "Q2579784"
+     ],
+     "bp": "Q3023357"
+    },
+    {
+     "season": 2016,
+     "winners": [
+      "Q18002795"
+     ],
+     "bp": "Q18154496"
+    },
+    {
+     "season": 2017,
+     "winners": [
+      "Q20856802"
+     ],
+     "bp": "Q21527875"
+    },
+    {
+     "season": 2019,
+     "winners": [
+      "Q27959455"
+     ],
+     "bp": "Q48673898"
+    },
+    {
+     "season": 2020,
+     "winners": [
+      "Q62721520"
+     ],
+     "bp": "Q61448040"
+    },
+    {
+     "season": 2022,
+     "winners": [
+      "Q85323337"
+     ],
+     "bp": "Q104686893"
+    }
+   ]
+  },
+  "sag": {
+   "match": 14,
+   "n": 27,
+   "bp_winner_nominated": 24,
+   "bp_winner_ineligible": 0,
+   "excluding_after_oscars": {
+    "match": 14,
+    "n": 27
+   },
+   "mismatches": [
+    {
+     "season": 2001,
+     "winners": [
+      "Q142292"
+     ],
+     "bp": "Q128518"
+    },
+    {
+     "season": 2002,
+     "winners": [
+      "Q165392"
+     ],
+     "bp": "Q164103"
+    },
+    {
+     "season": 2005,
+     "winners": [
+      "Q675937"
+     ],
+     "bp": "Q184255"
+    },
+    {
+     "season": 2007,
+     "winners": [
+      "Q192073"
+     ],
+     "bp": "Q172975"
+    },
+    {
+     "season": 2010,
+     "winners": [
+      "Q153723"
+     ],
+     "bp": "Q183066"
+    },
+    {
+     "season": 2012,
+     "winners": [
+      "Q204374"
+     ],
+     "bp": "Q171861"
+    },
+    {
+     "season": 2014,
+     "winners": [
+      "Q9013673"
+     ],
+     "bp": "Q3023357"
+    },
+    {
+     "season": 2017,
+     "winners": [
+      "Q23755544"
+     ],
+     "bp": "Q21527875"
+    },
+    {
+     "season": 2018,
+     "winners": [
+      "Q24053277"
+     ],
+     "bp": "Q26698156"
+    },
+    {
+     "season": 2019,
+     "winners": [
+      "Q23780734"
+     ],
+     "bp": "Q48673898"
+    },
+    {
+     "season": 2021,
+     "winners": [
+      "Q72397975"
+     ],
+     "bp": "Q61740820"
+    },
+    {
+     "season": 2025,
+     "winners": [
+      "Q116701124"
+     ],
+     "bp": "Q123185887"
+    },
+    {
+     "season": 2026,
+     "winners": [
+      "Q125473145"
+     ],
+     "bp": "Q117085614"
+    }
+   ]
+  },
+  "bafta": {
+   "match": 12,
+   "n": 27,
+   "bp_winner_nominated": 25,
+   "bp_winner_ineligible": 0,
+   "excluding_after_oscars": {
+    "match": 11,
+    "n": 26
+   },
+   "mismatches": [
+    {
+     "season": 2002,
+     "winners": [
+      "Q127367"
+     ],
+     "bp": "Q164103"
+    },
+    {
+     "season": 2003,
+     "winners": [
+      "Q150804"
+     ],
+     "bp": "Q189889"
+    },
+    {
+     "season": 2005,
+     "winners": [
+      "Q201924"
+     ],
+     "bp": "Q184255"
+    },
+    {
+     "season": 2006,
+     "winners": [
+      "Q160618"
+     ],
+     "bp": "Q188000"
+    },
+    {
+     "season": 2007,
+     "winners": [
+      "Q223367"
+     ],
+     "bp": "Q172975"
+    },
+    {
+     "season": 2008,
+     "winners": [
+      "Q1626186"
+     ],
+     "bp": "Q183081"
+    },
+    {
+     "season": 2015,
+     "winners": [
+      "Q4103201"
+     ],
+     "bp": "Q13255497"
+    },
+    {
+     "season": 2016,
+     "winners": [
+      "Q18002795"
+     ],
+     "bp": "Q18154496"
+    },
+    {
+     "season": 2017,
+     "winners": [
+      "Q20856802"
+     ],
+     "bp": "Q21527875"
+    },
+    {
+     "season": 2018,
+     "winners": [
+      "Q24053277"
+     ],
+     "bp": "Q26698156"
+    },
+    {
+     "season": 2019,
+     "winners": [
+      "Q27959455"
+     ],
+     "bp": "Q48673898"
+    },
+    {
+     "season": 2020,
+     "winners": [
+      "Q62721520"
+     ],
+     "bp": "Q61448040"
+    },
+    {
+     "season": 2022,
+     "winners": [
+      "Q85323337"
+     ],
+     "bp": "Q104686893"
+    },
+    {
+     "season": 2023,
+     "winners": [
+      "Q108837349"
+     ],
+     "bp": "Q83808444"
+    },
+    {
+     "season": 2025,
+     "winners": [
+      "Q116701124"
+     ],
+     "bp": "Q123185887"
+    }
+   ]
+  },
+  "gg": {
+   "match": 14,
+   "n": 27,
+   "bp_winner_nominated": 25,
+   "bp_winner_ineligible": 1,
+   "excluding_after_oscars": {
+    "match": 14,
+    "n": 27
+   },
+   "mismatches": [
+    {
+     "season": 2005,
+     "winners": [
+      "Q201924",
+      "Q675937"
+     ],
+     "bp": "Q184255"
+    },
+    {
+     "season": 2006,
+     "winners": [
+      "Q160618",
+      "Q154077"
+     ],
+     "bp": "Q188000"
+    },
+    {
+     "season": 2007,
+     "winners": [
+      "Q191074",
+      "Q329056"
+     ],
+     "bp": "Q172975"
+    },
+    {
+     "season": 2008,
+     "winners": [
+      "Q1626186",
+      "Q212041"
+     ],
+     "bp": "Q183081"
+    },
+    {
+     "season": 2010,
+     "winners": [
+      "Q24871",
+      "Q219315"
+     ],
+     "bp": "Q183066"
+    },
+    {
+     "season": 2011,
+     "winners": [
+      "Q185888",
+      "Q380841"
+     ],
+     "bp": "Q160060"
+    },
+    {
+     "season": 2015,
+     "winners": [
+      "Q4103201",
+      "Q3521099"
+     ],
+     "bp": "Q13255497"
+    },
+    {
+     "season": 2016,
+     "winners": [
+      "Q18002795",
+      "Q18547944"
+     ],
+     "bp": "Q18154496"
+    },
+    {
+     "season": 2018,
+     "winners": [
+      "Q24053277",
+      "Q27480769"
+     ],
+     "bp": "Q26698156"
+    },
+    {
+     "season": 2020,
+     "winners": [
+      "Q62721520",
+      "Q47300912"
+     ],
+     "bp": "Q61448040"
+    },
+    {
+     "season": 2022,
+     "winners": [
+      "Q85323337",
+      "Q63643994"
+     ],
+     "bp": "Q104686893"
+    },
+    {
+     "season": 2023,
+     "winners": [
+      "Q107710009",
+      "Q108314506"
+     ],
+     "bp": "Q83808444"
+    },
+    {
+     "season": 2025,
+     "winners": [
+      "Q101112656",
+      "Q123928072"
+     ],
+     "bp": "Q123185887"
+    }
+   ]
+  },
+  "cc": {
+   "match": 19,
+   "n": 27,
+   "bp_winner_nominated": 27,
+   "bp_winner_ineligible": 0,
+   "excluding_after_oscars": {
+    "match": 19,
+    "n": 27
+   },
+   "mismatches": [
+    {
+     "season": 2005,
+     "winners": [
+      "Q675937"
+     ],
+     "bp": "Q184255"
+    },
+    {
+     "season": 2006,
+     "winners": [
+      "Q160618"
+     ],
+     "bp": "Q188000"
+    },
+    {
+     "season": 2011,
+     "winners": [
+      "Q185888"
+     ],
+     "bp": "Q160060"
+    },
+    {
+     "season": 2015,
+     "winners": [
+      "Q4103201"
+     ],
+     "bp": "Q13255497"
+    },
+    {
+     "season": 2017,
+     "winners": [
+      "Q20856802"
+     ],
+     "bp": "Q21527875"
+    },
+    {
+     "season": 2019,
+     "winners": [
+      "Q27959455"
+     ],
+     "bp": "Q48673898"
+    },
+    {
+     "season": 2020,
+     "winners": [
+      "Q47300912"
+     ],
+     "bp": "Q61448040"
+    },
+    {
+     "season": 2022,
+     "winners": [
+      "Q85323337"
+     ],
+     "bp": "Q104686893"
+    }
+   ]
+  },
+  "wga": {
+   "match": 15,
+   "n": 27,
+   "bp_winner_nominated": 21,
+   "bp_winner_ineligible": 0,
+   "excluding_after_oscars": {
+    "match": 15,
+    "n": 26
+   },
+   "mismatches": [
+    {
+     "season": 2001,
+     "winners": [
+      "Q2300341",
+      "Q142292"
+     ],
+     "bp": "Q128518"
+    },
+    {
+     "season": 2003,
+     "winners": [
+      "Q165394",
+      "Q157044"
+     ],
+     "bp": "Q189889"
+    },
+    {
+     "season": 2004,
+     "winners": [
+      "Q107270",
+      "Q466961"
+     ],
+     "bp": "Q131074"
+    },
+    {
+     "season": 2005,
+     "winners": [
+      "Q208269",
+      "Q675937"
+     ],
+     "bp": "Q184255"
+    },
+    {
+     "season": 2011,
+     "winners": [
+      "Q25188",
+      "Q185888"
+     ],
+     "bp": "Q160060"
+    },
+    {
+     "season": 2012,
+     "winners": [
+      "Q206124",
+      "Q273686"
+     ],
+     "bp": "Q171861"
+    },
+    {
+     "season": 2014,
+     "winners": [
+      "Q788822",
+      "Q2937646"
+     ],
+     "bp": "Q3023357"
+    },
+    {
+     "season": 2015,
+     "winners": [
+      "Q3521099",
+      "Q14918344"
+     ],
+     "bp": "Q13255497"
+    },
+    {
+     "season": 2018,
+     "winners": [
+      "Q25136235",
+      "Q25136757"
+     ],
+     "bp": "Q26698156"
+    },
+    {
+     "season": 2019,
+     "winners": [
+      "Q47265121",
+      "Q28860129"
+     ],
+     "bp": "Q48673898"
+    },
+    {
+     "season": 2021,
+     "winners": [
+      "Q62595383",
+      "Q99671372"
+     ],
+     "bp": "Q61740820"
+    },
+    {
+     "season": 2024,
+     "winners": [
+      "Q112114745",
+      "Q116413183"
+     ],
+     "bp": "Q108839994"
+    }
+   ]
+  },
+  "gg_drama": {
+   "match": 10,
+   "n": 27
+  },
+  "gg_musical_comedy": {
+   "match": 4,
+   "n": 27
+  },
+  "wga_original": {
+   "match": 8,
+   "n": 27
+  },
+  "wga_adapted": {
+   "match": 7,
+   "n": 27
+  }
+ },
+ "seasons": [
+  {
+   "season": 2000,
+   "bp_winner": "Q25139",
+   "bp_winner_core_wins": 5,
+   "consensus": 5,
+   "top_films": [
+    "Q25139"
+   ],
+   "distinct_core_winners": 2,
+   "core_ceremonies_counted": 5,
+   "final_leaders": [
+    "Q25139"
+   ],
+   "early_leaders": [
+    "Q25139"
+   ],
+   "labels": [
+    "converged",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2001,
+   "bp_winner": "Q128518",
+   "bp_winner_core_wins": 4,
+   "consensus": 4,
+   "top_films": [
+    "Q128518"
+   ],
+   "distinct_core_winners": 4,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q128518"
+   ],
+   "early_leaders": [
+    "Q128518"
+   ],
+   "labels": [
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2002,
+   "bp_winner": "Q164103",
+   "bp_winner_core_wins": 3,
+   "consensus": 3,
+   "top_films": [
+    "Q164103"
+   ],
+   "distinct_core_winners": 4,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q164103"
+   ],
+   "early_leaders": [
+    "Q164103"
+   ],
+   "labels": [
+    "split",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2003,
+   "bp_winner": "Q189889",
+   "bp_winner_core_wins": 5,
+   "consensus": 5,
+   "top_films": [
+    "Q189889"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q189889"
+   ],
+   "early_leaders": [
+    "Q189889"
+   ],
+   "labels": [
+    "converged",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2004,
+   "bp_winner": "Q131074",
+   "bp_winner_core_wins": 6,
+   "consensus": 6,
+   "top_films": [
+    "Q131074"
+   ],
+   "distinct_core_winners": 2,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q131074"
+   ],
+   "early_leaders": [
+    "Q131074"
+   ],
+   "labels": [
+    "converged",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2005,
+   "bp_winner": "Q184255",
+   "bp_winner_core_wins": 1,
+   "consensus": 3,
+   "top_films": [
+    "Q675937",
+    "Q201924"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q675937",
+    "Q201924"
+   ],
+   "early_leaders": [
+    "Q675937"
+   ],
+   "labels": [
+    "split",
+    "leader_lost",
+    "early_changed"
+   ]
+  },
+  {
+   "season": 2006,
+   "bp_winner": "Q188000",
+   "bp_winner_core_wins": 1,
+   "consensus": 5,
+   "top_films": [
+    "Q160618"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q160618"
+   ],
+   "early_leaders": [
+    "Q160618"
+   ],
+   "labels": [
+    "converged",
+    "leader_lost",
+    "early_changed"
+   ]
+  },
+  {
+   "season": 2007,
+   "bp_winner": "Q172975",
+   "bp_winner_core_wins": 2,
+   "consensus": 2,
+   "top_films": [
+    "Q172975",
+    "Q192073"
+   ],
+   "distinct_core_winners": 5,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q172975",
+    "Q192073"
+   ],
+   "early_leaders": [
+    "Q172975",
+    "Q191074",
+    "Q329056"
+   ],
+   "labels": [
+    "split",
+    "co_leader_won"
+   ]
+  },
+  {
+   "season": 2008,
+   "bp_winner": "Q183081",
+   "bp_winner_core_wins": 4,
+   "consensus": 4,
+   "top_films": [
+    "Q183081"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q183081"
+   ],
+   "early_leaders": [
+    "Q183081",
+    "Q1626186",
+    "Q212041"
+   ],
+   "labels": [
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2009,
+   "bp_winner": "Q125076",
+   "bp_winner_core_wins": 6,
+   "consensus": 6,
+   "top_films": [
+    "Q125076"
+   ],
+   "distinct_core_winners": 2,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q125076"
+   ],
+   "early_leaders": [
+    "Q125076"
+   ],
+   "labels": [
+    "converged",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2010,
+   "bp_winner": "Q183066",
+   "bp_winner_core_wins": 4,
+   "consensus": 4,
+   "top_films": [
+    "Q183066"
+   ],
+   "distinct_core_winners": 4,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q183066"
+   ],
+   "early_leaders": [
+    "Q183066",
+    "Q24871",
+    "Q219315"
+   ],
+   "labels": [
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2011,
+   "bp_winner": "Q160060",
+   "bp_winner_core_wins": 4,
+   "consensus": 4,
+   "top_films": [
+    "Q160060"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q160060"
+   ],
+   "early_leaders": [
+    "Q185888"
+   ],
+   "labels": [
+    "leader_won",
+    "early_changed"
+   ]
+  },
+  {
+   "season": 2012,
+   "bp_winner": "Q171861",
+   "bp_winner_core_wins": 5,
+   "consensus": 5,
+   "top_films": [
+    "Q171861"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q171861"
+   ],
+   "early_leaders": [
+    "Q171861"
+   ],
+   "labels": [
+    "converged",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2013,
+   "bp_winner": "Q59653",
+   "bp_winner_core_wins": 6,
+   "consensus": 6,
+   "top_films": [
+    "Q59653"
+   ],
+   "distinct_core_winners": 2,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q59653"
+   ],
+   "early_leaders": [
+    "Q59653"
+   ],
+   "labels": [
+    "converged",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2014,
+   "bp_winner": "Q3023357",
+   "bp_winner_core_wins": 4,
+   "consensus": 4,
+   "top_films": [
+    "Q3023357"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q3023357"
+   ],
+   "early_leaders": [
+    "Q3023357"
+   ],
+   "labels": [
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2015,
+   "bp_winner": "Q13255497",
+   "bp_winner_core_wins": 3,
+   "consensus": 3,
+   "top_films": [
+    "Q4103201",
+    "Q13255497"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q4103201",
+    "Q13255497"
+   ],
+   "early_leaders": [
+    "Q4103201"
+   ],
+   "labels": [
+    "split",
+    "co_leader_won",
+    "early_changed"
+   ]
+  },
+  {
+   "season": 2016,
+   "bp_winner": "Q18154496",
+   "bp_winner_core_wins": 2,
+   "consensus": 3,
+   "top_films": [
+    "Q18002795"
+   ],
+   "distinct_core_winners": 4,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q18002795"
+   ],
+   "early_leaders": [
+    "Q18002795",
+    "Q18547944",
+    "Q18154496"
+   ],
+   "labels": [
+    "split",
+    "leader_lost"
+   ]
+  },
+  {
+   "season": 2017,
+   "bp_winner": "Q21527875",
+   "bp_winner_core_wins": 1,
+   "consensus": 5,
+   "top_films": [
+    "Q20856802"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q20856802"
+   ],
+   "early_leaders": [
+    "Q20856802"
+   ],
+   "labels": [
+    "converged",
+    "leader_lost",
+    "early_changed"
+   ]
+  },
+  {
+   "season": 2018,
+   "bp_winner": "Q26698156",
+   "bp_winner_core_wins": 3,
+   "consensus": 3,
+   "top_films": [
+    "Q24053277",
+    "Q26698156"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q24053277",
+    "Q26698156"
+   ],
+   "early_leaders": [
+    "Q24053277",
+    "Q27480769",
+    "Q26698156"
+   ],
+   "labels": [
+    "split",
+    "co_leader_won"
+   ]
+  },
+  {
+   "season": 2019,
+   "bp_winner": "Q48673898",
+   "bp_winner_core_wins": 2,
+   "consensus": 3,
+   "top_films": [
+    "Q27959455"
+   ],
+   "distinct_core_winners": 4,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q27959455"
+   ],
+   "early_leaders": [
+    "Q27894574",
+    "Q48673898",
+    "Q27959455"
+   ],
+   "labels": [
+    "split",
+    "leader_lost"
+   ]
+  },
+  {
+   "season": 2020,
+   "bp_winner": "Q61448040",
+   "bp_winner_core_wins": 1,
+   "consensus": 4,
+   "top_films": [
+    "Q62721520"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q62721520"
+   ],
+   "early_leaders": [
+    "Q47300912"
+   ],
+   "labels": [
+    "leader_lost",
+    "early_changed"
+   ]
+  },
+  {
+   "season": 2021,
+   "bp_winner": "Q61740820",
+   "bp_winner_core_wins": 5,
+   "consensus": 5,
+   "top_films": [
+    "Q61740820"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q61740820"
+   ],
+   "early_leaders": [
+    "Q61740820"
+   ],
+   "labels": [
+    "converged",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2022,
+   "bp_winner": "Q104686893",
+   "bp_winner_core_wins": 2,
+   "consensus": 4,
+   "top_films": [
+    "Q85323337"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q85323337"
+   ],
+   "early_leaders": [
+    "Q85323337",
+    "Q63643994",
+    "Q104686893"
+   ],
+   "labels": [
+    "leader_lost"
+   ]
+  },
+  {
+   "season": 2023,
+   "bp_winner": "Q83808444",
+   "bp_winner_core_wins": 4,
+   "consensus": 4,
+   "top_films": [
+    "Q83808444"
+   ],
+   "distinct_core_winners": 4,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q83808444"
+   ],
+   "early_leaders": [
+    "Q107710009",
+    "Q108314506",
+    "Q83808444"
+   ],
+   "labels": [
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2024,
+   "bp_winner": "Q108839994",
+   "bp_winner_core_wins": 6,
+   "consensus": 6,
+   "top_films": [
+    "Q108839994"
+   ],
+   "distinct_core_winners": 2,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q108839994"
+   ],
+   "early_leaders": [
+    "Q108839994"
+   ],
+   "labels": [
+    "converged",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2025,
+   "bp_winner": "Q123185887",
+   "bp_winner_core_wins": 3,
+   "consensus": 3,
+   "top_films": [
+    "Q123185887"
+   ],
+   "distinct_core_winners": 4,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q123185887"
+   ],
+   "early_leaders": [
+    "Q101112656",
+    "Q123928072",
+    "Q123185887"
+   ],
+   "labels": [
+    "split",
+    "leader_won"
+   ]
+  },
+  {
+   "season": 2026,
+   "bp_winner": "Q117085614",
+   "bp_winner_core_wins": 5,
+   "consensus": 5,
+   "top_films": [
+    "Q117085614"
+   ],
+   "distinct_core_winners": 3,
+   "core_ceremonies_counted": 6,
+   "final_leaders": [
+    "Q117085614"
+   ],
+   "early_leaders": [
+    "Q117085614"
+   ],
+   "labels": [
+    "converged",
+    "leader_won"
+   ]
+  }
+ ]
+}

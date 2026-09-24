@@ -1,0 +1,302 @@
+[
+ {
+  "season": 2000,
+  "oscar_ordinal": 72,
+  "film_year": 1999,
+  "oscar_date": "2000-03-26",
+  "oscar_nominations_date": "2000-02-15",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": [
+   "BAFTA가 오스카 이후(4/9)에 열린 마지막 시즌. 2001년부터 BAFTA가 오스카 전으로 이동."
+  ]
+ },
+ {
+  "season": 2001,
+  "oscar_ordinal": 73,
+  "film_year": 2000,
+  "oscar_date": "2001-03-25",
+  "oscar_nominations_date": "2001-02-13",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": [
+   "Critics Choice 작품상 후보에 'Cast Away'가 특별 투표로 추가됨(후보 11편)."
+  ]
+ },
+ {
+  "season": 2002,
+  "oscar_ordinal": 74,
+  "film_year": 2001,
+  "oscar_date": "2002-03-24",
+  "oscar_nominations_date": "2002-02-12",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": []
+ },
+ {
+  "season": 2003,
+  "oscar_ordinal": 75,
+  "film_year": 2002,
+  "oscar_date": "2003-03-23",
+  "oscar_nominations_date": "2003-02-11",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": []
+ },
+ {
+  "season": 2004,
+  "oscar_ordinal": 76,
+  "film_year": 2003,
+  "oscar_date": "2004-02-29",
+  "oscar_nominations_date": "2004-01-27",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": []
+ },
+ {
+  "season": 2005,
+  "oscar_ordinal": 77,
+  "film_year": 2004,
+  "oscar_date": "2005-02-27",
+  "oscar_nominations_date": "2005-01-25",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": []
+ },
+ {
+  "season": 2006,
+  "oscar_ordinal": 78,
+  "film_year": 2005,
+  "oscar_date": "2006-03-05",
+  "oscar_nominations_date": "2006-01-31",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": []
+ },
+ {
+  "season": 2007,
+  "oscar_ordinal": 79,
+  "film_year": 2006,
+  "oscar_date": "2007-02-25",
+  "oscar_nominations_date": "2007-01-23",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": []
+ },
+ {
+  "season": 2008,
+  "oscar_ordinal": 80,
+  "film_year": 2007,
+  "oscar_date": "2008-02-24",
+  "oscar_nominations_date": "2008-01-22",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": [
+   "골든글로브: 작가 파업으로 시상식 대신 기자회견 발표."
+  ]
+ },
+ {
+  "season": 2009,
+  "oscar_ordinal": 81,
+  "film_year": 2008,
+  "oscar_date": "2009-02-22",
+  "oscar_nominations_date": "2009-01-22",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 5,
+  "notes": []
+ },
+ {
+  "season": 2010,
+  "oscar_ordinal": 82,
+  "film_year": 2009,
+  "oscar_date": "2010-03-07",
+  "oscar_nominations_date": "2010-02-02",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 10,
+  "notes": [
+   "오스카 작품상 후보 10편으로 확대, 선호투표(순위식) 도입."
+  ]
+ },
+ {
+  "season": 2011,
+  "oscar_ordinal": 83,
+  "film_year": 2010,
+  "oscar_date": "2011-02-27",
+  "oscar_nominations_date": "2011-01-25",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 10,
+  "notes": []
+ },
+ {
+  "season": 2012,
+  "oscar_ordinal": 84,
+  "film_year": 2011,
+  "oscar_date": "2012-02-26",
+  "oscar_nominations_date": "2012-01-24",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 9,
+  "notes": [
+   "오스카 작품상 후보 수 5~10편 가변제 시작(2021 시상까지)."
+  ]
+ },
+ {
+  "season": 2013,
+  "oscar_ordinal": 85,
+  "film_year": 2012,
+  "oscar_date": "2013-02-24",
+  "oscar_nominations_date": "2013-01-10",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 9,
+  "notes": []
+ },
+ {
+  "season": 2014,
+  "oscar_ordinal": 86,
+  "film_year": 2013,
+  "oscar_date": "2014-03-02",
+  "oscar_nominations_date": "2014-01-16",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 9,
+  "notes": [
+   "PGA 동률 공동 수상: '12 Years a Slave' / 'Gravity'."
+  ]
+ },
+ {
+  "season": 2015,
+  "oscar_ordinal": 87,
+  "film_year": 2014,
+  "oscar_date": "2015-02-22",
+  "oscar_nominations_date": "2015-01-15",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 8,
+  "notes": []
+ },
+ {
+  "season": 2016,
+  "oscar_ordinal": 88,
+  "film_year": 2015,
+  "oscar_date": "2016-02-28",
+  "oscar_nominations_date": "2016-01-14",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 8,
+  "notes": [
+   "Critics Choice 작품상 후보에 'Star Wars: The Force Awakens'가 특별 투표로 추가됨(후보 11편)."
+  ]
+ },
+ {
+  "season": 2017,
+  "oscar_ordinal": 89,
+  "film_year": 2016,
+  "oscar_date": "2017-02-26",
+  "oscar_nominations_date": "2017-01-24",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 9,
+  "notes": [
+   "Critics Choice가 2016년 12월 11일에 개최(이례적으로 이른 시점)."
+  ]
+ },
+ {
+  "season": 2018,
+  "oscar_ordinal": 90,
+  "film_year": 2017,
+  "oscar_date": "2018-03-04",
+  "oscar_nominations_date": "2018-01-23",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 9,
+  "notes": []
+ },
+ {
+  "season": 2019,
+  "oscar_ordinal": 91,
+  "film_year": 2018,
+  "oscar_date": "2019-02-24",
+  "oscar_nominations_date": "2019-01-22",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 8,
+  "notes": []
+ },
+ {
+  "season": 2020,
+  "oscar_ordinal": 92,
+  "film_year": 2019,
+  "oscar_date": "2020-02-09",
+  "oscar_nominations_date": "2020-01-13",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 9,
+  "notes": []
+ },
+ {
+  "season": 2021,
+  "oscar_ordinal": 93,
+  "film_year": 2020,
+  "oscar_date": "2021-04-25",
+  "oscar_nominations_date": "2021-03-15",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 8,
+  "notes": [
+   "코로나19로 오스카 자격 기간이 2021-02-28까지 연장되고 시즌 전체가 2개월가량 늦춰짐(오스카 4/25).",
+   "BAFTA 이틀 개최(4/10–11)."
+  ]
+ },
+ {
+  "season": 2022,
+  "oscar_ordinal": 94,
+  "film_year": 2021,
+  "oscar_date": "2022-03-27",
+  "oscar_nominations_date": "2022-02-08",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 10,
+  "notes": [
+   "오스카 작품상 후보 10편 고정 복귀.",
+   "골든글로브: 방송 없이 비공개 발표."
+  ]
+ },
+ {
+  "season": 2023,
+  "oscar_ordinal": 95,
+  "film_year": 2022,
+  "oscar_date": "2023-03-12",
+  "oscar_nominations_date": "2023-01-24",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 10,
+  "notes": []
+ },
+ {
+  "season": 2024,
+  "oscar_ordinal": 96,
+  "film_year": 2023,
+  "oscar_date": "2024-03-10",
+  "oscar_nominations_date": "2024-01-23",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 10,
+  "notes": [
+   "골든글로브: HFPA 해체 후 새 투표단 첫 시상. 비영어 영화도 작품상 부문 후보 가능(규정 변경).",
+   "WGA 시상식이 오스카 이후(4/14)에 열림."
+  ]
+ },
+ {
+  "season": 2025,
+  "oscar_ordinal": 97,
+  "film_year": 2024,
+  "oscar_date": "2025-03-02",
+  "oscar_nominations_date": "2025-01-23",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 10,
+  "notes": [
+   "Critics Choice: LA 산불로 2/7로 연기."
+  ]
+ },
+ {
+  "season": 2026,
+  "oscar_ordinal": 98,
+  "film_year": 2025,
+  "oscar_date": "2026-03-15",
+  "oscar_nominations_date": "2026-01-22",
+  "oscar_nominations_date_basis": "Wikipedia ceremony page lead text (regex)",
+  "bp_nominee_count": 10,
+  "notes": [
+   "SAG Awards가 'Actor Awards'로 명칭 변경(제32회).",
+   "가장 최근 시즌 — 출처 페이지가 아직 수정될 수 있음."
+  ]
+ }
+]

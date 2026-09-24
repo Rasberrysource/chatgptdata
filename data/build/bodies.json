@@ -1,0 +1,74 @@
+[
+ {
+  "id": "oscar",
+  "name": "Academy Awards",
+  "short": "Oscar",
+  "kind": "target",
+  "voters": "AMPAS 전 회원 (작품상은 2010년부터 선호투표)",
+  "official_url": "https://www.oscars.org/oscars",
+  "official_reachable": false
+ },
+ {
+  "id": "pga",
+  "name": "Producers Guild of America Awards",
+  "short": "PGA",
+  "kind": "bp_precursor",
+  "voters": "미국 프로듀서 조합원 (2010년부터 후보 10편·선호투표)",
+  "official_url": "https://producersguild.org/producers-guild-awards/",
+  "official_reachable": true
+ },
+ {
+  "id": "dga",
+  "name": "Directors Guild of America Awards",
+  "short": "DGA",
+  "kind": "bp_precursor",
+  "voters": "미국 감독 조합원 (TV 감독 포함)",
+  "official_url": "https://www.dga.org/Awards/History",
+  "official_reachable": true
+ },
+ {
+  "id": "sag",
+  "name": "Screen Actors Guild Awards / Actor Awards (2026~)",
+  "short": "SAG",
+  "kind": "bp_precursor",
+  "voters": "SAG-AFTRA 회원",
+  "official_url": "https://www.actorawards.org/",
+  "official_reachable": true
+ },
+ {
+  "id": "bafta",
+  "name": "British Academy Film Awards",
+  "short": "BAFTA",
+  "kind": "bp_precursor",
+  "voters": "영국 아카데미(BAFTA) 회원, 영국 개봉 기준 자격",
+  "official_url": "https://www.bafta.org/awards/film",
+  "official_reachable": false
+ },
+ {
+  "id": "gg",
+  "name": "Golden Globe Awards",
+  "short": "Globes",
+  "kind": "bp_precursor",
+  "voters": "~2023: HFPA(약 80~100명) / 2024~: 재편된 국제 기자단(약 300명)",
+  "official_url": "https://goldenglobes.com/winners-nominees/",
+  "official_reachable": true
+ },
+ {
+  "id": "cc",
+  "name": "Critics' Choice Awards",
+  "short": "Critics Choice",
+  "kind": "bp_precursor",
+  "voters": "Critics Choice Association (방송·온라인 평론가)",
+  "official_url": "https://www.criticschoice.com/critics-choice-awards/",
+  "official_reachable": true
+ },
+ {
+  "id": "wga",
+  "name": "Writers Guild of America Awards",
+  "short": "WGA",
+  "kind": "screenplay_indicator",
+  "voters": "미국 작가조합원 — 조합 관할 각본만 자격",
+  "official_url": "https://awards.wga.org/awards/nominees-winners",
+  "official_reachable": true
+ }
+]
