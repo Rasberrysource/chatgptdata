@@ -76,14 +76,21 @@
       return best;
     }
 
+    /** Core bodies a film won in a season. By the documented rule, ceremonies held after
+     * the Oscars (only BAFTA 2000 among core bodies) are not precursors and are not counted,
+     * so this matches the tallies used for leaders / convergence. */
     function coreWins(season, film, bodies = CORE, opts = {}) {
+      const includeAfter = opts.includeAfterOscars === true;
       return bodies.filter((b) => {
-        if (opts.beforeOscarsOnly) {
-          const c = ceremonyOf(season, b);
-          if (c && c.after_oscars) return false;
-        }
+        const c = ceremonyOf(season, b);
+        if (!includeAfter && c && c.after_oscars) return false;
         return bodyWinners(season, b).includes(film);
       });
+    }
+
+    /** Denominator for coreWins: core bodies held before that season's Oscars (6, or 5 in 2000). */
+    function coreCounted(season) {
+      return CORE.filter((b) => { const c = ceremonyOf(season, b); return c && !c.after_oscars; }).length;
     }
 
     /** Films that belong to a season's race table. */
@@ -143,7 +150,7 @@
       const earlyLeaders = early ? early.leaders : [];
       const consensus = Math.max(0, ...finalTally.values());
       const topFilms = [...finalTally.entries()].filter(([, v]) => v === consensus).map(([f]) => f);
-      const distinct = new Set(CORE.flatMap((b) => bodyWinners(season, b))).size;
+      const distinct = new Set(CORE.filter((b) => !ceremonyOf(season, b).after_oscars).flatMap((b) => bodyWinners(season, b))).size;
       const bpWins = finalTally.get(bp) || 0;
       // who led at each counted step (for "lead changes")
       const leaderPath = counted.map((e) => ({ body: e.body, date: e.date, leaders: e.leaders, leadCount: e.leadCount }));
@@ -256,7 +263,7 @@
 
     return {
       CORE, SCREENPLAY, BODY_CATS, data, idx, seasons,
-      noms, winners, bodyWinners, bpWinner, ceremonyOf, catStatus, bodyStatus, coreWins,
+      noms, winners, bodyWinners, bpWinner, ceremonyOf, catStatus, bodyStatus, coreWins, coreCounted,
       seasonFilms, timeline, seasonSummary, agreement, wonButLost, bpWithout, query, filmPath,
       totalNoms: (film, season) => totals.get(`${film}|${season}`),
       ineligible: (film, season, cat) => inelig.get(`${film}|${season}|${cat}`),

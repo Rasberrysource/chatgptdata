@@ -79,7 +79,7 @@ python3 build_dataset.py
 python3 validate_data.py
 cd ..
 node scripts/export_analysis.js          # 분석 레이어 요약 출력 + docs/data/orl-analysis.json
-NODE_PATH=$(npm root -g) node scripts/smoke_test.js   # (선택) Playwright로 모든 화면 점검
+NODE_PATH=$(npm root -g) node scripts/smoke_test.js   # (선택) Playwright: 모든 화면(데스크톱·모바일) + 주요 사용 흐름 점검
 ```
 
 ## 확장 제안 (구현하지 않음)
