@@ -1,0 +1,354 @@
+{
+ "meta": {
+  "films": 1185,
+  "logs": 996,
+  "mean": 3.63,
+  "last_watch": "2026-09-16"
+ },
+ "style": {
+  "years": [
+   {
+    "year": 2016,
+    "n": 63,
+    "median_len": 89,
+    "numbered": 41,
+    "paragraphs": 0,
+    "question": 22,
+    "exclaim": 21,
+    "english": 12,
+    "by_the_way": 0,
+    "guillemet": 0
+   },
+   {
+    "year": 2017,
+    "n": 31,
+    "median_len": 78,
+    "numbered": 58,
+    "paragraphs": 0,
+    "question": 13,
+    "exclaim": 10,
+    "english": 1,
+    "by_the_way": 0,
+    "guillemet": 0
+   },
+   {
+    "year": 2018,
+    "n": 119,
+    "median_len": 84,
+    "numbered": 39,
+    "paragraphs": 3,
+    "question": 19,
+    "exclaim": 9,
+    "english": 10,
+    "by_the_way": 3,
+    "guillemet": 0
+   },
+   {
+    "year": 2019,
+    "n": 138,
+    "median_len": 90,
+    "numbered": 46,
+    "paragraphs": 1,
+    "question": 25,
+    "exclaim": 15,
+    "english": 2,
+    "by_the_way": 0,
+    "guillemet": 1
+   },
+   {
+    "year": 2020,
+    "n": 167,
+    "median_len": 109,
+    "numbered": 59,
+    "paragraphs": 4,
+    "question": 32,
+    "exclaim": 14,
+    "english": 4,
+    "by_the_way": 0,
+    "guillemet": 19
+   },
+   {
+    "year": 2021,
+    "n": 90,
+    "median_len": 241,
+    "numbered": 70,
+    "paragraphs": 3,
+    "question": 48,
+    "exclaim": 21,
+    "english": 1,
+    "by_the_way": 3,
+    "guillemet": 18
+   },
+   {
+    "year": 2022,
+    "n": 70,
+    "median_len": 173,
+    "numbered": 29,
+    "paragraphs": 31,
+    "question": 27,
+    "exclaim": 6,
+    "english": 1,
+    "by_the_way": 5,
+    "guillemet": 21
+   },
+   {
+    "year": 2023,
+    "n": 73,
+    "median_len": 168,
+    "numbered": 16,
+    "paragraphs": 67,
+    "question": 14,
+    "exclaim": 7,
+    "english": 0,
+    "by_the_way": 7,
+    "guillemet": 11
+   },
+   {
+    "year": 2024,
+    "n": 146,
+    "median_len": 188,
+    "numbered": 7,
+    "paragraphs": 59,
+    "question": 19,
+    "exclaim": 2,
+    "english": 1,
+    "by_the_way": 7,
+    "guillemet": 11
+   },
+   {
+    "year": 2025,
+    "n": 47,
+    "median_len": 230,
+    "numbered": 17,
+    "paragraphs": 51,
+    "question": 26,
+    "exclaim": 6,
+    "english": 0,
+    "by_the_way": 2,
+    "guillemet": 4
+   },
+   {
+    "year": 2026,
+    "n": 41,
+    "median_len": 101,
+    "numbered": 0,
+    "paragraphs": 54,
+    "question": 5,
+    "exclaim": 7,
+    "english": 1,
+    "by_the_way": 2,
+    "guillemet": 8
+   }
+  ],
+  "eras": [
+   {
+    "span": "2016–2018",
+    "name": "짧은 메모와 영어 병기",
+    "stats": {
+     "n": 213,
+     "median_len": 86,
+     "numbered": 42,
+     "paragraphs": 2,
+     "english": 23,
+     "by_the_way": 3
+    },
+    "note": "리뷰 길이의 중앙값이 90자 아래였습니다. 영어로만 쓰거나 영어와 한국어를 함께 쓴 리뷰가 이 시기에 몰려 있습니다.",
+    "quote": {
+     "film": "Now You See Me",
+     "date": "2018-01-21",
+     "rating": 3.5,
+     "lines": [
+      "We don't have to emphasize reality in entertainment movies, right?",
+      "오락영화에 굳이 현실성을 강조할 필요는 없잖아요?"
+     ]
+    }
+   },
+   {
+    "span": "2019–2021",
+    "name": "번호 목록 전성기",
+    "stats": {
+     "n": 395,
+     "median_len": 112,
+     "numbered": 57,
+     "paragraphs": 3,
+     "english": 7,
+     "by_the_way": 3
+    },
+    "note": "생각을 1, 2, 3으로 나눠 적는 형식이 2021년에 리뷰 10편 중 7편까지 늘었습니다. 물음표가 들어간 리뷰도 2021년에 48%로 가장 많았습니다.",
+    "quote": {
+     "film": "Millennium Actress",
+     "date": "2021-10-24",
+     "rating": 4.5,
+     "lines": [
+      "1. 콘 사토시… 코지마 히데오처럼 영화 감독 되려다가 대신 애니메이션에 입성한 것 아닌가 싶다.",
+      "3. 자신을 언제나 아이처럼 좋아할 수 있는 팬과 함께라면, 그 무엇도 두렵지 않으리라."
+     ]
+    }
+   },
+   {
+    "span": "2022–2025",
+    "name": "두 문단과 '그나저나'",
+    "stats": {
+     "n": 336,
+     "median_len": 187,
+     "numbered": 15,
+     "paragraphs": 54,
+     "english": 2,
+     "by_the_way": 21
+    },
+    "note": "번호 대신 문단을 나눠 쓰기 시작했습니다. 첫 문단에 감상을 쓰고, 둘째 문단을 '그나저나'로 시작해 곁가지 이야기를 붙이는 구성이 자주 보입니다.",
+    "quote": {
+     "film": "(OO)",
+     "date": "2023-03-28",
+     "rating": 4.0,
+     "lines": [
+      "모두가 경험했기에 보기 더 괴로운 순간은 미칠듯이 괴롭고, 해결되는 순간은 너무나 상쾌하게 그려낸다.",
+      "그나저나 이 양반 묘사가 심상치 않은 거 보니, 적어도 비염 환자거나 그 가족이겠구만."
+     ]
+    }
+   },
+   {
+    "span": "2026",
+    "name": "짧고 담백하게",
+    "stats": {
+     "n": 41,
+     "median_len": 101,
+     "numbered": 0,
+     "paragraphs": 54,
+     "english": 1,
+     "by_the_way": 2
+    },
+    "note": "두 문단 구성은 유지하면서 길이가 절반 이하로 줄었습니다. 번호 목록은 한 번도 쓰지 않았고, 물음표도 거의 사라졌습니다.",
+    "quote": {
+     "film": "Marty Supreme",
+     "date": "2026-07-04",
+     "rating": 4.0,
+     "lines": [
+      "꿈이란 걸 좇을 수 있는 인간의 자격을 훅 물어보는 형 사프디의 묵직한 질문이, 미래지향적 드럼리스 사운드와 함께 훅 들어오다.",
+      "브리티시 인베이전 이전에도 미국은 아주 그냥 폭발 직전이었구만."
+     ]
+    }
+   }
+  ],
+  "by_the_way_total": 29,
+  "first_guillemet": {
+   "film": "Capernaum",
+   "date": "2019-02-02"
+  }
+ },
+ "revisions": {
+  "multi_films": 47,
+  "changed": 7,
+  "kept": 40,
+  "up": 3,
+  "down": 4,
+  "films": [
+   {
+    "film": "The Grand Budapest Hotel",
+    "before": 4.0,
+    "after": 4.5,
+    "before_date": "2018-07-17",
+    "after_date": "2018-10-20",
+    "before_fmt": "넷플릭스",
+    "after_fmt": "극장",
+    "days": 95,
+    "viewing": 2,
+    "reason": "극장 화면으로 다시 봄",
+    "quote": [
+     "이건 극장에서 봐야 하는 거다.",
+     "고마워서 0.5점 추가."
+    ]
+   },
+   {
+    "film": "Escape from Mogadishu",
+    "before": 3.5,
+    "after": 4.0,
+    "before_date": "2021-10-04",
+    "after_date": "2022-01-05",
+    "before_fmt": "극장",
+    "after_fmt": "티빙",
+    "days": 93,
+    "viewing": 2,
+    "reason": "다시 보니 보인 메타포",
+    "quote": [
+     "남북관계 메타포 꽉꽉 잘 채워놨다 진짜."
+    ]
+   },
+   {
+    "film": "Incredibles 2",
+    "before": 4.0,
+    "after": 4.5,
+    "before_date": "2018-07-20",
+    "after_date": "2018-07-27",
+    "before_fmt": "극장 더빙",
+    "after_fmt": "극장 더빙",
+    "days": 7,
+    "viewing": 2,
+    "reason": "엔딩 크레디트",
+    "quote": [
+     "스탭롤 때문에 0.5점 추가."
+    ]
+   },
+   {
+    "film": "Believer",
+    "before": 3.5,
+    "after": 3.0,
+    "before_date": "2018-05-26",
+    "after_date": "2019-02-18",
+    "before_fmt": "극장",
+    "after_fmt": "TV 감독판",
+    "days": 268,
+    "viewing": 2,
+    "reason": "감독판도 그대로",
+    "quote": [
+     "처음 극장판을 봤을 때의 아쉬움과 당혹스러움도 다 그대로다."
+    ]
+   },
+   {
+    "film": "Captain Marvel",
+    "before": 4.0,
+    "after": 3.5,
+    "before_date": "2019-03-06",
+    "after_date": "2019-03-14",
+    "before_fmt": "3D 4DX",
+    "after_fmt": "ScreenX",
+    "days": 8,
+    "viewing": 2,
+    "reason": "두 번째에 보인 약점",
+    "quote": [
+     "고난과 역경이 없는 히어로라고 말이 많던데, 왜 그런 말이 나오는지 알 거 같다."
+    ]
+   },
+   {
+    "film": "Avengers: Endgame",
+    "before": 5.0,
+    "after": 4.5,
+    "before_date": "2019-05-08",
+    "after_date": "2019-05-11",
+    "before_fmt": "IMAX",
+    "after_fmt": "3D 4DX",
+    "days": 3,
+    "viewing": 3,
+    "reason": "옆자리 관객",
+    "quote": [
+     "3회차에 왼쪽 애들이 떠들기까지 하니 집중하는 게 쉽지 않았어…"
+    ]
+   },
+   {
+    "film": "The Drug King",
+    "before": 4.0,
+    "after": 3.0,
+    "before_date": "2018-12-14",
+    "after_date": "2018-12-20",
+    "before_fmt": "시사회",
+    "after_fmt": "극장",
+    "days": 6,
+    "viewing": 2,
+    "reason": "시사회 다음 일반 상영",
+    "quote": [
+     "뭔 이야기를 하고 싶은 건지."
+    ]
+   }
+  ]
+ }
+}

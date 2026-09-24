@@ -1,0 +1,839 @@
+<title>1,185편의 기록</title>
+<meta name="description" content="Letterboxd 기록으로 만든 네 장의 취향 카드: 문체 변화, 평점 번복, 최애 감독, 장르 지도">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+:root {
+  --page: #eceef2;
+  --card: #fcfcfb;
+  --ink: #121418;
+  --ink-2: #4a4f5a;
+  --muted: #6c717d;
+  --grid: #e4e5e9;
+  --axis: #c4c6cd;
+  --chip: #eef0f4;
+  --accent: #9a5200;
+  --film: #1b1d22;
+  --film-ink: #d9a441;
+  --hole: #eceef2;
+  --s1: #2a78d6;
+  --s2: #eb6834;
+  --up: #2a78d6;
+  --down: #e34948;
+  --same: #c9ccd3;
+  --quote-bar: #d9dbe1;
+  --shadow: 0 1px 2px rgba(18, 20, 24, .06), 0 8px 24px rgba(18, 20, 24, .06);
+  --display: "Black Han Sans", "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0f1115;
+    --card: #1a1b1f;
+    --ink: #f2f3f5;
+    --ink-2: #c1c4cc;
+    --muted: #979ca7;
+    --grid: #2b2d33;
+    --axis: #3d4048;
+    --chip: #25272d;
+    --accent: #f0a93b;
+    --film: #08090b;
+    --film-ink: #d9a441;
+    --hole: #2c2f36;
+    --s1: #3987e5;
+    --s2: #d95926;
+    --up: #3987e5;
+    --down: #e66767;
+    --same: #4a4d56;
+    --quote-bar: #3a3d45;
+    --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0f1115;
+  --card: #1a1b1f;
+  --ink: #f2f3f5;
+  --ink-2: #c1c4cc;
+  --muted: #979ca7;
+  --grid: #2b2d33;
+  --axis: #3d4048;
+  --chip: #25272d;
+  --accent: #f0a93b;
+  --film: #08090b;
+  --film-ink: #d9a441;
+  --hole: #2c2f36;
+  --s1: #3987e5;
+  --s2: #d95926;
+  --up: #3987e5;
+  --down: #e66767;
+  --same: #4a4d56;
+  --quote-bar: #3a3d45;
+  --shadow: none;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--page);
+  color: var(--ink);
+  font: 400 16px/1.7 var(--body);
+  -webkit-font-smoothing: antialiased;
+}
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-inline: 20px;
+  padding-block: 40px 72px;
+  display: grid;
+  gap: 32px;
+}
+h1, h2, h3 { margin: 0; text-wrap: balance; font-weight: 400; }
+p { margin: 0; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+.edge {
+  font: 500 11px/1 var(--mono);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+/* masthead */
+.masthead { display: grid; gap: 18px; padding-block: 8px 4px; }
+.masthead .edge { color: var(--accent); }
+.masthead h1 { font: 400 clamp(44px, 9vw, 84px)/1 var(--display); letter-spacing: -.01em; }
+.masthead .lead { max-width: 60ch; color: var(--ink-2); font-size: 17px; }
+.index {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 6px;
+}
+.index a {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  background: var(--card);
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: var(--shadow);
+}
+.index a:hover { background: var(--chip); }
+.index .num { font: 500 11px/1 var(--mono); color: var(--accent); letter-spacing: .12em; }
+.index .name { font-weight: 600; }
+.index .hint { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+/* card shell */
+.card {
+  background: var(--card);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  scroll-margin-top: 16px;
+}
+.strip {
+  position: relative;
+  background: var(--film);
+  color: var(--film-ink);
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.strip::before, .strip::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  height: 6px;
+  background: repeating-linear-gradient(90deg, transparent 0 8px, var(--hole) 8px 18px, transparent 18px 26px);
+}
+.strip::before { top: 5px; }
+.strip::after { bottom: 5px; }
+.card-body { padding: 28px 28px 32px; display: grid; gap: 28px; }
+.card h2 { font: 400 clamp(28px, 4.6vw, 42px)/1.15 var(--display); }
+.card .lead { max-width: 64ch; color: var(--ink-2); }
+.head { display: grid; gap: 12px; }
+
+.block { display: grid; gap: 10px; }
+.block-title { font-weight: 600; font-size: 15px; }
+.block-note { font-size: 14px; color: var(--muted); max-width: 70ch; }
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+
+/* charts */
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; overflow: visible; }
+.chart text { font-family: var(--body); }
+.tick { fill: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.lbl { fill: var(--ink-2); font-size: 12px; font-weight: 500; }
+.lbl-strong { fill: var(--ink); font-size: 13px; font-weight: 600; }
+.gridline { stroke: var(--grid); stroke-width: 1; }
+.baseline { stroke: var(--axis); stroke-width: 1; }
+.hit { fill: transparent; cursor: default; }
+.hit:focus { outline: none; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.key-line { width: 16px; height: 2px; border-radius: 1px; display: inline-block; }
+.key-dot { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+
+#tip {
+  position: fixed;
+  z-index: 10;
+  pointer-events: none;
+  background: var(--card);
+  color: var(--ink);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .18);
+  outline: 1px solid var(--grid);
+  padding: 8px 10px;
+  font-size: 13px;
+  line-height: 1.45;
+  min-width: 120px;
+  max-width: 260px;
+}
+#tip .t-head { color: var(--muted); font-size: 12px; margin-bottom: 2px; }
+#tip .t-row { display: flex; align-items: center; gap: 8px; }
+#tip .t-row b { font-weight: 600; font-variant-numeric: tabular-nums; }
+#tip .t-row span { color: var(--ink-2); }
+
+details.table { font-size: 14px; }
+details.table summary { cursor: pointer; color: var(--ink-2); width: max-content; }
+.table-scroll { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; font-variant-numeric: tabular-nums; min-width: 100%; }
+th, td { text-align: right; padding: 6px 10px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--muted); font-weight: 500; }
+
+/* card 1: eras */
+.eras { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.era {
+  background: var(--chip);
+  border-radius: 10px;
+  padding: 18px 18px 20px;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+.era .span { font: 500 12px/1 var(--mono); color: var(--accent); letter-spacing: .08em; }
+.era h3 { font-size: 18px; font-weight: 700; }
+.era .stats { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.era .stats b { color: var(--ink); font-weight: 600; }
+.era p { font-size: 14px; color: var(--ink-2); line-height: 1.65; }
+blockquote {
+  margin: 0;
+  padding: 2px 0 2px 14px;
+  border-left: 2px solid var(--quote-bar);
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+blockquote cite { font-style: normal; font-size: 12px; color: var(--muted); }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.fact { display: grid; gap: 4px; align-content: start; padding-top: 12px; border-top: 1px solid var(--grid); }
+.fact .v { font-size: 26px; font-weight: 600; line-height: 1.2; }
+.fact .k { font-size: 13px; color: var(--ink-2); line-height: 1.55; }
+
+/* card 2: revisions */
+.units { display: flex; flex-wrap: wrap; gap: 5px; max-width: 520px; }
+.unit { width: 18px; height: 18px; border-radius: 4px; background: var(--same); }
+.unit.up { background: var(--up); }
+.unit.down { background: var(--down); }
+.revs { display: grid; gap: 0; }
+.rev {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 8px 28px;
+  padding: 18px 0;
+  border-top: 1px solid var(--grid);
+}
+.rev:last-child { border-bottom: 1px solid var(--grid); }
+.rev .film { font-weight: 700; font-size: 16px; }
+.rev .meta { font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.rev .left { display: grid; gap: 6px; align-content: start; }
+.rev .right { display: grid; gap: 10px; align-content: start; }
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: max-content;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--chip);
+  color: var(--ink);
+}
+.pill .arrow { font-size: 13px; }
+.pill.up .arrow { color: var(--up); }
+.pill.down .arrow { color: var(--down); }
+.scale-note { font-size: 13px; color: var(--muted); }
+.footnote { font-size: 13px; color: var(--muted); max-width: 72ch; }
+
+/* card 3/4 */
+.pending { color: var(--muted); font-size: 15px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 12px; padding: 3px 9px; border-radius: 999px; background: var(--chip); color: var(--ink-2); font-variant-numeric: tabular-nums; }
+
+.colophon { font-size: 13px; color: var(--muted); display: grid; gap: 6px; max-width: 72ch; }
+
+@media (max-width: 760px) {
+  .index { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .two, .eras { grid-template-columns: minmax(0, 1fr); }
+  .facts { grid-template-columns: minmax(0, 1fr); }
+  .rev { grid-template-columns: minmax(0, 1fr); }
+  .card-body { padding: 22px 18px 26px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="edge" id="mast-edge"></div>
+    <h1>1,185편의 기록</h1>
+    <p class="lead" id="mast-lead"></p>
+    <nav class="index" id="index" aria-label="카드 목록"></nav>
+  </header>
+
+  <section class="card" id="style" aria-labelledby="style-h">
+    <div class="strip edge"><span>카드 1 / 4 · 문체 변화</span><span id="style-edge"></span></div>
+    <div class="card-body">
+      <div class="head">
+        <h2 id="style-h">번호 목록에서 두 문단으로</h2>
+        <p class="lead">리뷰를 쓰는 방식이 크게 세 번 바뀌었습니다. 2021년에는 리뷰 10편 중 7편을 "1. 2. 3." 번호 목록으로 썼지만, 2023년부터는 번호 없이 문단을 나눠 쓰는 형식이 자리를 잡았습니다.</p>
+      </div>
+      <div class="two">
+        <div class="block">
+          <div class="block-title">리뷰 형식의 비율</div>
+          <div class="legend" id="style-legend"></div>
+          <div class="chart" id="chart-format"></div>
+          <p class="block-note">2022년에 두 선이 교차합니다. 번호 목록은 2026년에 한 건도 없습니다.</p>
+        </div>
+        <div class="block">
+          <div class="block-title">리뷰 길이의 중앙값 (글자 수)</div>
+          <div class="legend" aria-hidden="true"><span>&nbsp;</span></div>
+          <div class="chart" id="chart-length"></div>
+          <p class="block-note">2021년과 2025년에 가장 길었고, 2026년에는 절반 이하로 짧아졌습니다.</p>
+        </div>
+      </div>
+      <div class="eras" id="eras"></div>
+      <div class="facts" id="style-facts"></div>
+      <details class="table">
+        <summary>연도별 수치를 표로 보기</summary>
+        <div class="table-scroll"><table id="style-table"></table></div>
+      </details>
+      <p class="footnote">시청 연도 기준입니다. 번호 목록은 "1."로 시작하는 줄이 있는 리뷰, 두 문단은 번호 없이 빈 줄로 문단을 나눈 리뷰입니다. 리뷰 끝에 붙인 영화제 표기(@ …)는 길이 계산에서 뺐습니다.</p>
+    </div>
+  </section>
+
+  <section class="card" id="revisions" aria-labelledby="rev-h">
+    <div class="strip edge"><span>카드 2 / 4 · 평점 번복</span><span id="rev-edge"></span></div>
+    <div class="card-body">
+      <div class="head">
+        <h2 id="rev-h">평점은 다시 볼 때만 바뀐다</h2>
+        <p class="lead" id="rev-lead"></p>
+      </div>
+      <div class="block">
+        <div class="block-title">두 번 이상 기록한 영화</div>
+        <div class="legend" id="unit-legend"></div>
+        <div class="units" id="units" role="img"></div>
+      </div>
+      <div class="block">
+        <div class="block-title">평점이 바뀐 일곱 편</div>
+        <p class="scale-note">막대는 모두 같은 눈금(2.5~5점)을 씁니다. 빈 점이 처음 평점, 채운 점이 바뀐 평점입니다.</p>
+        <div class="revs" id="revs"></div>
+      </div>
+      <p class="footnote" id="rev-foot"></p>
+    </div>
+  </section>
+
+  <section class="card" id="directors" aria-labelledby="dir-h">
+    <div class="strip edge"><span>카드 3 / 4 · 최애 감독</span><span id="dir-edge"></span></div>
+    <div class="card-body" id="dir-body">
+      <div class="head"><h2 id="dir-h">최애 감독</h2><p class="pending">감독 정보를 불러오는 중입니다.</p></div>
+    </div>
+  </section>
+
+  <section class="card" id="genres" aria-labelledby="gen-h">
+    <div class="strip edge"><span>카드 4 / 4 · 장르 지도</span><span id="gen-edge"></span></div>
+    <div class="card-body" id="gen-body">
+      <div class="head"><h2 id="gen-h">장르 지도</h2><p class="pending">장르 정보를 불러오는 중입니다.</p></div>
+    </div>
+  </section>
+
+  <footer class="colophon" id="colophon"></footer>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const DATA = {"meta": {"films": 1185, "logs": 996, "mean": 3.63, "last_watch": "2026-09-16"}, "style": {"years": [{"year": 2016, "n": 63, "median_len": 89, "numbered": 41, "paragraphs": 0, "question": 22, "exclaim": 21, "english": 12, "by_the_way": 0, "guillemet": 0}, {"year": 2017, "n": 31, "median_len": 78, "numbered": 58, "paragraphs": 0, "question": 13, "exclaim": 10, "english": 1, "by_the_way": 0, "guillemet": 0}, {"year": 2018, "n": 119, "median_len": 84, "numbered": 39, "paragraphs": 3, "question": 19, "exclaim": 9, "english": 10, "by_the_way": 3, "guillemet": 0}, {"year": 2019, "n": 138, "median_len": 90, "numbered": 46, "paragraphs": 1, "question": 25, "exclaim": 15, "english": 2, "by_the_way": 0, "guillemet": 1}, {"year": 2020, "n": 167, "median_len": 109, "numbered": 59, "paragraphs": 4, "question": 32, "exclaim": 14, "english": 4, "by_the_way": 0, "guillemet": 19}, {"year": 2021, "n": 90, "median_len": 241, "numbered": 70, "paragraphs": 3, "question": 48, "exclaim": 21, "english": 1, "by_the_way": 3, "guillemet": 18}, {"year": 2022, "n": 70, "median_len": 173, "numbered": 29, "paragraphs": 31, "question": 27, "exclaim": 6, "english": 1, "by_the_way": 5, "guillemet": 21}, {"year": 2023, "n": 73, "median_len": 168, "numbered": 16, "paragraphs": 67, "question": 14, "exclaim": 7, "english": 0, "by_the_way": 7, "guillemet": 11}, {"year": 2024, "n": 146, "median_len": 188, "numbered": 7, "paragraphs": 59, "question": 19, "exclaim": 2, "english": 1, "by_the_way": 7, "guillemet": 11}, {"year": 2025, "n": 47, "median_len": 230, "numbered": 17, "paragraphs": 51, "question": 26, "exclaim": 6, "english": 0, "by_the_way": 2, "guillemet": 4}, {"year": 2026, "n": 41, "median_len": 101, "numbered": 0, "paragraphs": 54, "question": 5, "exclaim": 7, "english": 1, "by_the_way": 2, "guillemet": 8}], "eras": [{"span": "2016–2018", "name": "짧은 메모와 영어 병기", "stats": {"n": 213, "median_len": 86, "numbered": 42, "paragraphs": 2, "english": 23, "by_the_way": 3}, "note": "리뷰 길이의 중앙값이 90자 아래였습니다. 영어로만 쓰거나 영어와 한국어를 함께 쓴 리뷰가 이 시기에 몰려 있습니다.", "quote": {"film": "Now You See Me", "date": "2018-01-21", "rating": 3.5, "lines": ["We don't have to emphasize reality in entertainment movies, right?", "오락영화에 굳이 현실성을 강조할 필요는 없잖아요?"]}}, {"span": "2019–2021", "name": "번호 목록 전성기", "stats": {"n": 395, "median_len": 112, "numbered": 57, "paragraphs": 3, "english": 7, "by_the_way": 3}, "note": "생각을 1, 2, 3으로 나눠 적는 형식이 2021년에 리뷰 10편 중 7편까지 늘었습니다. 물음표가 들어간 리뷰도 2021년에 48%로 가장 많았습니다.", "quote": {"film": "Millennium Actress", "date": "2021-10-24", "rating": 4.5, "lines": ["1. 콘 사토시… 코지마 히데오처럼 영화 감독 되려다가 대신 애니메이션에 입성한 것 아닌가 싶다.", "3. 자신을 언제나 아이처럼 좋아할 수 있는 팬과 함께라면, 그 무엇도 두렵지 않으리라."]}}, {"span": "2022–2025", "name": "두 문단과 '그나저나'", "stats": {"n": 336, "median_len": 187, "numbered": 15, "paragraphs": 54, "english": 2, "by_the_way": 21}, "note": "번호 대신 문단을 나눠 쓰기 시작했습니다. 첫 문단에 감상을 쓰고, 둘째 문단을 '그나저나'로 시작해 곁가지 이야기를 붙이는 구성이 자주 보입니다.", "quote": {"film": "(OO)", "date": "2023-03-28", "rating": 4.0, "lines": ["모두가 경험했기에 보기 더 괴로운 순간은 미칠듯이 괴롭고, 해결되는 순간은 너무나 상쾌하게 그려낸다.", "그나저나 이 양반 묘사가 심상치 않은 거 보니, 적어도 비염 환자거나 그 가족이겠구만."]}}, {"span": "2026", "name": "짧고 담백하게", "stats": {"n": 41, "median_len": 101, "numbered": 0, "paragraphs": 54, "english": 1, "by_the_way": 2}, "note": "두 문단 구성은 유지하면서 길이가 절반 이하로 줄었습니다. 번호 목록은 한 번도 쓰지 않았고, 물음표도 거의 사라졌습니다.", "quote": {"film": "Marty Supreme", "date": "2026-07-04", "rating": 4.0, "lines": ["꿈이란 걸 좇을 수 있는 인간의 자격을 훅 물어보는 형 사프디의 묵직한 질문이, 미래지향적 드럼리스 사운드와 함께 훅 들어오다.", "브리티시 인베이전 이전에도 미국은 아주 그냥 폭발 직전이었구만."]}}], "by_the_way_total": 29, "first_guillemet": {"film": "Capernaum", "date": "2019-02-02"}}, "revisions": {"multi_films": 47, "changed": 7, "kept": 40, "up": 3, "down": 4, "films": [{"film": "The Grand Budapest Hotel", "before": 4.0, "after": 4.5, "before_date": "2018-07-17", "after_date": "2018-10-20", "before_fmt": "넷플릭스", "after_fmt": "극장", "days": 95, "viewing": 2, "reason": "극장 화면으로 다시 봄", "quote": ["이건 극장에서 봐야 하는 거다.", "고마워서 0.5점 추가."]}, {"film": "Escape from Mogadishu", "before": 3.5, "after": 4.0, "before_date": "2021-10-04", "after_date": "2022-01-05", "before_fmt": "극장", "after_fmt": "티빙", "days": 93, "viewing": 2, "reason": "다시 보니 보인 메타포", "quote": ["남북관계 메타포 꽉꽉 잘 채워놨다 진짜."]}, {"film": "Incredibles 2", "before": 4.0, "after": 4.5, "before_date": "2018-07-20", "after_date": "2018-07-27", "before_fmt": "극장 더빙", "after_fmt": "극장 더빙", "days": 7, "viewing": 2, "reason": "엔딩 크레디트", "quote": ["스탭롤 때문에 0.5점 추가."]}, {"film": "Believer", "before": 3.5, "after": 3.0, "before_date": "2018-05-26", "after_date": "2019-02-18", "before_fmt": "극장", "after_fmt": "TV 감독판", "days": 268, "viewing": 2, "reason": "감독판도 그대로", "quote": ["처음 극장판을 봤을 때의 아쉬움과 당혹스러움도 다 그대로다."]}, {"film": "Captain Marvel", "before": 4.0, "after": 3.5, "before_date": "2019-03-06", "after_date": "2019-03-14", "before_fmt": "3D 4DX", "after_fmt": "ScreenX", "days": 8, "viewing": 2, "reason": "두 번째에 보인 약점", "quote": ["고난과 역경이 없는 히어로라고 말이 많던데, 왜 그런 말이 나오는지 알 거 같다."]}, {"film": "Avengers: Endgame", "before": 5.0, "after": 4.5, "before_date": "2019-05-08", "after_date": "2019-05-11", "before_fmt": "IMAX", "after_fmt": "3D 4DX", "days": 3, "viewing": 3, "reason": "옆자리 관객", "quote": ["3회차에 왼쪽 애들이 떠들기까지 하니 집중하는 게 쉽지 않았어…"]}, {"film": "The Drug King", "before": 4.0, "after": 3.0, "before_date": "2018-12-14", "after_date": "2018-12-20", "before_fmt": "시사회", "after_fmt": "극장", "days": 6, "viewing": 2, "reason": "시사회 다음 일반 상영", "quote": ["뭔 이야기를 하고 싶은 건지."]}]}};
+const NS = "http://www.w3.org/2000/svg";
+const fmtN = new Intl.NumberFormat("ko-KR");
+
+function el(tag, attrs = {}, parent, text) {
+  const isSvg = ["svg", "g", "line", "rect", "circle", "path", "text", "polyline"].includes(tag);
+  const node = isSvg ? document.createElementNS(NS, tag) : document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v === undefined || v === null) continue;
+    if (k === "class") node.setAttribute("class", v);
+    else node.setAttribute(k, v);
+  }
+  if (text !== undefined) node.textContent = text;
+  if (parent) parent.appendChild(node);
+  return node;
+}
+function cssVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+function stars(x) { return x.toFixed(1); }
+
+/* ---------- tooltip ---------- */
+const tip = document.getElementById("tip");
+function showTip(evt, head, rows) {
+  tip.replaceChildren();
+  el("div", { class: "t-head" }, tip, head);
+  for (const r of rows) {
+    const row = el("div", { class: "t-row" }, tip);
+    if (r.color) el("i", { class: "key-line", style: `background:${r.color}` }, row);
+    el("b", {}, row, r.value);
+    if (r.label) el("span", {}, row, r.label);
+  }
+  tip.hidden = false;
+  let x, y;
+  if (evt.clientX !== undefined && evt.type !== "focus") { x = evt.clientX; y = evt.clientY; }
+  else { const b = evt.target.getBoundingClientRect(); x = b.left + b.width / 2; y = b.top; }
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  let left = x + 14, top = y - h - 12;
+  if (left + w > window.innerWidth - 8) left = x - w - 14;
+  if (left < 8) left = 8;
+  if (top < 8) top = y + 16;
+  tip.style.left = left + "px";
+  tip.style.top = top + "px";
+}
+function hideTip() { tip.hidden = true; }
+
+/* ---------- chart registry: re-render on resize ---------- */
+const charts = [];
+function register(fn) { charts.push(fn); fn(); }
+let rt;
+window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => charts.forEach(f => f()), 120); });
+if (window.matchMedia) {
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", () => charts.forEach(f => f()));
+}
+new MutationObserver(() => charts.forEach(f => f())).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+function frame(container, height, m) {
+  container.replaceChildren();
+  const W = Math.max(260, container.clientWidth);
+  const svg = el("svg", { width: W, height, viewBox: `0 0 ${W} ${height}`, role: "img" }, container);
+  return { svg, W, H: height, x0: m.l, x1: W - m.r, y0: height - m.b, y1: m.t };
+}
+
+/* ---------- line chart: shared x (years), one y axis in % ---------- */
+function lineChart(container, { xs, series, yMax, yTicks, fmt, aria, head }) {
+  const f = frame(container, 240, { l: 40, r: 64, t: 12, b: 28 });
+  const { svg, x0, x1, y0, y1 } = f;
+  svg.setAttribute("aria-label", aria);
+  const X = i => x0 + (x1 - x0) * i / (xs.length - 1);
+  const Y = v => y0 - (y0 - y1) * v / yMax;
+  for (const t of yTicks) {
+    el("line", { x1: x0, x2: x1, y1: Y(t), y2: Y(t), class: t === 0 ? "baseline" : "gridline" }, svg);
+    el("text", { x: x0 - 8, y: Y(t) + 4, "text-anchor": "end", class: "tick" }, svg, fmt(t));
+  }
+  xs.forEach((x, i) => {
+    if (xs.length > 8 && i % 2 === 1 && i !== xs.length - 1) return;
+    el("text", { x: X(i), y: y0 + 18, "text-anchor": "middle", class: "tick" }, svg, String(x));
+  });
+  for (const s of series) {
+    const color = cssVar(s.color);
+    el("polyline", { points: s.values.map((v, i) => `${X(i)},${Y(v)}`).join(" "), fill: "none", stroke: color, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
+    const last = s.values.length - 1;
+    el("circle", { cx: X(last), cy: Y(s.values[last]), r: 4, fill: color, stroke: cssVar("--card"), "stroke-width": 2 }, svg);
+  }
+  // end labels, nudged apart only if they would overlap
+  const ends = series.map(s => ({ s, y: Y(s.values[s.values.length - 1]) })).sort((a, b) => a.y - b.y);
+  for (let i = 1; i < ends.length; i++) if (ends[i].y - ends[i - 1].y < 15) ends[i].y = ends[i - 1].y + 15;
+  for (const e of ends) {
+    el("text", { x: x1 + 10, y: e.y + 4, class: "lbl" }, svg, `${e.s.label} ${fmt(e.s.values[e.s.values.length - 1])}`);
+  }
+  const cross = el("line", { y1: y1, y2: y0, class: "baseline", visibility: "hidden" }, svg);
+  const step = (x1 - x0) / (xs.length - 1);
+  xs.forEach((x, i) => {
+    const hit = el("rect", { x: X(i) - step / 2, y: y1, width: step, height: y0 - y1, class: "hit", tabindex: 0, "aria-label": `${x}년 ` + series.map(s => `${s.label} ${fmt(s.values[i])}`).join(", ") }, svg);
+    const on = e => {
+      cross.setAttribute("x1", X(i)); cross.setAttribute("x2", X(i)); cross.setAttribute("visibility", "visible");
+      showTip(e, head(i), series.map(s => ({ color: cssVar(s.color), value: fmt(s.values[i]), label: s.label })));
+    };
+    const off = () => { cross.setAttribute("visibility", "hidden"); hideTip(); };
+    hit.addEventListener("pointermove", on); hit.addEventListener("focus", on);
+    hit.addEventListener("pointerleave", off); hit.addEventListener("blur", off);
+  });
+}
+
+/* ---------- column chart: one series ---------- */
+function columnChart(container, { xs, values, yMax, yTicks, fmt, labelAt, aria, head, color = "--s1" }) {
+  const f = frame(container, 240, { l: 40, r: 8, t: 22, b: 28 });
+  const { svg, x0, x1, y0, y1 } = f;
+  svg.setAttribute("aria-label", aria);
+  const band = (x1 - x0) / xs.length;
+  const bw = Math.min(24, band - 6);
+  const Y = v => y0 - (y0 - y1) * v / yMax;
+  for (const t of yTicks) {
+    el("line", { x1: x0, x2: x1, y1: Y(t), y2: Y(t), class: t === 0 ? "baseline" : "gridline" }, svg);
+    el("text", { x: x0 - 8, y: Y(t) + 4, "text-anchor": "end", class: "tick" }, svg, fmt(t));
+  }
+  const c = cssVar(color);
+  xs.forEach((x, i) => {
+    const cx = x0 + band * i + band / 2, top = Y(values[i]), h = y0 - top, r = Math.min(4, h);
+    el("path", { d: `M${cx - bw / 2},${y0} V${top + r} Q${cx - bw / 2},${top} ${cx - bw / 2 + r},${top} H${cx + bw / 2 - r} Q${cx + bw / 2},${top} ${cx + bw / 2},${top + r} V${y0} Z`, fill: c }, svg);
+    if (xs.length <= 8 || i % 2 === 0 || i === xs.length - 1) el("text", { x: cx, y: y0 + 18, "text-anchor": "middle", class: "tick" }, svg, String(x));
+    if (labelAt.includes(i)) el("text", { x: cx, y: top - 6, "text-anchor": "middle", class: "lbl" }, svg, fmt(values[i]));
+    const hit = el("rect", { x: cx - band / 2, y: y1, width: band, height: y0 - y1, class: "hit", tabindex: 0, "aria-label": `${x}년 ${fmt(values[i])}` }, svg);
+    const on = e => showTip(e, head(i), [{ color: c, value: fmt(values[i]), label: "중앙값" }]);
+    hit.addEventListener("pointermove", on); hit.addEventListener("focus", on);
+    hit.addEventListener("pointerleave", hideTip); hit.addEventListener("blur", hideTip);
+  });
+}
+
+function table(tableEl, headers, rows) {
+  tableEl.replaceChildren();
+  const thead = el("thead", {}, tableEl), tr = el("tr", {}, thead);
+  headers.forEach(h => el("th", { scope: "col" }, tr, h));
+  const tb = el("tbody", {}, tableEl);
+  rows.forEach(r => { const row = el("tr", {}, tb); r.forEach(c => el("td", {}, row, String(c))); });
+}
+
+/* ---------- masthead ---------- */
+(function masthead() {
+  const m = DATA.meta;
+  document.getElementById("mast-edge").textContent = `Letterboxd 내보내기 · 영화 ${fmtN.format(m.films)}편 · 다이어리 ${fmtN.format(m.logs)}건 · 평균 ★${m.mean}`;
+  document.getElementById("mast-lead").textContent =
+    `평점을 매긴 영화 ${fmtN.format(m.films)}편과 다이어리 ${fmtN.format(m.logs)}건(마지막 시청일 ${m.last_watch})으로 만든 네 장의 기록 카드입니다. 리뷰 문체, 평점 번복, 최애 감독, 장르 지도 순서로 이어집니다.`;
+  const items = [
+    ["style", "1", "문체 변화", "번호 목록에서 두 문단으로"],
+    ["revisions", "2", "평점 번복", `N차 기록 ${DATA.revisions.multi_films}편 중 ${DATA.revisions.changed}편`],
+    ["directors", "3", "최애 감독", DATA.directors ? DATA.directors.hint : "Wikidata 연결"],
+    ["genres", "4", "장르 지도", DATA.genres ? DATA.genres.hint : "Wikidata 연결"],
+  ];
+  const nav = document.getElementById("index");
+  for (const [id, n, name, hint] of items) {
+    const a = el("a", { href: "#" + id }, nav);
+    el("span", { class: "num" }, a, "카드 " + n);
+    el("span", { class: "name" }, a, name);
+    el("span", { class: "hint" }, a, hint);
+  }
+})();
+
+/* ---------- card 1 ---------- */
+(function styleCard() {
+  const S = DATA.style, ys = S.years;
+  document.getElementById("style-edge").textContent = `리뷰 ${fmtN.format(ys.reduce((a, y) => a + y.n, 0))}건 · ${ys[0].year}–${ys[ys.length - 1].year}`;
+  const series = [
+    { key: "numbered", label: "번호 목록", color: "--s1", values: ys.map(y => y.numbered) },
+    { key: "paragraphs", label: "두 문단", color: "--s2", values: ys.map(y => y.paragraphs) },
+  ];
+  const lg = document.getElementById("style-legend");
+  for (const s of series) {
+    const sp = el("span", {}, lg);
+    el("i", { class: "key-line", style: `background:var(${s.color})` }, sp);
+    sp.appendChild(document.createTextNode(s.label));
+  }
+  register(() => lineChart(document.getElementById("chart-format"), {
+    xs: ys.map(y => y.year), series, yMax: 100, yTicks: [0, 25, 50, 75, 100], fmt: v => v + "%",
+    aria: "연도별 번호 목록 리뷰와 두 문단 리뷰의 비율", head: i => `${ys[i].year}년 · 리뷰 ${ys[i].n}건`,
+  }));
+  const lens = ys.map(y => y.median_len);
+  const top2 = [...lens.keys()].sort((a, b) => lens[b] - lens[a]).slice(0, 2);
+  register(() => columnChart(document.getElementById("chart-length"), {
+    xs: ys.map(y => y.year), values: lens, yMax: 250, yTicks: [0, 50, 100, 150, 200, 250], fmt: v => v + "자",
+    labelAt: [...top2, lens.length - 1], aria: "연도별 리뷰 길이 중앙값", head: i => `${ys[i].year}년 · 리뷰 ${ys[i].n}건`,
+  }));
+
+  const eras = document.getElementById("eras");
+  for (const e of S.eras) {
+    const box = el("article", { class: "era" }, eras);
+    el("div", { class: "span" }, box, e.span);
+    el("h3", {}, box, e.name);
+    const st = el("div", { class: "stats" }, box);
+    const add = (label, value) => { const s = el("span", {}, st); s.appendChild(document.createTextNode(label + " ")); el("b", {}, s, value); };
+    add("리뷰", e.stats.n + "건");
+    add("길이 중앙값", e.stats.median_len + "자");
+    add("번호 목록", e.stats.numbered + "%");
+    add("두 문단", e.stats.paragraphs + "%");
+    el("p", {}, box, e.note);
+    const q = el("blockquote", {}, box);
+    e.quote.lines.forEach(l => el("div", {}, q, l));
+    el("cite", {}, q, `${e.quote.film} · ${e.quote.date} · ★${stars(e.quote.rating)}`);
+  }
+
+  const btw = ys.filter(y => y.year >= 2022).reduce((a, y) => a + y.by_the_way, 0);
+  const ex0 = ys[0], ex24 = ys.find(y => y.year === 2024);
+  const facts = [
+    [`${S.by_the_way_total}건`, `'그나저나'가 들어간 리뷰입니다. 그중 ${btw}건을 2022년 이후에 썼습니다.`],
+    [S.first_guillemet.date.slice(0, 7).replace("-", "."), `영화 제목을 《 》로 묶기 시작한 달입니다(${S.first_guillemet.film}). 그전에는 < >를 주로 썼습니다.`],
+    [`${ex0.exclaim}% → ${ex24.exclaim}%`, `느낌표가 들어간 리뷰의 비율입니다(${ex0.year}년 → ${ex24.year}년).`],
+  ];
+  const fx = document.getElementById("style-facts");
+  for (const [v, k] of facts) { const d = el("div", { class: "fact" }, fx); el("div", { class: "v" }, d, v); el("div", { class: "k" }, d, k); }
+
+  table(document.getElementById("style-table"),
+    ["연도", "리뷰 수", "길이 중앙값", "번호 목록", "두 문단", "물음표", "느낌표", "'그나저나'"],
+    ys.map(y => [y.year, y.n, y.median_len + "자", y.numbered + "%", y.paragraphs + "%", y.question + "%", y.exclaim + "%", y.by_the_way]));
+})();
+
+/* ---------- card 2 ---------- */
+(function revisionCard() {
+  const R = DATA.revisions;
+  document.getElementById("rev-edge").textContent = `N차 기록 ${R.multi_films}편 · 평점이 바뀐 영화 ${R.changed}편`;
+  document.getElementById("rev-lead").textContent =
+    `두 번 이상 기록한 영화 ${R.multi_films}편 중 ${R.kept}편은 처음 준 평점을 그대로 지켰습니다. 평점이 바뀐 ${R.changed}편은 모두 다시 본 날에 바뀌었고, 올린 영화가 ${R.up}편, 내린 영화가 ${R.down}편입니다.`;
+  const lg = document.getElementById("unit-legend");
+  for (const [cls, label, n] of [["same", "그대로", R.kept], ["up", "올림", R.up], ["down", "내림", R.down]]) {
+    const sp = el("span", {}, lg);
+    el("i", { class: "key-dot", style: `background:var(--${cls})` }, sp);
+    sp.appendChild(document.createTextNode(`${label} ${n}편`));
+  }
+  const units = document.getElementById("units");
+  units.setAttribute("aria-label", `${R.multi_films}편 중 그대로 ${R.kept}편, 올림 ${R.up}편, 내림 ${R.down}편`);
+  const cells = [...Array(R.up).fill("up"), ...Array(R.down).fill("down"), ...Array(R.kept).fill("same")];
+  cells.forEach(c => el("span", { class: "unit " + c }, units));
+
+  const box = document.getElementById("revs");
+  for (const f of R.films) {
+    const dir = f.after > f.before ? "up" : "down";
+    const row = el("article", { class: "rev" }, box);
+    const left = el("div", { class: "left" }, row);
+    el("div", { class: "film" }, left, f.film);
+    const pill = el("span", { class: "pill " + dir }, left);
+    el("span", { class: "arrow", "aria-hidden": "true" }, pill, dir === "up" ? "▲" : "▼");
+    pill.appendChild(document.createTextNode(`${stars(f.before)} → ${stars(f.after)} · ${f.reason}`));
+    el("div", { class: "meta" }, left, `${f.viewing - 1}회차 ${f.before_fmt} (${f.before_date}) → ${f.viewing}회차 ${f.after_fmt} (${f.after_date}) · ${f.days}일 뒤`);
+    const right = el("div", { class: "right" }, row);
+    const ch = el("div", { class: "chart" }, right);
+    register(() => dumbbell(ch, f, dir));
+    const q = el("blockquote", {}, right);
+    f.quote.forEach(l => el("div", {}, q, l));
+    el("cite", {}, q, `${f.viewing}회차 리뷰에서`);
+  }
+  document.getElementById("rev-foot").textContent =
+    "현재 평점은 모든 영화에서 마지막 다이어리 평점과 같습니다. 다시 보지 않고 평점만 고친 영화는 없습니다.";
+})();
+
+function dumbbell(container, f, dir) {
+  const fr = frame(container, 44, { l: 10, r: 14, t: 8, b: 18 });
+  const { svg, x0, x1 } = fr;
+  svg.setAttribute("aria-label", `${f.film}: ${f.before}점에서 ${f.after}점으로`);
+  const lo = 2.5, hi = 5;
+  const X = v => x0 + (x1 - x0) * (v - lo) / (hi - lo);
+  const y = 14;
+  for (let t = lo; t <= hi; t += 0.5) {
+    el("line", { x1: X(t), x2: X(t), y1: y - 6, y2: y + 6, class: "gridline" }, svg);
+    el("text", { x: X(t), y: y + 22, "text-anchor": "middle", class: "tick" }, svg, t.toFixed(1));
+  }
+  const c = cssVar(dir === "up" ? "--up" : "--down");
+  el("line", { x1: X(f.before), x2: X(f.after), y1: y, y2: y, stroke: c, "stroke-width": 2, "stroke-linecap": "round" }, svg);
+  el("circle", { cx: X(f.before), cy: y, r: 5, fill: cssVar("--card"), stroke: c, "stroke-width": 2 }, svg);
+  el("circle", { cx: X(f.after), cy: y, r: 5, fill: c, stroke: cssVar("--card"), "stroke-width": 2 }, svg);
+}
+
+/* ---------- card 3 / 4 hooks (filled once Wikidata data exists) ---------- */
+/* ---------- card 3: directors ---------- */
+(function directorCard() {
+  const D = DATA.directors;
+  if (!D) return;
+  const body = document.getElementById("dir-body");
+  body.replaceChildren();
+  document.getElementById("dir-edge").textContent = `감독 ${fmtN.format(D.directors)}명 · 감독 정보가 있는 영화 ${fmtN.format(D.coverage)}편`;
+  const fav = D.top[0];
+  const head = el("div", { class: "head" }, body);
+  el("h2", { id: "dir-h" }, head, `${fav.director}, ${fav.n}편에 평균 ★${fav.mean.toFixed(2)}`);
+  el("p", { class: "lead" }, head,
+    `감독 정보를 찾은 ${fmtN.format(D.coverage)}편을 감독 ${fmtN.format(D.directors)}명으로 묶었습니다. 가장 많이 본 감독은 ${fav.director}이고, 전체 평균(★${D.overall.toFixed(2)})보다 ${(fav.mean - D.overall).toFixed(2)}점 높게 줬습니다.`);
+
+  const two = el("div", { class: "two" }, body);
+  const b1 = el("div", { class: "block" }, two);
+  el("div", { class: "block-title" }, b1, "가장 많이 본 감독");
+  el("div", { class: "legend", "aria-hidden": "true" }, b1).appendChild(document.createTextNode("막대는 평점을 매긴 편수입니다."));
+  const c1 = el("div", { class: "chart" }, b1);
+  register(() => hbar(c1, D.top, { value: d => d.n, max: Math.ceil(D.top[0].n / 2) * 2, fmt: v => v + "편", aria: "가장 많이 본 감독 순위",
+    tipRows: d => [{ color: cssVar("--s1"), value: d.n + "편", label: "평점 매긴 영화" }, { value: "★" + d.mean.toFixed(2), label: "평균" }, { value: d.logs + "회", label: "다이어리 기록" }] }));
+
+  const b2 = el("div", { class: "block" }, two);
+  el("div", { class: "block-title" }, b2, `평균이 높은 감독과 낮은 감독 (3편 이상, ${D.eligible}명 중)`);
+  const lg = el("div", { class: "legend" }, b2);
+  for (const [v, label] of [["--up", "전체 평균보다 높음"], ["--down", "전체 평균보다 낮음"]]) {
+    const sp = el("span", {}, lg); el("i", { class: "key-dot", style: `background:var(${v})` }, sp); sp.appendChild(document.createTextNode(label));
+  }
+  const c2 = el("div", { class: "chart" }, b2);
+  register(() => dotRank(c2, D.high, D.low, D.overall));
+
+  const b3 = el("div", { class: "block" }, body);
+  el("div", { class: "block-title" }, b3, `${fav.director} 필모그래피 속 내 평점`);
+  const chips = el("div", { class: "chips" }, b3);
+  for (const f of fav.films) el("span", { class: "chip" }, chips, `${f.film} (${f.year}) ★${stars(f.rating)}${f.logs > 1 ? ` · ${f.logs}회 관람` : ""}`);
+
+  const det = el("details", { class: "table" }, body);
+  el("summary", {}, det, "감독별 수치를 표로 보기");
+  const sc = el("div", { class: "table-scroll" }, det);
+  const seen = new Set(), all = [];
+  for (const d of [...D.top, ...D.high, ...D.low]) if (!seen.has(d.qid)) { seen.add(d.qid); all.push(d); }
+  table(el("table", {}, sc), ["감독", "편수", "평균", "다이어리 기록", "최고 평점 작품"],
+    all.sort((a, b) => b.n - a.n || b.mean - a.mean).map(d => [d.director, d.n, d.mean.toFixed(2), d.logs, `${d.films[0].film} ★${stars(d.films[0].rating)}`]));
+  el("p", { class: "footnote" }, body, "드라마 시리즈는 뺐습니다. 공동 감독 작품은 감독마다 한 편으로 셉니다. 감독 정보는 Wikidata 기준이라 일부 영화는 빠져 있습니다.");
+})();
+
+function hbar(container, items, { value, max, fmt, aria, tipRows }) {
+  const rowH = 30, labelW = Math.min(170, container.clientWidth * 0.42);
+  const fr = frame(container, items.length * rowH + 30, { l: labelW, r: 40, t: 4, b: 26 });
+  const { svg, x0, x1, y0 } = fr;
+  svg.setAttribute("aria-label", aria);
+  const X = v => x0 + (x1 - x0) * v / max;
+  for (let t = 0; t <= max; t += max <= 12 ? 2 : 5) {
+    el("line", { x1: X(t), x2: X(t), y1: 4, y2: y0, class: t === 0 ? "baseline" : "gridline" }, svg);
+    el("text", { x: X(t), y: y0 + 18, "text-anchor": "middle", class: "tick" }, svg, String(t));
+  }
+  const c = cssVar("--s1");
+  items.forEach((d, i) => {
+    const y = 4 + i * rowH + rowH / 2, w = X(value(d)) - x0, bh = 14;
+    el("text", { x: x0 - 10, y: y + 4, "text-anchor": "end", class: i === 0 ? "lbl-strong" : "lbl" }, svg, clip(d.director, labelW - 14));
+    el("path", { d: `M${x0},${y - bh / 2} H${x0 + w - 4} Q${x0 + w},${y - bh / 2} ${x0 + w},${y - bh / 2 + 4} V${y + bh / 2 - 4} Q${x0 + w},${y + bh / 2} ${x0 + w - 4},${y + bh / 2} H${x0} Z`, fill: c }, svg);
+    el("text", { x: x0 + w + 6, y: y + 4, class: "tick" }, svg, fmt(value(d)));
+    const hit = el("rect", { x: 0, y: y - rowH / 2, width: x1 + 40, height: rowH, class: "hit", tabindex: 0, "aria-label": `${d.director} ${fmt(value(d))}` }, svg);
+    const on = e => showTip(e, d.director, tipRows(d));
+    hit.addEventListener("pointermove", on); hit.addEventListener("focus", on);
+    hit.addEventListener("pointerleave", hideTip); hit.addEventListener("blur", hideTip);
+  });
+}
+
+function clip(text, px) {
+  const max = Math.floor(px / 7.5);
+  return text.length > max ? text.slice(0, max - 1) + "…" : text;
+}
+
+function dotRank(container, high, low, overall) {
+  const rows = [...high.map(d => ({ ...d, grp: "high" })), { gap: true }, ...low.map(d => ({ ...d, grp: "low" }))];
+  const rowH = 28, labelW = Math.min(170, container.clientWidth * 0.42);
+  const fr = frame(container, rows.length * rowH + 30, { l: labelW, r: 44, t: 4, b: 26 });
+  const { svg, x0, x1, y0 } = fr;
+  svg.setAttribute("aria-label", "감독별 평균 평점과 전체 평균");
+  const lo = 2.5, hi = 5;
+  const X = v => x0 + (x1 - x0) * (v - lo) / (hi - lo);
+  for (let t = lo; t <= hi; t += 0.5) {
+    el("line", { x1: X(t), x2: X(t), y1: 4, y2: y0, class: "gridline" }, svg);
+    el("text", { x: X(t), y: y0 + 18, "text-anchor": "middle", class: "tick" }, svg, t.toFixed(1));
+  }
+  el("line", { x1: X(overall), x2: X(overall), y1: 0, y2: y0, stroke: cssVar("--ink-2"), "stroke-width": 1 }, svg);
+  el("text", { x: X(overall) + 4, y: y0 - 4, class: "tick" }, svg, `전체 ${overall.toFixed(2)}`);
+  rows.forEach((d, i) => {
+    const y = 4 + i * rowH + rowH / 2;
+    if (d.gap) { el("text", { x: x0 - 10, y: y + 4, "text-anchor": "end", class: "tick" }, svg, "⋯"); return; }
+    const c = cssVar(d.mean >= overall ? "--up" : "--down");
+    el("text", { x: x0 - 10, y: y + 4, "text-anchor": "end", class: "lbl" }, svg, clip(d.director, labelW - 14));
+    el("line", { x1: X(overall), x2: X(d.mean), y1: y, y2: y, stroke: c, "stroke-width": 2 }, svg);
+    el("circle", { cx: X(d.mean), cy: y, r: 5, fill: c, stroke: cssVar("--card"), "stroke-width": 2 }, svg);
+    el("text", { x: X(d.mean) + (d.mean >= overall ? 10 : -10), y: y + 4, "text-anchor": d.mean >= overall ? "start" : "end", class: "tick" }, svg, d.mean.toFixed(2));
+    const hit = el("rect", { x: 0, y: y - rowH / 2, width: x1 + 44, height: rowH, class: "hit", tabindex: 0, "aria-label": `${d.director} 평균 ${d.mean.toFixed(2)}, ${d.n}편` }, svg);
+    const on = e => showTip(e, `${d.director} · ${d.n}편`, [{ color: c, value: "★" + d.mean.toFixed(2), label: "평균" }, ...d.films.slice(0, 3).map(f => ({ value: "★" + stars(f.rating), label: f.film }))]);
+    hit.addEventListener("pointermove", on); hit.addEventListener("focus", on);
+    hit.addEventListener("pointerleave", hideTip); hit.addEventListener("blur", hideTip);
+  });
+}
+
+/* ---------- card 4: genres ---------- */
+(function genreCard() {
+  const G = DATA.genres;
+  if (!G) return;
+  const body = document.getElementById("gen-body");
+  body.replaceChildren();
+  document.getElementById("gen-edge").textContent = `장르 ${G.genres.length}개 · 장르 정보가 있는 영화 ${fmtN.format(G.coverage)}편`;
+  const byName = Object.fromEntries(G.genres.map(g => [g.genre, g]));
+  const fav = byName[G.fav], least = byName[G.least], most = byName[G.most];
+  const head = el("div", { class: "head" }, body);
+  el("h2", { id: "gen-h" }, head, `가장 많이 본 건 ${most.genre}, 가장 후한 건 ${fav.genre}`);
+  el("p", { class: "lead" }, head,
+    `장르 정보를 찾은 ${fmtN.format(G.coverage)}편을 넓은 장르 ${G.genres.length}개로 묶었습니다. 한 영화가 여러 장르에 동시에 들어갈 수 있습니다. 가로축은 본 편수, 세로축은 평균 평점이고, 가운데 가로선은 전체 평균(★${G.overall.toFixed(2)})입니다.`);
+
+  const b = el("div", { class: "block" }, body);
+  el("div", { class: "block-title" }, b, "장르 지도: 얼마나 봤고, 얼마나 좋아했나");
+  const c = el("div", { class: "chart" }, b);
+  register(() => genreMap(c, G));
+
+  const facts = el("div", { class: "facts" }, body);
+  const fact = (v, k) => { const d = el("div", { class: "fact" }, facts); el("div", { class: "v" }, d, v); el("div", { class: "k" }, d, k); };
+  fact(`${most.genre} ${most.n}편`, `가장 많이 본 장르입니다. 장르 정보가 있는 영화의 ${most.share}%에 들어갑니다.`);
+  fact(`${fav.genre} ★${fav.mean.toFixed(2)}`, `평균이 가장 높은 장르입니다(${fav.n}편). ${fav.top.map(t => t.film).slice(0, 2).join(", ")} 등이 있습니다.`);
+  fact(`${least.genre} ★${least.mean.toFixed(2)}`, `평균이 가장 낮은 장르입니다(${least.n}편). 전체 평균보다 ${Math.abs(least.diff).toFixed(2)}점 낮습니다.`);
+
+  const det = el("details", { class: "table" }, body);
+  el("summary", {}, det, "장르별 수치를 표로 보기");
+  const sc = el("div", { class: "table-scroll" }, det);
+  table(el("table", {}, sc), ["장르", "편수", "비중", "평균", "전체 평균과 차이", "가장 높게 준 작품"],
+    [...G.genres].sort((a, b) => b.mean - a.mean).map(g => [g.genre, g.n, g.share + "%", g.mean.toFixed(2), (g.diff > 0 ? "+" : "") + g.diff.toFixed(2), `${g.top[0].film} ★${stars(g.top[0].rating)}`]));
+  el("p", { class: "footnote" }, body, `Wikidata의 세부 장르(예: neo-noir, splatter film)를 넓은 장르로 묶었습니다. 12편 미만인 장르는 뺐습니다. 단편 ${G.shorts}편은 장르 정보가 있을 때만 포함됩니다.`);
+})();
+
+function genreMap(container, G) {
+  const W0 = container.clientWidth, narrow = W0 < 520;
+  const fr = frame(container, narrow ? 360 : 420, { l: 44, r: 20, t: 16, b: 40 });
+  const { svg, W, x0, x1, y0, y1 } = fr;
+  svg.setAttribute("aria-label", "장르별 편수와 평균 평점");
+  const gs = G.genres;
+  const maxN = Math.ceil(Math.max(...gs.map(g => g.n)) / 100) * 100;
+  const means = gs.map(g => g.mean);
+  const lo = Math.floor((Math.min(...means) - 0.05) * 10) / 10, hi = Math.ceil((Math.max(...means) + 0.05) * 10) / 10;
+  // square-root x scale keeps small genres from piling up against the axis
+  const X = n => x0 + (x1 - x0) * Math.sqrt(n / maxN);
+  const Y = m => y0 - (y0 - y1) * (m - lo) / (hi - lo);
+  const xt = [0, 25, 100, 200, 400, 600, 800, 1000].filter(t => t <= maxN);
+  for (const t of xt) {
+    el("line", { x1: X(t), x2: X(t), y1: y1, y2: y0, class: t === 0 ? "baseline" : "gridline" }, svg);
+    el("text", { x: X(t), y: y0 + 18, "text-anchor": "middle", class: "tick" }, svg, String(t));
+  }
+  el("text", { x: x1, y: y0 + 34, "text-anchor": "end", class: "tick" }, svg, "본 편수 →");
+  for (let t = lo; t <= hi + 1e-9; t += 0.1) {
+    const tt = Math.round(t * 10) / 10;
+    if (Math.round(tt * 10) % 2 !== 0 && hi - lo > 0.8) continue;
+    el("line", { x1: x0, x2: x1, y1: Y(tt), y2: Y(tt), class: "gridline" }, svg);
+    el("text", { x: x0 - 8, y: Y(tt) + 4, "text-anchor": "end", class: "tick" }, svg, tt.toFixed(1));
+  }
+  el("line", { x1: x0, x2: x1, y1: Y(G.overall), y2: Y(G.overall), stroke: cssVar("--ink-2"), "stroke-width": 1 }, svg);
+  el("text", { x: x1 - 4, y: Y(G.overall) - 6, "text-anchor": "end", class: "tick" }, svg, `전체 평균 ${G.overall.toFixed(2)}`);
+
+  // greedy label placement: try right, left, above, below; skip when all collide
+  const boxes = gs.map(g => ({ x: X(g.n) - 6, y: Y(g.mean) - 6, w: 12, h: 12 }));
+  const hitBox = (a, b) => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
+  const order = [...gs].sort((a, b) => b.n - a.n);
+  const placed = [];
+  for (const g of order) {
+    const cx = X(g.n), cy = Y(g.mean), w = g.genre.length * 13 + 4, h = 14;
+    const cands = [[cx + 9, cy - h / 2, "start"], [cx - 9 - w, cy - h / 2, "end"], [cx - w / 2, cy - h - 8, "middle"], [cx - w / 2, cy + 8, "middle"]];
+    for (const [lx, ly, anchor] of cands) {
+      const box = { x: lx, y: ly, w, h };
+      if (lx < x0 - 30 || lx + w > W - 2 || ly < 0 || ly + h > y0) continue;
+      if (placed.some(p => hitBox(p, box)) || boxes.some(p => hitBox(p, box))) continue;
+      placed.push(box);
+      const tx = anchor === "start" ? lx : anchor === "end" ? lx + w : cx;
+      el("text", { x: tx, y: ly + 11, "text-anchor": anchor, class: "lbl" }, svg, g.genre);
+      break;
+    }
+  }
+  const up = cssVar("--up"), down = cssVar("--down");
+  for (const g of gs) {
+    const c = g.mean >= G.overall ? up : down;
+    el("circle", { cx: X(g.n), cy: Y(g.mean), r: 5, fill: c, stroke: cssVar("--card"), "stroke-width": 2 }, svg);
+    const hit = el("circle", { cx: X(g.n), cy: Y(g.mean), r: 13, class: "hit", tabindex: 0, "aria-label": `${g.genre} ${g.n}편, 평균 ${g.mean.toFixed(2)}` }, svg);
+    const on = e => showTip(e, g.genre, [{ color: c, value: "★" + g.mean.toFixed(2), label: `평균 (${g.diff > 0 ? "+" : ""}${g.diff.toFixed(2)})` }, { value: g.n + "편", label: `${g.share}%` }, ...g.top.slice(0, 2).map(t => ({ value: "★" + stars(t.rating), label: t.film }))]);
+    hit.addEventListener("pointermove", on); hit.addEventListener("focus", on);
+    hit.addEventListener("pointerleave", hideTip); hit.addEventListener("blur", hideTip);
+  }
+}
+
+(function colophon() {
+  const c = document.getElementById("colophon");
+  el("p", {}, c, "데이터: Letterboxd 내보내기 파일(ratings.csv, reviews.csv). 감독과 장르는 Wikidata에서 가져왔습니다.");
+  el("p", {}, c, "리뷰 인용은 원문 그대로 옮겼습니다.");
+})();
+</script>
