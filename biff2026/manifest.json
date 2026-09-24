@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "BIFF 2026 부산 일정",
+  "short_name": "BIFF 일정",
+  "description": "2026 부산국제영화제 개인 여행 일정 (10/7–10/13)",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0e1014",
+  "theme_color": "#0e1014",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
