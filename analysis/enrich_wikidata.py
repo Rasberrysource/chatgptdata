@@ -110,7 +110,8 @@ def main(skip_title=False):
     raw = json.loads(RAW.read_text()) if RAW.exists() else []
     done = {val(b, "key") for b in raw}
     # Slugs Wikidata does not know return no rows, so remember every slug already asked about.
-    queried = set(json.loads(QUERIED.read_text())) if QUERIED.exists() else set()
+    # Only trust that list alongside the raw cache it describes.
+    queried = set(json.loads(QUERIED.read_text())) if QUERIED.exists() and RAW.exists() else set()
 
     todo = sorted({slugs[f["Letterboxd URI"]] for f in films if slugs.get(f["Letterboxd URI"])} - done - queried)
     for i in range(0, len(todo), 60):

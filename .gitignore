@@ -1,3 +1,4 @@
 data/*.csv
+!data/film_meta.csv
 __pycache__/
 data/cache/wikidata_rows.json
