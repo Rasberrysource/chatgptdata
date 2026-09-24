@@ -293,7 +293,9 @@ def main():
             "source_id": list_src[r["category"]], "cited_refs": cited,
             "verification": {
                 "list_page": "parsed",
-                "ceremony_page": (cc or {}).get("status", "not_checked"),
+                "ceremony_page": ("manual_ok" if (cc or {}).get("status") not in (None, "match", "not_found")
+                                  and f"{r['category']} {season}" in manual["crosscheck_resolutions"]
+                                  else (cc or {}).get("status", "not_checked")),
             },
         })
 
