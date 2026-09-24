@@ -16,6 +16,7 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SLUGS = ROOT / "data" / "cache" / "slugs.json"
 RAW = ROOT / "data" / "cache" / "wikidata_rows.json"
+QUERIED = ROOT / "data" / "cache" / "queried_slugs.json"
 OUT = ROOT / "data" / "film_meta.csv"
 UA = "letterboxd-taste-analysis/0.1 (personal, non-commercial)"
 ENDPOINT = "https://query.wikidata.org/sparql"
@@ -92,7 +93,8 @@ def collect(rows):
                 rec.setdefault("runtime", minutes)
             continue
         if p == "date":
-            rec.setdefault("wd_year", v[:4])
+            # Re-releases add later dates; the earliest one is the original release.
+            rec["wd_year"] = min(rec.get("wd_year", "9999"), v[:4])
             continue
         qid = v.rsplit("/", 1)[-1]
         label = val(b, "ko") or val(b, "en") or qid
@@ -107,19 +109,27 @@ def main(skip_title=False):
         films = list(csv.DictReader(f))
     raw = json.loads(RAW.read_text()) if RAW.exists() else []
     done = {val(b, "key") for b in raw}
+    # Slugs Wikidata does not know return no rows, so remember every slug already asked about.
+    queried = set(json.loads(QUERIED.read_text())) if QUERIED.exists() else set()
 
-    todo = sorted({slugs[f["Letterboxd URI"]] for f in films if slugs.get(f["Letterboxd URI"])} - done)
+    todo = sorted({slugs[f["Letterboxd URI"]] for f in films if slugs.get(f["Letterboxd URI"])} - done - queried)
     for i in range(0, len(todo), 60):
-        raw += by_slug(todo[i:i + 60])
+        batch = todo[i:i + 60]
+        raw += by_slug(batch)
+        queried.update(batch)
         print(f"slug batch {i // 60 + 1}/{-(-len(todo) // 60)}", flush=True)
         RAW.write_text(json.dumps(raw, ensure_ascii=False))
+        QUERIED.write_text(json.dumps(sorted(queried)))
         time.sleep(1)
 
     meta = collect(raw)
     if skip_title:
-        return
-    missing = [f for f in films if slugs.get(f["Letterboxd URI"]) not in meta and f["Year"]]
-    print(f"{len(missing)} films without a Letterboxd link on Wikidata; trying title match", flush=True)
+        # Keep only films confirmed through their Letterboxd ID.
+        raw = [b for b in raw if not val(b, "key").startswith("title:")]
+        missing = []
+    else:
+        missing = [f for f in films if slugs.get(f["Letterboxd URI"]) not in meta and f["Year"]]
+        print(f"{len(missing)} films without a Letterboxd link on Wikidata; trying title match", flush=True)
     for f in missing:
         key = "title:" + f["Letterboxd URI"]
         if key in done:

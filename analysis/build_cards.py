@@ -213,7 +213,8 @@ def director_card(r, v, meta):
             rows.append({"qid": qid, "director": name, "film": f.Name, "year": int(f.Year),
                          "rating": float(f.Rating), "logs": int(f.logs)})
     d = pd.DataFrame(rows)
-    overall = float(r.Rating.mean())
+    # Compare against the films this card covers, not all 1,185.
+    overall = float(films.Rating.mean())
     g = d.groupby(["qid", "director"]).agg(n=("film", "size"), mean=("rating", "mean"), logs=("logs", "sum")).reset_index()
 
     def films_of(qid):
@@ -221,17 +222,19 @@ def director_card(r, v, meta):
         return [{"film": x.film, "year": x.year, "rating": x.rating, "logs": x.logs} for x in s.itertuples()]
 
     top = g.sort_values(["n", "mean"], ascending=False).head(12)
-    rated = g[g.n >= 3].sort_values("mean", ascending=False)
+    rated = g[g.n >= 3].sort_values(["mean", "n"], ascending=[False, False])
     pack = lambda t: [{"director": x.director, "qid": x.qid, "n": int(x.n), "mean": round(float(x.mean), 2),
                        "logs": int(x.logs), "films": films_of(x.qid)} for x in t.itertuples()]
     best = rated.iloc[0]
     fav = top.iloc[0]
     return {
-        "coverage": int(films.shape[0]), "total": int(len(r)),
+        "coverage": int(films.shape[0]), "total": int(len(r)), "matched": int((meta.match == "slug").sum()),
+        "unmatched": int((meta.match != "slug").sum()),
+        "unmatched_mean": round(float(r[r["Letterboxd URI"].isin(meta.uri[meta.match != "slug"])].Rating.mean()), 2),
         "directors": int(g.shape[0]), "overall": round(overall, 2),
         "top": pack(top),
         "high": pack(rated.head(8)),
-        "low": pack(rated.tail(5).iloc[::-1]),
+        "low": pack(rated.sort_values(["mean", "n"], ascending=[True, False]).head(5)),
         "eligible": int(len(rated)),
         "hint": f"{fav.director} {int(fav.n)}편, 평균 ★{fav['mean']:.2f}",
         "best": {"director": best.director, "n": int(best.n), "mean": round(float(best["mean"]), 2)},
@@ -261,7 +264,7 @@ GENRE_RULES = [
     ("어드벤처", ["adventure"]),
     ("슈퍼히어로", ["superhero"]),
     ("성장", ["coming-of-age", "teen"]),
-    ("LGBTQ", ["lgbt", "lesbian", "gay", "queer"]),
+    ("퀴어", ["lgbt", "lesbian", "gay", "queer"]),
     ("드라마", ["drama"]),
 ]
 
@@ -284,8 +287,8 @@ def genre_card(r, v, meta):
     films = with_meta(r, v, meta)
     films["broad"] = [broad_genres(g or "", t or "") for g, t in zip(films.genres_en.fillna(""), films.types_en.fillna(""))]
     films["short"] = films.types_en.fillna("").str.contains("short film")
-    has = films[films.broad.map(len) > 0]
-    overall = float(r.Rating.mean())
+    has = films[(films.broad.map(len) > 0) & ~films.series]
+    overall = float(has.Rating.mean())
     ex = has.explode("broad")
     g = ex.groupby("broad").agg(n=("Name", "size"), mean=("Rating", "mean")).reset_index()
     g = g[g.n >= 12].sort_values("n", ascending=False)
@@ -302,7 +305,8 @@ def genre_card(r, v, meta):
     return {
         "coverage": int(len(has)), "total": int(len(r)), "overall": round(overall, 2),
         "genres": rows,
-        "shorts": int(films.short.sum()),
+        "shorts": int((has.short).sum()),
+        "spread": round(fav["mean"] - least["mean"], 2),
         "hint": f"가장 후한 장르는 {fav['genre']}",
         "fav": fav["genre"], "least": least["genre"], "most": most["genre"],
     }

@@ -206,14 +206,14 @@
 
 감독 정보는 데이터에 없지만, 잘 알려진 작품은 제목으로 직접 묶어 볼 수 있습니다. 아래 표는 수작업으로 확인한 결과이며, 체계적으로 분석하려면 3장의 외부 데이터가 필요합니다.
 
-**크리스토퍼 놀란:** 장편 13편 중 12편에 평점을 매겼고(Following만 없음), 평균은 4.33점입니다. 전체 평균보다 0.7점 높습니다.
+**크리스토퍼 놀란:** 장편 13편에 모두 평점을 매겼고, 평균은 4.27점입니다. 전체 평균보다 0.64점 높습니다. (처음 작성할 때 Following을 빠뜨려 "13편 중 12편, 평균 4.33점"으로 잘못 적었던 것을 고쳤습니다.)
 
 | 작품 | 평점 | 비고 |
 |---|---|---|
 | The Dark Knight | 5.0 | |
 | Memento, Inception, The Dark Knight Rises, Interstellar, Dunkirk, Oppenheimer, The Odyssey | 4.5 | Memento는 2016년 BIFAN에서 봤습니다. |
 | Batman Begins, The Prestige, Tenet | 4.0 | Tenet은 극장에서 3번 봤습니다. |
-| Insomnia | 3.5 | |
+| Following, Insomnia | 3.5 | |
 
 **시리즈별 평균:**
 

@@ -81,6 +81,8 @@ body {
   color: var(--ink);
   font: 400 16px/1.7 var(--body);
   -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 .wrap {
   max-width: 1000px;
@@ -97,7 +99,7 @@ a { color: inherit; }
 
 .edge {
   font: 500 11px/1 var(--mono);
-  letter-spacing: .14em;
+  letter-spacing: .06em;
   text-transform: uppercase;
 }
 
@@ -647,31 +649,37 @@ function dumbbell(container, f, dir) {
   const body = document.getElementById("dir-body");
   body.replaceChildren();
   document.getElementById("dir-edge").textContent = `감독 ${fmtN.format(D.directors)}명 · 감독 정보가 있는 영화 ${fmtN.format(D.coverage)}편`;
-  const fav = D.top[0];
+  const fav = D.top[0], best = D.high[0], worst = D.low[0];
   const head = el("div", { class: "head" }, body);
   el("h2", { id: "dir-h" }, head, `${fav.director}, ${fav.n}편에 평균 ★${fav.mean.toFixed(2)}`);
   el("p", { class: "lead" }, head,
-    `감독 정보를 찾은 ${fmtN.format(D.coverage)}편을 감독 ${fmtN.format(D.directors)}명으로 묶었습니다. 가장 많이 본 감독은 ${fav.director}이고, 전체 평균(★${D.overall.toFixed(2)})보다 ${(fav.mean - D.overall).toFixed(2)}점 높게 줬습니다.`);
+    `Letterboxd ID로 Wikidata와 연결된 ${fmtN.format(D.matched)}편 중 감독 정보가 있는 ${fmtN.format(D.coverage)}편을 감독 ${fmtN.format(D.directors)}명으로 묶었습니다. 가장 많이 본 감독은 ${fav.n}편을 본 ${fav.director}입니다. 이 카드에 들어간 영화의 평균(★${D.overall.toFixed(2)})보다 ${(fav.mean - D.overall).toFixed(2)}점 높게 줬습니다.`);
 
   const two = el("div", { class: "two" }, body);
   const b1 = el("div", { class: "block" }, two);
   el("div", { class: "block-title" }, b1, "가장 많이 본 감독");
-  el("div", { class: "legend", "aria-hidden": "true" }, b1).appendChild(document.createTextNode("막대는 평점을 매긴 편수입니다."));
+  el("div", { class: "legend" }, b1).appendChild(document.createTextNode("막대는 평점을 매긴 편수입니다."));
   const c1 = el("div", { class: "chart" }, b1);
   register(() => hbar(c1, D.top, { value: d => d.n, max: Math.ceil(D.top[0].n / 2) * 2, fmt: v => v + "편", aria: "가장 많이 본 감독 순위",
     tipRows: d => [{ color: cssVar("--s1"), value: d.n + "편", label: "평점 매긴 영화" }, { value: "★" + d.mean.toFixed(2), label: "평균" }, { value: d.logs + "회", label: "다이어리 기록" }] }));
 
   const b2 = el("div", { class: "block" }, two);
-  el("div", { class: "block-title" }, b2, `평균이 높은 감독과 낮은 감독 (3편 이상, ${D.eligible}명 중)`);
+  el("div", { class: "block-title" }, b2, `평균이 높은 감독과 낮은 감독 (3편 이상 본 ${D.eligible}명 중)`);
   const lg = el("div", { class: "legend" }, b2);
-  for (const [v, label] of [["--up", "전체 평균보다 높음"], ["--down", "전체 평균보다 낮음"]]) {
+  for (const [v, label] of [["--up", "평균보다 높음"], ["--down", "평균보다 낮음"]]) {
     const sp = el("span", {}, lg); el("i", { class: "key-dot", style: `background:var(${v})` }, sp); sp.appendChild(document.createTextNode(label));
   }
   const c2 = el("div", { class: "chart" }, b2);
   register(() => dotRank(c2, D.high, D.low, D.overall));
 
+  const facts = el("div", { class: "facts" }, body);
+  const fact = (v, k) => { const d = el("div", { class: "fact" }, facts); el("div", { class: "v" }, d, v); el("div", { class: "k" }, d, k); };
+  fact(`${best.director} ★${best.mean.toFixed(2)}`, `평균이 가장 높은 감독입니다(${best.n}편). ${best.films.slice(0, 2).map(f => f.film).join(", ")} 등을 봤습니다.`);
+  fact(`${worst.director} ★${worst.mean.toFixed(2)}`, `평균이 가장 낮은 감독입니다(${worst.n}편). ${worst.films.map(f => `${f.film} ★${stars(f.rating)}`).join(", ")}.`);
+  fact(`${fav.logs}회`, `${fav.director}의 영화를 다이어리에 기록한 횟수입니다. 다시 본 기록까지 합치면 ${fav.n}편보다 ${fav.logs - fav.n}회 많습니다.`);
+
   const b3 = el("div", { class: "block" }, body);
-  el("div", { class: "block-title" }, b3, `${fav.director} 필모그래피 속 내 평점`);
+  el("div", { class: "block-title" }, b3, `${fav.director}의 장편 ${fav.films.length}편과 내 평점`);
   const chips = el("div", { class: "chips" }, b3);
   for (const f of fav.films) el("span", { class: "chip" }, chips, `${f.film} (${f.year}) ★${stars(f.rating)}${f.logs > 1 ? ` · ${f.logs}회 관람` : ""}`);
 
@@ -680,9 +688,10 @@ function dumbbell(container, f, dir) {
   const sc = el("div", { class: "table-scroll" }, det);
   const seen = new Set(), all = [];
   for (const d of [...D.top, ...D.high, ...D.low]) if (!seen.has(d.qid)) { seen.add(d.qid); all.push(d); }
-  table(el("table", {}, sc), ["감독", "편수", "평균", "다이어리 기록", "최고 평점 작품"],
+  table(el("table", {}, sc), ["감독", "편수", "평균", "다이어리 기록", "가장 높게 준 작품"],
     all.sort((a, b) => b.n - a.n || b.mean - a.mean).map(d => [d.director, d.n, d.mean.toFixed(2), d.logs, `${d.films[0].film} ★${stars(d.films[0].rating)}`]));
-  el("p", { class: "footnote" }, body, "드라마 시리즈는 뺐습니다. 공동 감독 작품은 감독마다 한 편으로 셉니다. 감독 정보는 Wikidata 기준이라 일부 영화는 빠져 있습니다.");
+  el("p", { class: "footnote" }, body,
+    `Letterboxd ID로 연결되지 않은 ${D.unmatched}편(주로 단편과 영화제 상영작, 평균 ★${D.unmatched_mean.toFixed(2)})과 드라마 시리즈는 뺐습니다. 공동 연출작은 감독마다 한 편으로 셉니다. 감독 이름은 Wikidata의 한국어 표기를 따르고, 한국어 표기가 없으면 영어로 적었습니다.`);
 })();
 
 function hbar(container, items, { value, max, fmt, aria, tipRows }) {
@@ -716,7 +725,7 @@ function clip(text, px) {
 function dotRank(container, high, low, overall) {
   const rows = [...high.map(d => ({ ...d, grp: "high" })), { gap: true }, ...low.map(d => ({ ...d, grp: "low" }))];
   const rowH = 28, labelW = Math.min(170, container.clientWidth * 0.42);
-  const fr = frame(container, rows.length * rowH + 30, { l: labelW, r: 44, t: 4, b: 26 });
+  const fr = frame(container, rows.length * rowH + 44, { l: labelW, r: 44, t: 4, b: 40 });
   const { svg, x0, x1, y0 } = fr;
   svg.setAttribute("aria-label", "감독별 평균 평점과 전체 평균");
   const lo = 2.5, hi = 5;
@@ -726,7 +735,7 @@ function dotRank(container, high, low, overall) {
     el("text", { x: X(t), y: y0 + 18, "text-anchor": "middle", class: "tick" }, svg, t.toFixed(1));
   }
   el("line", { x1: X(overall), x2: X(overall), y1: 0, y2: y0, stroke: cssVar("--ink-2"), "stroke-width": 1 }, svg);
-  el("text", { x: X(overall) + 4, y: y0 - 4, class: "tick" }, svg, `전체 ${overall.toFixed(2)}`);
+  el("text", { x: X(overall), y: y0 + 34, "text-anchor": "middle", class: "tick" }, svg, `세로선: 평균 ${overall.toFixed(2)}`);
   rows.forEach((d, i) => {
     const y = 4 + i * rowH + rowH / 2;
     if (d.gap) { el("text", { x: x0 - 10, y: y + 4, "text-anchor": "end", class: "tick" }, svg, "⋯"); return; }
@@ -734,7 +743,7 @@ function dotRank(container, high, low, overall) {
     el("text", { x: x0 - 10, y: y + 4, "text-anchor": "end", class: "lbl" }, svg, clip(d.director, labelW - 14));
     el("line", { x1: X(overall), x2: X(d.mean), y1: y, y2: y, stroke: c, "stroke-width": 2 }, svg);
     el("circle", { cx: X(d.mean), cy: y, r: 5, fill: c, stroke: cssVar("--card"), "stroke-width": 2 }, svg);
-    el("text", { x: X(d.mean) + (d.mean >= overall ? 10 : -10), y: y + 4, "text-anchor": d.mean >= overall ? "start" : "end", class: "tick" }, svg, d.mean.toFixed(2));
+    el("text", { x: (d.mean >= overall ? X(d.mean) : X(overall)) + 8, y: y + 4, class: "tick" }, svg, d.mean.toFixed(2));
     const hit = el("rect", { x: 0, y: y - rowH / 2, width: x1 + 44, height: rowH, class: "hit", tabindex: 0, "aria-label": `${d.director} 평균 ${d.mean.toFixed(2)}, ${d.n}편` }, svg);
     const on = e => showTip(e, `${d.director} · ${d.n}편`, [{ color: c, value: "★" + d.mean.toFixed(2), label: "평균" }, ...d.films.slice(0, 3).map(f => ({ value: "★" + stars(f.rating), label: f.film }))]);
     hit.addEventListener("pointermove", on); hit.addEventListener("focus", on);
@@ -744,7 +753,7 @@ function dotRank(container, high, low, overall) {
 
 /* ---------- card 4: genres ---------- */
 (function genreCard() {
-  const G = DATA.genres;
+  const G = DATA.genres, D = DATA.directors;
   if (!G) return;
   const body = document.getElementById("gen-body");
   body.replaceChildren();
@@ -753,26 +762,33 @@ function dotRank(container, high, low, overall) {
   const fav = byName[G.fav], least = byName[G.least], most = byName[G.most];
   const head = el("div", { class: "head" }, body);
   el("h2", { id: "gen-h" }, head, `가장 많이 본 건 ${most.genre}, 가장 후한 건 ${fav.genre}`);
+  const dirGap = D ? ` 감독별 평균이 ★${D.low[0].mean.toFixed(2)}에서 ★${D.high[0].mean.toFixed(2)}까지 벌어지는 것과 비교하면, 평점을 가르는 건 장르보다 감독에 가깝습니다.` : "";
   el("p", { class: "lead" }, head,
-    `장르 정보를 찾은 ${fmtN.format(G.coverage)}편을 넓은 장르 ${G.genres.length}개로 묶었습니다. 한 영화가 여러 장르에 동시에 들어갈 수 있습니다. 가로축은 본 편수, 세로축은 평균 평점이고, 가운데 가로선은 전체 평균(★${G.overall.toFixed(2)})입니다.`);
+    `장르 정보가 있는 ${fmtN.format(G.coverage)}편을 넓은 장르 ${G.genres.length}개로 묶었습니다. 한 영화가 여러 장르에 함께 들어갈 수 있습니다. 평균이 가장 높은 장르와 가장 낮은 장르의 차이는 ${G.spread.toFixed(2)}점뿐입니다.${dirGap}`);
 
   const b = el("div", { class: "block" }, body);
   el("div", { class: "block-title" }, b, "장르 지도: 얼마나 봤고, 얼마나 좋아했나");
+  const lg = el("div", { class: "legend" }, b);
+  for (const [v, label] of [["--up", "평균보다 높음"], ["--down", "평균보다 낮음"]]) {
+    const sp = el("span", {}, lg); el("i", { class: "key-dot", style: `background:var(${v})` }, sp); sp.appendChild(document.createTextNode(label));
+  }
   const c = el("div", { class: "chart" }, b);
   register(() => genreMap(c, G));
+  el("p", { class: "block-note" }, b, `가로축은 본 편수(제곱근 눈금), 세로축은 평균 평점입니다. 가로선은 이 카드에 들어간 영화의 평균(★${G.overall.toFixed(2)})입니다. 세로축은 차이를 보이려고 좁은 범위만 그렸습니다.`);
 
   const facts = el("div", { class: "facts" }, body);
   const fact = (v, k) => { const d = el("div", { class: "fact" }, facts); el("div", { class: "v" }, d, v); el("div", { class: "k" }, d, k); };
   fact(`${most.genre} ${most.n}편`, `가장 많이 본 장르입니다. 장르 정보가 있는 영화의 ${most.share}%에 들어갑니다.`);
   fact(`${fav.genre} ★${fav.mean.toFixed(2)}`, `평균이 가장 높은 장르입니다(${fav.n}편). ${fav.top.map(t => t.film).slice(0, 2).join(", ")} 등이 있습니다.`);
-  fact(`${least.genre} ★${least.mean.toFixed(2)}`, `평균이 가장 낮은 장르입니다(${least.n}편). 전체 평균보다 ${Math.abs(least.diff).toFixed(2)}점 낮습니다.`);
+  fact(`${least.genre} ★${least.mean.toFixed(2)}`, `평균이 가장 낮은 장르입니다(${least.n}편). 평균보다 ${Math.abs(least.diff).toFixed(2)}점 낮습니다.`);
 
   const det = el("details", { class: "table" }, body);
   el("summary", {}, det, "장르별 수치를 표로 보기");
   const sc = el("div", { class: "table-scroll" }, det);
-  table(el("table", {}, sc), ["장르", "편수", "비중", "평균", "전체 평균과 차이", "가장 높게 준 작품"],
+  table(el("table", {}, sc), ["장르", "편수", "비중", "평균", "평균과 차이", "가장 높게 준 작품"],
     [...G.genres].sort((a, b) => b.mean - a.mean).map(g => [g.genre, g.n, g.share + "%", g.mean.toFixed(2), (g.diff > 0 ? "+" : "") + g.diff.toFixed(2), `${g.top[0].film} ★${stars(g.top[0].rating)}`]));
-  el("p", { class: "footnote" }, body, `Wikidata의 세부 장르(예: neo-noir, splatter film)를 넓은 장르로 묶었습니다. 12편 미만인 장르는 뺐습니다. 단편 ${G.shorts}편은 장르 정보가 있을 때만 포함됩니다.`);
+  el("p", { class: "footnote" }, body,
+    `Wikidata의 세부 장르(예: neo-noir, splatter film)를 넓은 장르로 묶었습니다. 12편 미만인 장르와 드라마 시리즈는 뺐습니다. Letterboxd ID로 연결되지 않은 영화는 카드 3과 마찬가지로 빠져 있습니다.`);
 })();
 
 function genreMap(container, G) {
@@ -833,7 +849,7 @@ function genreMap(container, G) {
 
 (function colophon() {
   const c = document.getElementById("colophon");
-  el("p", {}, c, "데이터: Letterboxd 내보내기 파일(ratings.csv, reviews.csv). 감독과 장르는 Wikidata에서 가져왔습니다.");
+  el("p", {}, c, "데이터: Letterboxd 내보내기 파일(ratings.csv, reviews.csv). 감독과 장르는 Wikidata(CC0)에서 Letterboxd 영화 ID로 연결되는 항목만 가져왔습니다.");
   el("p", {}, c, "리뷰 인용은 원문 그대로 옮겼습니다.");
 })();
 </script>
