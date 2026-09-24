@@ -1,0 +1,216 @@
+<title>1,185편의 숨은 규칙</title>
+<meta name="description" content="Letterboxd 기록에서 통계 검정을 통과한 취향 패턴 10개">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+/*__BASE_CSS__*/
+
+.funnel { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.funnel div { background: var(--card); border-radius: 10px; padding: 14px 16px; box-shadow: var(--shadow); display: grid; gap: 2px; }
+.funnel b { font-size: 30px; font-weight: 600; line-height: 1.2; }
+.funnel span { font-size: 13px; color: var(--ink-2); line-height: 1.5; }
+.method { background: var(--card); border-radius: 14px; box-shadow: var(--shadow); padding: 22px 24px; display: grid; gap: 10px; }
+.method h2 { font: 700 17px/1.4 var(--body); }
+.method ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; color: var(--ink-2); font-size: 15px; max-width: 72ch; }
+
+.pattern .card-body { gap: 20px; }
+.pattern-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.pattern h2 { font: 400 clamp(24px, 3.6vw, 32px)/1.2 var(--display); }
+.pattern .text { display: grid; gap: 14px; }
+.pattern .text p { color: var(--ink-2); max-width: 60ch; }
+.evidence { display: grid; grid-template-columns: max-content 1fr; gap: 6px 14px; font-size: 14px; margin: 0; }
+.evidence dt { color: var(--muted); }
+.evidence dd { margin: 0; font-variant-numeric: tabular-nums; }
+.evidence dd b { font-weight: 600; }
+.right { display: grid; gap: 14px; align-content: start; }
+.chart-cap { font-size: 12px; color: var(--muted); }
+.strip .q { font-variant-numeric: tabular-nums; text-transform: none; }
+
+.leftovers { display: grid; gap: 18px; }
+.leftovers h3 { font-size: 16px; font-weight: 700; }
+.leftovers p { color: var(--ink-2); font-size: 15px; max-width: 70ch; }
+.leftovers ul { margin: 0; padding-left: 20px; display: grid; gap: 4px; color: var(--ink-2); font-size: 14px; font-variant-numeric: tabular-nums; }
+
+@media (max-width: 760px) {
+  .pattern-grid { grid-template-columns: minmax(0, 1fr); }
+  .funnel { grid-template-columns: minmax(0, 1fr); }
+}
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="edge" id="mast-edge"></div>
+    <h1>1,185편의 숨은 규칙</h1>
+    <p class="lead">평점과 리뷰에 숨어 있던 취향 패턴 10개입니다. 후보를 넉넉하게 세워 모두 같은 방식으로 검정했고, 우연으로 설명되지 않으면서 영화의 유명세로도 설명되지 않는 것만 남겼습니다.</p>
+    <div class="funnel" id="funnel"></div>
+  </header>
+
+  <section class="method" aria-labelledby="method-h">
+    <h2 id="method-h">어떻게 골랐나</h2>
+    <ol id="method"></ol>
+  </section>
+
+  <div id="patterns" style="display:grid;gap:24px"></div>
+
+  <section class="card" aria-labelledby="left-h">
+    <div class="strip edge"><span>검정했지만 남기지 않은 후보</span><span id="left-edge"></span></div>
+    <div class="card-body leftovers" id="leftovers">
+      <h2 id="left-h" style="font:400 clamp(24px,3.6vw,32px)/1.2 var(--display)">짐작과 달리 근거가 없던 것들</h2>
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <p>데이터: Letterboxd 내보내기 파일(ratings.csv, reviews.csv), Wikidata(CC0). 영화 속성은 Letterboxd 영화 ID로 연결된 1,038편에서만 계산했습니다.</p>
+    <p>이 페이지의 수치는 관찰 자료에서 나온 연관성입니다. 원인과 결과를 뜻하지는 않습니다.</p>
+  </footer>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const DATA = /*__DATA__*/;
+const NS = "http://www.w3.org/2000/svg";
+const fmtN = new Intl.NumberFormat("ko-KR");
+
+function el(tag, attrs = {}, parent, text) {
+  const isSvg = ["svg", "g", "line", "rect", "circle", "path", "text"].includes(tag);
+  const node = isSvg ? document.createElementNS(NS, tag) : document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) if (v !== undefined && v !== null) node.setAttribute(k, v);
+  if (text !== undefined) node.textContent = text;
+  if (parent) parent.appendChild(node);
+  return node;
+}
+function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+const sgn = (x, d = 2) => (x > 0 ? "+" : x < 0 ? "−" : "") + Math.abs(x).toFixed(d);
+function fmtQ(q) { return q < 0.0001 ? "< 0.0001" : "= " + (q < 0.01 ? q.toFixed(4) : q.toFixed(3)); }
+
+const tip = document.getElementById("tip");
+function showTip(evt, head, rows) {
+  tip.replaceChildren();
+  el("div", { class: "t-head" }, tip, head);
+  for (const r of rows) {
+    const row = el("div", { class: "t-row" }, tip);
+    if (r.color) el("i", { class: "key-line", style: `background:${r.color}` }, row);
+    el("b", {}, row, r.value);
+    if (r.label) el("span", {}, row, r.label);
+  }
+  tip.hidden = false;
+  let x, y;
+  if (evt.type !== "focus") { x = evt.clientX; y = evt.clientY; }
+  else { const b = evt.target.getBoundingClientRect(); x = b.left + b.width / 2; y = b.top; }
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  let left = x + 14, top = y - h - 12;
+  if (left + w > window.innerWidth - 8) left = x - w - 14;
+  if (left < 8) left = 8;
+  if (top < 8) top = y + 16;
+  tip.style.left = left + "px"; tip.style.top = top + "px";
+}
+function hideTip() { tip.hidden = true; }
+
+const charts = [];
+function register(fn) { charts.push(fn); fn(); }
+let rt;
+window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => charts.forEach(f => f()), 120); });
+window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener?.("change", () => charts.forEach(f => f()));
+new MutationObserver(() => charts.forEach(f => f())).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+/* dot plot on one shared scale (★3.0–4.5) so all ten charts compare directly */
+function dotPlot(container, rows, focus, overall) {
+  container.replaceChildren();
+  const W = Math.max(260, container.clientWidth), rowH = 32, labelW = Math.min(150, W * 0.38);
+  const H = rows.length * rowH + 30, x0 = labelW, x1 = W - 44, y0 = rows.length * rowH + 4;
+  const svg = el("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: "img" }, container);
+  svg.setAttribute("aria-label", rows.map(r => `${r.label} ${r.mean.toFixed(2)}점, ${r.n}건`).join("; "));
+  const lo = 3.0, hi = 4.5, X = v => x0 + (x1 - x0) * (v - lo) / (hi - lo);
+  for (let t = lo; t <= hi + 1e-9; t += 0.5) {
+    el("line", { x1: X(t), x2: X(t), y1: 4, y2: y0, class: t === lo ? "baseline" : "gridline" }, svg);
+    el("text", { x: X(t), y: y0 + 18, "text-anchor": "middle", class: "tick" }, svg, "★" + t.toFixed(1));
+  }
+  const many = rows.length > 2;
+  rows.forEach((r, i) => {
+    const y = 4 + i * rowH + rowH / 2;
+    const isFocus = many || r.label === focus;
+    const c = cssVar(isFocus ? "--s1" : "--same");
+    el("text", { x: x0 - 10, y: y - 1, "text-anchor": "end", class: r.label === focus ? "lbl-strong" : "lbl" }, svg, r.label);
+    el("text", { x: x0 - 10, y: y + 12, "text-anchor": "end", class: "tick", style: "font-size:11px" }, svg, fmtN.format(r.n) + "건");
+    el("line", { x1: X(lo), x2: X(r.mean), y1: y, y2: y, stroke: c, "stroke-width": 2, "stroke-linecap": "round" }, svg);
+    el("circle", { cx: X(r.mean), cy: y, r: 5.5, fill: c, stroke: cssVar("--card"), "stroke-width": 2 }, svg);
+    el("text", { x: X(r.mean) + 10, y: y + 4, class: "lbl" }, svg, r.mean.toFixed(2));
+    const hit = el("rect", { x: 0, y: y - rowH / 2, width: W, height: rowH, fill: "transparent", tabindex: 0, "aria-label": `${r.label} 평균 ${r.mean.toFixed(2)}점, ${r.n}건` }, svg);
+    const on = e => showTip(e, r.label, [{ color: c, value: "★" + r.mean.toFixed(2), label: "평균" }, { value: fmtN.format(r.n) + "건", label: "표본" }]);
+    hit.addEventListener("pointermove", on); hit.addEventListener("focus", on);
+    hit.addEventListener("pointerleave", hideTip); hit.addEventListener("blur", hideTip);
+  });
+}
+
+/* masthead + method */
+(function () {
+  document.getElementById("mast-edge").textContent = `Letterboxd 내보내기 · 후보 ${DATA.n_tests}개 검정 · FDR 5%`;
+  const fn = document.getElementById("funnel");
+  for (const [v, k] of [[DATA.n_tests, "검정한 후보 패턴 (리뷰 단어 " + DATA.word_tests + "개 포함)"],
+                        [DATA.n_sig, "여러 번 검정한 것을 보정한 뒤에도 통과한 패턴"],
+                        [DATA.n_picks, "영화의 유명세를 함께 통제해도 유지된 패턴"]]) {
+    const d = el("div", {}, fn); el("b", {}, d, String(v)); el("span", {}, d, k);
+  }
+  const ol = document.getElementById("method");
+  [
+    "영화 속성(유명세, 수상, 제작 국가, 상영 시간, 감독), 시청 습관(요일, 몰아보기, 극장 재개봉 등), 평점 습관, 리뷰에 쓴 단어까지 후보 가설을 먼저 정한 뒤 한꺼번에 검정했습니다.",
+    "평점은 해마다 낮아졌기 때문에(보고서 2.2절), 모든 비교에서 같은 해에 본 영화끼리 비교하도록 연도를 통제했습니다. 시청 습관과 리뷰 비교에서는 시청 플랫폼과 재관람 여부도 함께 통제했습니다.",
+    "후보를 많이 검정하면 우연히 걸리는 패턴이 생깁니다. 그래서 모든 p값을 Benjamini-Hochberg 방법으로 한꺼번에 보정했고, 보정한 값(q)이 0.05 미만인 것만 남겼습니다.",
+    "마지막으로 영화의 유명세(위키백과 언어판 수)를 함께 넣어 다시 계산했습니다. 이때 방향이 바뀌거나 p가 0.05 이상이 되면, 유명한 영화를 골라 본 결과일 뿐이라고 보고 뺐습니다.",
+  ].forEach(t => el("li", {}, ol, t));
+})();
+
+/* pattern cards */
+(function () {
+  const box = document.getElementById("patterns");
+  for (const p of DATA.patterns) {
+    const sec = el("section", { class: "card pattern", id: "p" + p.rank, "aria-labelledby": "p" + p.rank + "-h" }, box);
+    const strip = el("div", { class: "strip edge" }, sec);
+    el("span", {}, strip, `패턴 ${p.rank} / ${DATA.patterns.length} · ${p.family}`);
+    el("span", { class: "q" }, strip, `q ${fmtQ(p.q)}`);
+    const body = el("div", { class: "card-body" }, sec);
+    const grid = el("div", { class: "pattern-grid" }, body);
+    const text = el("div", { class: "text" }, grid);
+    el("h2", { id: "p" + p.rank + "-h" }, text, p.title);
+    el("p", {}, text, p.body);
+    const dl = el("dl", { class: "evidence" }, text);
+    const row = (k, v) => { el("dt", {}, dl, k); el("dd", {}, dl, v); };
+    row("효과", `${p.effect_text} (95% 신뢰구간 ${sgn(p.ci[0])} ~ ${sgn(p.ci[1])})`);
+    row("표본", `${fmtN.format(p.n)}건 (${p.unit})`);
+    row("보정 후 유의성", `q ${fmtQ(p.q)}`);
+    if (p.robust) row("유명세 통제 후", `${sgn(p.robust.effect)}점 (p ${fmtQ(p.robust.p)}, ${fmtN.format(p.robust.n)}건)`);
+    else row("유명세 통제 후", "이 패턴이 곧 유명세입니다");
+
+    const right = el("div", { class: "right" }, grid);
+    if (p.chart_note) el("div", { class: "chart-cap" }, right, `${p.chart_note}별 평균 평점 (연도 통제 전 원래 값)`);
+    else el("div", { class: "chart-cap" }, right, "그룹별 평균 평점 (연도 통제 전 원래 값)");
+    const ch = el("div", { class: "chart" }, right);
+    register(() => dotPlot(ch, p.chart, p.focus));
+    if (p.examples) {
+      el("div", { class: "chart-cap" }, right, p.examples_label);
+      const chips = el("div", { class: "chips" }, right);
+      p.examples.forEach(x => el("span", { class: "chip" }, chips, x));
+    }
+    for (const q of p.quotes) {
+      const bq = el("blockquote", {}, right);
+      el("div", {}, bq, q.text);
+      el("cite", {}, bq, `${q.film} · ★${q.rating.toFixed(1)}`);
+    }
+  }
+})();
+
+/* leftovers */
+(function () {
+  const box = document.getElementById("leftovers");
+  document.getElementById("left-edge").textContent = `보정 후 통과 ${DATA.n_sig}개 중 ${DATA.dropped.length}개 제외`;
+  el("h3", {}, box, "통과했지만 유명세로 설명된 것");
+  el("p", {}, box, "아래 패턴은 보정 후에도 통과했지만, 유명세를 함께 넣자 효과가 사라지거나 방향이 바뀌었습니다. 이 영화들이 더 유명하거나 덜 유명했기 때문에 생긴 차이로 봤습니다.");
+  const ul = el("ul", {}, box);
+  DATA.dropped.forEach(d => el("li", {}, ul, `${d.label}: ${sgn(d.effect)}점 → 유명세 통제 후 ${sgn(d.robust)}점 (p ${fmtQ(d.robust_p)})`));
+  el("h3", {}, box, "짐작할 만했지만 근거가 없던 것");
+  el("p", {}, box, "흔히 있을 법한 패턴이지만, 이 데이터에서는 보정 후 기준을 넘지 못했습니다. 차이가 없다고 단정하기보다는, 이 표본으로는 우연과 구별할 수 없다는 뜻입니다.");
+  const ul2 = el("ul", {}, box);
+  DATA.nulls.forEach(d => el("li", {}, ul2, `${d.label}: ${d.kind === "logit" ? "오즈비 " + d.effect.toFixed(2) : sgn(d.effect) + "점"} (q ${fmtQ(d.q)})`));
+})();
+</script>
